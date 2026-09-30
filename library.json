@@ -44,7 +44,7 @@
   {
    "key": "YK6SHAT8",
    "name": "Computational & Historical Linguistics",
-   "parent": "CWAJKGVH"
+   "parent": null
   },
   {
    "key": "B4U4EXS2",
@@ -134,11 +134,6 @@
   {
    "key": "MN4PLWQI",
    "name": "Neural Dynamics & TRF Modelling",
-   "parent": null
-  },
-  {
-   "key": "7FBIZLP2",
-   "name": "new_papers",
    "parent": null
   },
   {
