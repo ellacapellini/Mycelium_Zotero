@@ -1,5 +1,217 @@
 {
  "count": 101,
+ "collections": [
+  {
+   "key": "CWAJKGVH",
+   "name": "Ancient Greek",
+   "parent": null
+  },
+  {
+   "key": "T4NSSWA3",
+   "name": "Attention & Transformer Analogues in Neural Circuits",
+   "parent": "6PZGWQJG"
+  },
+  {
+   "key": "H6GUJLT8",
+   "name": "Attractor Netwroks & Associative Memory",
+   "parent": "6PZGWQJG"
+  },
+  {
+   "key": "ZXZ2C8AN",
+   "name": "Auditory & Sensory Systems",
+   "parent": null
+  },
+  {
+   "key": "BUDY4VK9",
+   "name": "Basis Functions & mTRF",
+   "parent": "MN4PLWQI"
+  },
+  {
+   "key": "VBNRVB7V",
+   "name": "Bayesian Brian & Cognitive Foundations",
+   "parent": "MN4PLWQI"
+  },
+  {
+   "key": "6PZGWQJG",
+   "name": "Circuit Models of Cognition",
+   "parent": null
+  },
+  {
+   "key": "VV6K9MYU",
+   "name": "Comparative Communication & the \"Interaction Engine\"",
+   "parent": "J4Q3Q3PY"
+  },
+  {
+   "key": "YK6SHAT8",
+   "name": "Computational & Historical Linguistics",
+   "parent": "CWAJKGVH"
+  },
+  {
+   "key": "B4U4EXS2",
+   "name": "Cortical Entrainment & PAC",
+   "parent": "BZPLIYJA"
+  },
+  {
+   "key": "5RVLWGZJ",
+   "name": "Cross-Linguistics & OT Prosody",
+   "parent": "BZPLIYJA"
+  },
+  {
+   "key": "UATTW3FY",
+   "name": "Cultural Transmission & Linguistic Diversity",
+   "parent": "J4Q3Q3PY"
+  },
+  {
+   "key": "JEWBLYTA",
+   "name": "Diachronic Phonology & Decipherment",
+   "parent": "YK6SHAT8"
+  },
+  {
+   "key": "P77BDW9T",
+   "name": "Efferent Control & MOC System",
+   "parent": "ZXZ2C8AN"
+  },
+  {
+   "key": "A3ZHFX6K",
+   "name": "Formal Verification",
+   "parent": null
+  },
+  {
+   "key": "9LJ8YV5H",
+   "name": "Gaussian Processes & Hierarchical Bayes",
+   "parent": "MN4PLWQI"
+  },
+  {
+   "key": "R2CABLCD",
+   "name": "Gaussian Processes & Kernel Methods",
+   "parent": "388RS579"
+  },
+  {
+   "key": "W78TD57W",
+   "name": "Hierarchical & Mixed Effects Methodology",
+   "parent": "MN4PLWQI"
+  },
+  {
+   "key": "T8CVTTA9",
+   "name": "Information Theory & Oral Poetry",
+   "parent": "BZPLIYJA"
+  },
+  {
+   "key": "RX93PEAY",
+   "name": "Information Theory & Oral Poetry",
+   "parent": "YK6SHAT8"
+  },
+  {
+   "key": "J4Q3Q3PY",
+   "name": "Language Evolution & Comparative Cognition",
+   "parent": null
+  },
+  {
+   "key": "FXV67EVP",
+   "name": "Lean",
+   "parent": "A3ZHFX6K"
+  },
+  {
+   "key": "P854X6QH",
+   "name": "Machine Learning & Audio",
+   "parent": "ZXZ2C8AN"
+  },
+  {
+   "key": "388RS579",
+   "name": "Machine Learning & Audio Signal Processing",
+   "parent": null
+  },
+  {
+   "key": "4FKE4F8W",
+   "name": "Multimodal Learning & Contrastive Losses",
+   "parent": "388RS579"
+  },
+  {
+   "key": "TPC6Q2K8",
+   "name": "Natural Language Processing",
+   "parent": null
+  },
+  {
+   "key": "MN4PLWQI",
+   "name": "Neural Dynamics & TRF Modelling",
+   "parent": null
+  },
+  {
+   "key": "7FBIZLP2",
+   "name": "new_papers",
+   "parent": null
+  },
+  {
+   "key": "NS9BTVXH",
+   "name": "Origins & Faculty of Language",
+   "parent": "J4Q3Q3PY"
+  },
+  {
+   "key": "RJ9ZN3DM",
+   "name": "Phonological Processing & Speech Hierarchies",
+   "parent": "BZPLIYJA"
+  },
+  {
+   "key": "PWWPG7N8",
+   "name": "Predictive Coding & Neuromodulation",
+   "parent": "MN4PLWQI"
+  },
+  {
+   "key": "8VPRW9X2",
+   "name": "Probabilistic Dynamics & Control",
+   "parent": "388RS579"
+  },
+  {
+   "key": "3ZTQUWJ5",
+   "name": "Probabilistic Grammar & the Generative Debate",
+   "parent": "YK6SHAT8"
+  },
+  {
+   "key": "BZPLIYJA",
+   "name": "Prosody & Speech Perception",
+   "parent": null
+  },
+  {
+   "key": "AWWLHGCK",
+   "name": "Recursion, Syntax & Combinatoriality",
+   "parent": "J4Q3Q3PY"
+  },
+  {
+   "key": "JFYZE585",
+   "name": "Resource Competition & Bilingualism",
+   "parent": "ZXZ2C8AN"
+  },
+  {
+   "key": "SUSBYMYL",
+   "name": "Source Separation & Bioacoustics",
+   "parent": "388RS579"
+  },
+  {
+   "key": "RPRGM4AI",
+   "name": "Speech Decoding & BCI",
+   "parent": null
+  },
+  {
+   "key": "Z3RPBTJU",
+   "name": "Speech Rhythm: Timing, Production & Nativeness",
+   "parent": "BZPLIYJA"
+  },
+  {
+   "key": "VGAMZKSZ",
+   "name": "Speech Timing & Lateralisation",
+   "parent": "BZPLIYJA"
+  },
+  {
+   "key": "RHFI5T2H",
+   "name": "Statistical Learning & Language Acquisition",
+   "parent": "J4Q3Q3PY"
+  },
+  {
+   "key": "D5UAEACJ",
+   "name": "Surprisal & Language Models",
+   "parent": "MN4PLWQI"
+  }
+ ],
  "items": [
   {
    "key": "2ZMGYLRP",
@@ -41,7 +253,7 @@
     "topic: model-comparison"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -128,7 +340,7 @@
     "topic: mixed-effects"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Hierarchical & Mixed Effects Methodology"
+    "W78TD57W"
    ]
   },
   {
@@ -171,7 +383,7 @@
     "topic: rift"
    ],
    "collections": [
-    "Auditory & Sensory Systems"
+    "ZXZ2C8AN"
    ]
   },
   {
@@ -217,7 +429,7 @@
     "topic: symbolic-structure"
    ],
    "collections": [
-    "Natural Language Processing"
+    "TPC6Q2K8"
    ]
   },
   {
@@ -261,7 +473,7 @@
     "topic: kernel-methods"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -310,7 +522,7 @@
     "topic: model-evaluation"
    ],
    "collections": [
-    "Machine Learning & Audio Signal Processing"
+    "388RS579"
    ]
   },
   {
@@ -335,7 +547,7 @@
     "topic: surprisal"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Surprisal & Language Models"
+    "D5UAEACJ"
    ]
   },
   {
@@ -360,7 +572,7 @@
     "topic: phoneme-level"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Surprisal & Language Models"
+    "D5UAEACJ"
    ]
   },
   {
@@ -417,7 +629,7 @@
     "topic: neural-circuits"
    ],
    "collections": [
-    "Circuit Models of Cognition/Attention & Transformer Analogues in Neural Circuits"
+    "T4NSSWA3"
    ]
   },
   {
@@ -446,7 +658,7 @@
     "topic: nlp"
    ],
    "collections": [
-    "Natural Language Processing"
+    "TPC6Q2K8"
    ]
   },
   {
@@ -509,7 +721,7 @@
     "topic: linguistic-diversity"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -565,7 +777,7 @@
     "topic: voice-activity-detection"
    ],
    "collections": [
-    "Auditory & Sensory Systems/Machine Learning & Audio"
+    "P854X6QH"
    ]
   },
   {
@@ -614,7 +826,7 @@
     "topic: trf-methodology"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Basis Functions & mTRF"
+    "BUDY4VK9"
    ]
   },
   {
@@ -663,7 +875,7 @@
     "topic: surprisal-tracking"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Surprisal & Language Models"
+    "D5UAEACJ"
    ]
   },
   {
@@ -712,7 +924,7 @@
     "topic: prosody-hierarchy"
    ],
    "collections": [
-    "Prosody & Speech Perception/Cortical Entrainment & PAC"
+    "B4U4EXS2"
    ]
   },
   {
@@ -763,7 +975,7 @@
     "topic: word-level"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Basis Functions & mTRF"
+    "BUDY4VK9"
    ]
   },
   {
@@ -809,7 +1021,7 @@
     "topic: word-level"
    ],
    "collections": [
-    "Prosody & Speech Perception/Phonological Processing & Speech Hierarchies"
+    "RJ9ZN3DM"
    ]
   },
   {
@@ -841,7 +1053,7 @@
     "topic: speech-rhythm"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -883,7 +1095,7 @@
     "topic: norms"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Comparative Communication & the \"Interaction Engine\""
+    "VV6K9MYU"
    ]
   },
   {
@@ -909,7 +1121,7 @@
     "topic: lean"
    ],
    "collections": [
-    "Formal Verification/Lean"
+    "FXV67EVP"
    ]
   },
   {
@@ -975,7 +1187,7 @@
     "topic: trf-methodology"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Basis Functions & mTRF"
+    "BUDY4VK9"
    ]
   },
   {
@@ -1011,7 +1223,7 @@
     "topic: compositionality"
    ],
    "collections": [
-    "Machine Learning & Audio Signal Processing/Multimodal Learning & Contrastive Losses"
+    "4FKE4F8W"
    ]
   },
   {
@@ -1053,7 +1265,7 @@
     "topic: typology"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -1090,7 +1302,7 @@
     "topic: computational-linguistics"
    ],
    "collections": [
-    "Natural Language Processing"
+    "TPC6Q2K8"
    ]
   },
   {
@@ -1157,7 +1369,7 @@
     "topic: language-evolution"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Comparative Communication & the \"Interaction Engine\""
+    "VV6K9MYU"
    ]
   },
   {
@@ -1195,7 +1407,7 @@
     "topic: attractor-networks"
    ],
    "collections": [
-    "Circuit Models of Cognition/Attractor Netwroks & Associative Memory"
+    "H6GUJLT8"
    ]
   },
   {
@@ -1277,7 +1489,7 @@
     "topic: population-genetics"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -1299,7 +1511,7 @@
     "topic: language-evolution"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Comparative Communication & the \"Interaction Engine\""
+    "VV6K9MYU"
    ]
   },
   {
@@ -1346,7 +1558,7 @@
     "topic: interaction-engine"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Comparative Communication & the \"Interaction Engine\""
+    "VV6K9MYU"
    ]
   },
   {
@@ -1412,7 +1624,7 @@
     "topic: linguistic-diversity"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -1468,7 +1680,7 @@
     "tpic: word-level"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Surprisal & Language Models"
+    "D5UAEACJ"
    ]
   },
   {
@@ -1523,7 +1735,7 @@
     "topic: spatial-priors"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -1566,7 +1778,7 @@
     "topic: speech-rhythm"
    ],
    "collections": [
-    "Prosody & Speech Perception/Speech Rhythm: Timing, Production & Nativeness"
+    "Z3RPBTJU"
    ]
   },
   {
@@ -1591,7 +1803,7 @@
     "topic: kalman-filter"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -1624,7 +1836,7 @@
     "topic: vocal-motor-control"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Comparative Communication & the \"Interaction Engine\""
+    "VV6K9MYU"
    ]
   },
   {
@@ -1656,7 +1868,7 @@
     "topic: syntax"
    ],
    "collections": [
-    "Ancient Greek/Computational & Historical Linguistics/Probabilistic Grammar & the Generative Debate"
+    "3ZTQUWJ5"
    ]
   },
   {
@@ -1726,7 +1938,7 @@
     "topic: normative-modelling"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -1769,7 +1981,7 @@
     "topic: trf-methodology"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Surprisal & Language Models"
+    "D5UAEACJ"
    ]
   },
   {
@@ -1802,7 +2014,7 @@
     "topic: hierarchical-bayes"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Hierarchical & Mixed Effects Methodology"
+    "W78TD57W"
    ]
   },
   {
@@ -1849,7 +2061,7 @@
     "topic: sequential-structure"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Recursion, Syntax & Combinatoriality"
+    "AWWLHGCK"
    ]
   },
   {
@@ -1900,7 +2112,7 @@
     "topic: linguistic-diversity"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -1922,7 +2134,7 @@
     "topic: classics"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -1974,7 +2186,7 @@
     "topic: syntax"
    ],
    "collections": [
-    "Ancient Greek/Computational & Historical Linguistics"
+    "YK6SHAT8"
    ]
   },
   {
@@ -2018,7 +2230,7 @@
     "topic: mixed-effects"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Hierarchical & Mixed Effects Methodology"
+    "W78TD57W"
    ]
   },
   {
@@ -2068,7 +2280,7 @@
     "topic: speech-production"
    ],
    "collections": [
-    "Prosody & Speech Perception"
+    "BZPLIYJA"
    ]
   },
   {
@@ -2105,7 +2317,7 @@
     "topic: statistical-learning"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Statistical Learning & Language Acquisition"
+    "RHFI5T2H"
    ]
   },
   {
@@ -2141,7 +2353,7 @@
     "topic: probabilistic-grammar"
    ],
    "collections": [
-    "Prosody & Speech Perception/Information Theory & Oral Poetry"
+    "T8CVTTA9"
    ]
   },
   {
@@ -2236,7 +2448,7 @@
     "topic: cumulative-culture"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -2294,7 +2506,7 @@
     "topic: transformers"
    ],
    "collections": [
-    "Natural Language Processing"
+    "TPC6Q2K8"
    ]
   },
   {
@@ -2341,7 +2553,7 @@
     "topic: trf-methodology"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Basis Functions & mTRF"
+    "BUDY4VK9"
    ]
   },
   {
@@ -2428,7 +2640,7 @@
     "topic: multiple-comparisons"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -2493,7 +2705,7 @@
     "topic: probabilistic-programming"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -2538,7 +2750,7 @@
     "topic: typology"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -2591,7 +2803,7 @@
     "topic: syntax"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Recursion, Syntax & Combinatoriality"
+    "AWWLHGCK"
    ]
   },
   {
@@ -2622,7 +2834,7 @@
     "topic: mcmc"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -2646,7 +2858,7 @@
     "topic: kernel-methods"
    ],
    "collections": [
-    "Machine Learning & Audio Signal Processing/Probabilistic Dynamics & Control"
+    "8VPRW9X2"
    ]
   },
   {
@@ -2669,7 +2881,7 @@
     "topic: typology"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -2712,7 +2924,7 @@
     "topic: word-embeddings"
    ],
    "collections": [
-    "Natural Language Processing"
+    "TPC6Q2K8"
    ]
   },
   {
@@ -2743,7 +2955,7 @@
     "topic: recursion"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Recursion, Syntax & Combinatoriality"
+    "AWWLHGCK"
    ]
   },
   {
@@ -2797,7 +3009,7 @@
     "topic: uncertainty-learning"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Predictive Coding & Neuromodulation"
+    "PWWPG7N8"
    ]
   },
   {
@@ -2826,8 +3038,8 @@
     "topic: kernel-methods"
    ],
    "collections": [
-    "Machine Learning & Audio Signal Processing/Gaussian Processes & Kernel Methods",
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H",
+    "R2CABLCD"
    ]
   },
   {
@@ -2856,7 +3068,7 @@
     "topic: historical_linguistics"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -2894,7 +3106,7 @@
     "topic: kernel-methods"
    ],
    "collections": [
-    "Machine Learning & Audio Signal Processing/Gaussian Processes & Kernel Methods"
+    "R2CABLCD"
    ]
   },
   {
@@ -2920,7 +3132,7 @@
     "topic: classics"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -2965,7 +3177,7 @@
     "topic: optimisation"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Basis Functions & mTRF"
+    "BUDY4VK9"
    ]
   },
   {
@@ -3001,7 +3213,7 @@
     "topic: bayesian-cognition"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Bayesian Bran & Cognitive Foundations"
+    "VBNRVB7V"
    ]
   },
   {
@@ -3033,7 +3245,7 @@
     "topic: classics"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -3065,7 +3277,7 @@
     "topic: hierarchical-bayes"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Hierarchical & Mixed Effects Methodology"
+    "W78TD57W"
    ]
   },
   {
@@ -3121,7 +3333,7 @@
     "topic: spiking-models"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Basis Functions & mTRF"
+    "BUDY4VK9"
    ]
   },
   {
@@ -3153,7 +3365,7 @@
     "topic: language-evolution"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Recursion, Syntax & Combinatoriality"
+    "AWWLHGCK"
    ]
   },
   {
@@ -3184,7 +3396,7 @@
     "topic: language-evolution"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Cultural Transmission & Linguistic Diversity"
+    "UATTW3FY"
    ]
   },
   {
@@ -3220,7 +3432,7 @@
     "topic: phoneme-level"
    ],
    "collections": [
-    "Prosody & Speech Perception/Speech Rhythm: Timing, Production & Nativeness"
+    "Z3RPBTJU"
    ]
   },
   {
@@ -3242,7 +3454,7 @@
     "topic: probabilistic-grammar"
    ],
    "collections": [
-    "Ancient Greek/Computational & Historical Linguistics/Probabilistic Grammar & the Generative Debate"
+    "3ZTQUWJ5"
    ]
   },
   {
@@ -3265,7 +3477,7 @@
     "topic: history-of-science"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -3308,7 +3520,7 @@
     "topic: classics"
    ],
    "collections": [
-    "Ancient Greek"
+    "CWAJKGVH"
    ]
   },
   {
@@ -3331,7 +3543,7 @@
     "topic: oral-poetry"
    ],
    "collections": [
-    "Ancient Greek/Computational & Historical Linguistics/Information Theory & Oral Poetry"
+    "RX93PEAY"
    ]
   },
   {
@@ -3398,7 +3610,7 @@
     "topic: arbitrariness"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Comparative Communication & the \"Interaction Engine\""
+    "VV6K9MYU"
    ]
   },
   {
@@ -3436,7 +3648,7 @@
     "topic: bayesian-brain"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Bayesian Bran & Cognitive Foundations"
+    "VBNRVB7V"
    ]
   },
   {
@@ -3479,7 +3691,7 @@
     "topic: oscillatory-entrainment"
    ],
    "collections": [
-    "Prosody & Speech Perception/Cortical Entrainment & PAC"
+    "B4U4EXS2"
    ]
   },
   {
@@ -3580,7 +3792,7 @@
     "topic: hierarchical-structure"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling"
+    "MN4PLWQI"
    ]
   },
   {
@@ -3617,7 +3829,7 @@
     "topic: statistical-learning"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Statistical Learning & Language Acquisition"
+    "RHFI5T2H"
    ]
   },
   {
@@ -3655,7 +3867,7 @@
     "topic: predictive-coding"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Predictive Coding & Neuromodulation"
+    "PWWPG7N8"
    ]
   },
   {
@@ -3694,7 +3906,7 @@
     "topic: kalman-filter"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -3743,7 +3955,7 @@
     "topic: BCI-decoding"
    ],
    "collections": [
-    "Speech Decoding & BCI"
+    "RPRGM4AI"
    ]
   },
   {
@@ -3786,7 +3998,7 @@
     "topic: hierarchical-structure"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling"
+    "MN4PLWQI"
    ]
   },
   {
@@ -3827,7 +4039,7 @@
     "topic: probabilistic-grammar"
    ],
    "collections": [
-    "Natural Language Processing"
+    "TPC6Q2K8"
    ]
   },
   {
@@ -3879,7 +4091,7 @@
     "topic: model-recovery"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -3940,8 +4152,8 @@
     "topic: language-evolution"
    ],
    "collections": [
-    "Language Evolution & Comparative Cognition/Origins & Faculty of Language",
-    "Prosody & Speech Perception/Information Theory & Oral Poetry"
+    "NS9BTVXH",
+    "T8CVTTA9"
    ]
   },
   {
@@ -3979,7 +4191,7 @@
     "topic: kalman-filter"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -4019,7 +4231,7 @@
     "topic: predictive-coding"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Predictive Coding & Neuromodulation"
+    "PWWPG7N8"
    ]
   },
   {
@@ -4062,7 +4274,7 @@
     "topic: connectivity-mapping"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Gaussian Processes & Hierarchical Bayes"
+    "9LJ8YV5H"
    ]
   },
   {
@@ -4114,7 +4326,7 @@
     "topic: predictive-coding"
    ],
    "collections": [
-    "Prosody & Speech Perception/Cortical Entrainment & PAC"
+    "B4U4EXS2"
    ]
   },
   {
@@ -4151,7 +4363,7 @@
     "topic: syntax"
    ],
    "collections": [
-    "Prosody & Speech Perception/Cortical Entrainment & PAC"
+    "B4U4EXS2"
    ]
   },
   {
@@ -4191,7 +4403,7 @@
     "topic: predictive-coding"
    ],
    "collections": [
-    "Neural Dynamics & TRF Modelling/Surprisal & Language Models"
+    "D5UAEACJ"
    ]
   },
   {
