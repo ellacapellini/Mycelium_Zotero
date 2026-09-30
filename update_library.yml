@@ -1,0 +1,29 @@
+name: Update Zotero library
+
+on:
+  schedule:
+    - cron: "0 5 * * *"      # every day at 05:00 UTC (07:00 Italian summer time)
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch library from Zotero
+        env:
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+        run: python fetch_zotero.py
+      - name: Commit if changed
+        run: |
+          git config user.name "zotero-bot"
+          git config user.email "zotero-bot@users.noreply.github.com"
+          git add library.json library.bib
+          git diff --cached --quiet || (git commit -m "Daily Zotero update" && git push)
