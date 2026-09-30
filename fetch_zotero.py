@@ -28,9 +28,6 @@ def paged(path, extra=""):
             return out
 
 cols = {c["key"]: c["data"] for c in paged("collections")}
-def cpath(k):
-    d = cols[k]
-    return cpath(d["parentCollection"]) + "/" + d["name"] if d["parentCollection"] else d["name"]
 
 items = []
 for it in paged("items/top", "&itemType=-attachment%20||%20note&include=data"):
@@ -42,13 +39,15 @@ for it in paged("items/top", "&itemType=-attachment%20||%20note&include=data"):
         rec.pop("abstractNote", None)
     rec["key"] = d["key"]
     rec["tags"] = sorted(t["tag"] for t in d.get("tags", []))
-    rec["collections"] = sorted(cpath(c) for c in d.get("collections", []) if c in cols)
+    rec["collections"] = sorted(c for c in d.get("collections", []) if c in cols)  # collection keys
     items.append(rec)
 
 items.sort(key=lambda r: (r.get("date", ""), r.get("title", "")), reverse=True)
 if not items:
     sys.exit("Got 0 items - refusing to overwrite the library file.")
-json.dump({"count": len(items), "items": items}, open("library.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+collections = [{"key": k, "name": d["name"], "parent": d["parentCollection"] or None} for k, d in cols.items()]
+collections.sort(key=lambda c: c["name"].lower())
+json.dump({"count": len(items), "collections": collections, "items": items}, open("library.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 parts, start = [], 0
 while True:
