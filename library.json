@@ -1,9 +1,24 @@
 {
- "count": 101,
+ "count": 162,
  "collections": [
   {
+   "key": "Z94EMMSX",
+   "name": "AI Safety",
+   "parent": null
+  },
+  {
    "key": "CWAJKGVH",
+   "name": "Ancient Greece",
+   "parent": "U7HNT49E"
+  },
+  {
+   "key": "XF9BMQ52",
    "name": "Ancient Greek",
+   "parent": "CWAJKGVH"
+  },
+  {
+   "key": "U7HNT49E",
+   "name": "Ancient Languages & Cultures",
    "parent": null
   },
   {
@@ -107,6 +122,11 @@
    "parent": null
   },
   {
+   "key": "YEIMZRME",
+   "name": "Latin",
+   "parent": "U7HNT49E"
+  },
+  {
    "key": "FXV67EVP",
    "name": "Lean",
    "parent": "A3ZHFX6K"
@@ -125,6 +145,11 @@
    "key": "4FKE4F8W",
    "name": "Multimodal Learning & Contrastive Losses",
    "parent": "388RS579"
+  },
+  {
+   "key": "FFI8CUMA",
+   "name": "Mycenaean World",
+   "parent": "U7HNT49E"
   },
   {
    "key": "TPC6Q2K8",
@@ -209,86 +234,6 @@
  ],
  "items": [
   {
-   "key": "2ZMGYLRP",
-   "itemType": "journalArticle",
-   "title": "Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Aki",
-     "lastName": "Vehtari"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Andrew",
-     "lastName": "Gelman"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Jonah",
-     "lastName": "Gabry"
-    }
-   ],
-   "abstractNote": "Leave-one-out cross-validation (LOO) and the widely applicable information criterion (WAIC) are methods for estimating pointwise out-of-sample prediction accuracy from a ﬁtted Bayesian model using the log-likelihood evaluated at the posterior simulations of the parameter values. LOO and WAIC have various advantages over simpler estimates of predictive error such as AIC and DIC but are less used in practice because they involve additional computational steps. Here we lay out fast and stable computations for LOO and WAIC that can be performed using existing simulation draws. We introduce an eﬃcient computation of LOO using Pareto-smoothed importance sampling (PSIS), a new procedure for regularizing importance weights. Although WAIC is asymptotically equal to LOO, we demonstrate that PSIS-LOO is more robust in the ﬁnite case with weak priors or inﬂuential observations. As a byproduct of our calculations, we also obtain approximate standard errors for estimated predictive errors and for comparison of predictive errors between two models. We implement the computations in an R package called loo and demonstrate using models ﬁt with the Bayesian inference package Stan.",
-   "publicationTitle": "Statistics and Computing",
-   "date": "9/2017",
-   "volume": "27",
-   "issue": "5",
-   "pages": "1413-1432",
-   "journalAbbreviation": "Stat Comput",
-   "DOI": "10.1007/s11222-016-9696-4",
-   "citationKey": "vehtariPracticalBayesianModel2017",
-   "url": "http://arxiv.org/abs/1507.04544",
-   "ISSN": "0960-3174, 1573-1375",
-   "tags": [
-    "project: GPmTRF",
-    "stance: supports: loo-waic-methodology",
-    "status: key-reference",
-    "topic: hierarchical-bayes",
-    "topic: model-comparison"
-   ],
-   "collections": [
-    "9LJ8YV5H"
-   ]
-  },
-  {
-   "key": "EVMA88EB",
-   "itemType": "journalArticle",
-   "title": "Cortical oscillations and sensory predictions",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Luc H.",
-     "lastName": "Arnal"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Anne-Lise",
-     "lastName": "Giraud"
-    }
-   ],
-   "publicationTitle": "Trends in Cognitive Sciences",
-   "date": "7/2012",
-   "volume": "16",
-   "issue": "7",
-   "pages": "390-398",
-   "journalAbbreviation": "Trends in Cognitive Sciences",
-   "DOI": "10.1016/j.tics.2012.05.003",
-   "citationKey": "arnalCorticalOscillationsSensory2012a",
-   "url": "https://linkinghub.elsevier.com/retrieve/pii/S1364661312001210",
-   "ISSN": "13646613",
-   "language": "en",
-   "tags": [
-    "method: review",
-    "project: GPmTRF",
-    "project: thesis",
-    "status: key-reference",
-    "topic: oscillatory-entrainment",
-    "topic: predictive-coding"
-   ],
-   "collections": []
-  },
-  {
    "key": "YLZJ8LAC",
    "itemType": "journalArticle",
    "title": "Random effects structure for confirmatory hypothesis testing: Keep it maximal",
@@ -339,49 +284,6 @@
    ]
   },
   {
-   "key": "RGRRNYCU",
-   "itemType": "journalArticle",
-   "title": "Rapid invisible frequency tagging (RIFT) does not evoke intermodulation components in the neural response",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Alexander",
-     "lastName": "Zhigalov"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Ole",
-     "lastName": "Jensen"
-    },
-    {
-     "creatorType": "editor",
-     "firstName": "Kiyoshi",
-     "lastName": "Nakahara"
-    }
-   ],
-   "abstractNote": "The human visual system performs nonlinear integrative operations at multiple stages of visual information processing. For instance, integrating parts of visual stimuli into a coherent object involves coordinated neural processing along the visual hierarchy. However, it remains uncertain whether visual integration manifests in a nonlinear neural response, particularly through intermodulation components in the power spectrum. In this study, we used a visual motion paradigm combined with rapid invisible frequency tagging (RIFT) and magnetoencephalography (MEG) to explore nonlinear characteristics of neural responses associated with visual integration. In this paradigm, two grating patches were moving coherently or incoherently, and were modulated by RIFT at 56 and 63 Hz, respectively. The behavioural results revealed that the participants responded more accurately and faster to probes during coherent compared to incoherent motion. Moreover, the type of motion elicited differential effects on pupil dilation, with significantly larger pupil diameter observed during incoherent motion. To evaluate the neural response to coherent and incoherent motion stimuli, we assessed spectral coherence between MEG and RIFT. We observed a strong coherence at the tagging frequencies (f1 = 56 and f2 = 63 Hz) as well as at the higher harmonics at 112 Hz and 126 Hz, respectively. Importantly we did not observe a response at frequencies of the intermodulation (f2–f1, f2 + f1); nor did we observe a difference when comparing the coherence and incoherent motion. We conclude that in contrast to studies with low-frequency visible tagging, RIFT does not evoke intermodulation components and therefore, its applicability for investigating the neural mechanisms of visual integration might be limited.",
-   "publicationTitle": "PLOS One",
-   "date": "2026-3-4",
-   "volume": "21",
-   "issue": "3",
-   "pages": "e0343916",
-   "journalAbbreviation": "PLoS One",
-   "DOI": "10.1371/journal.pone.0343916",
-   "citationKey": "zhigalovRapidInvisibleFrequency2026",
-   "url": "https://dx.plos.org/10.1371/journal.pone.0343916",
-   "ISSN": "1932-6203",
-   "language": "en",
-   "tags": [
-    "method: meg",
-    "project: GPmTRF",
-    "topic: frequency-tagging",
-    "topic: rift"
-   ],
-   "collections": [
-    "ZXZ2C8AN"
-   ]
-  },
-  {
    "key": "873M822Y",
    "itemType": "preprint",
    "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
@@ -426,6 +328,48 @@
    "collections": [
     "TPC6Q2K8"
    ]
+  },
+  {
+   "key": "RS7IH3PD",
+   "itemType": "document",
+   "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "R. Thomas",
+     "lastName": "McCoy"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Paul",
+     "lastName": "Soulos"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Tal",
+     "lastName": "Linzen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Paul",
+     "lastName": "Smolensky"
+    }
+   ],
+   "abstractNote": "Modern systems in artificial intelligence (AI) somehow excel in domains for which they seem poorly suited. Intelligence has traditionally been modeled as operating over structured combinations of symbols, such as logical formulas. However, the strongest modern AI systems are based on neural networks, which instead represent information in continuous vectors. Vectors seem inadequate for capturing the structure of language, logic, and other cognitive domains, yet neural networks achieve impressive performance in these areas. How do they do it? In this work, we propose a potential answer: Despite appearances, perhaps the internal representations of neural networks implicitly realize symbolic structure. In support of this hypothesis, we show that the vector representations of a variety of neural networks can be closely approximated with symbolic structures: we can replace the network's entire representation-generating process with a closed-form equation instantiating a symbolic structure, and the network's behavior remains largely unchanged. This finding holds for both small-scale neural networks trained to manipulate lists as well as large language models (LLMs) operating in four domains that are central in symbolic traditions: arithmetic, logic, computer code, and language. Further, our symbolic approximation allows us to modify an LLM's behavior in targeted ways via precise interventions on its internal representations, showing that the LLM's behavior is reliant on the symbolic structures we have identified. This work provides a potential way to reconcile longstanding symbolic conceptions of intelligence with the vector-based nature of modern AI.",
+   "date": "2026-08",
+   "publisher": "arXiv",
+   "DOI": "10.48550/arXiv.2608.29530",
+   "citationKey": "mccoyEmergentSymbolicStructure2026",
+   "language": "english",
+   "tags": [
+    "method: simulation",
+    "project: background",
+    "project: journal-club",
+    "status: read",
+    "topic: neural-network",
+    "topic: symbolic-structure"
+   ],
+   "collections": []
   },
   {
    "key": "NI86IQ8I",
@@ -521,6 +465,45 @@
    ]
   },
   {
+   "key": "V8RQZ6P5",
+   "itemType": "journalArticle",
+   "title": "Rapid invisible frequency tagging (RIFT) does not evoke intermodulation components in the neural response",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Alexander",
+     "lastName": "Zhigalov"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Ole",
+     "lastName": "Jensen"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Kiyoshi",
+     "lastName": "Nakahara"
+    }
+   ],
+   "abstractNote": "The human visual system performs nonlinear integrative operations at multiple stages of visual information processing. For instance, integrating parts of visual stimuli into a coherent object involves coordinated neural processing along the visual hierarchy. However, it remains uncertain whether visual integration manifests in a nonlinear neural response, particularly through intermodulation components in the power spectrum. In this study, we used a visual motion paradigm combined with rapid invisible frequency tagging (RIFT) and magnetoencephalography (MEG) to explore nonlinear characteristics of neural responses associated with visual integration. In this paradigm, two grating patches were moving coherently or incoherently, and were modulated by RIFT at 56 and 63 Hz, respectively. The behavioural results revealed that the participants responded more accurately and faster to probes during coherent compared to incoherent motion. Moreover, the type of motion elicited differential effects on pupil dilation, with significantly larger pupil diameter observed during incoherent motion. To evaluate the neural response to coherent and incoherent motion stimuli, we assessed spectral coherence between MEG and RIFT. We observed a strong coherence at the tagging frequencies (f1 = 56 and f2 = 63 Hz) as well as at the higher harmonics at 112 Hz and 126 Hz, respectively. Importantly we did not observe a response at frequencies of the intermodulation (f2–f1, f2 + f1); nor did we observe a difference when comparing the coherence and incoherent motion. We conclude that in contrast to studies with low-frequency visible tagging, RIFT does not evoke intermodulation components and therefore, its applicability for investigating the neural mechanisms of visual integration might be limited.",
+   "publicationTitle": "PLOS One",
+   "date": "2026-03",
+   "volume": "21",
+   "issue": "3",
+   "pages": "e0343916",
+   "DOI": "10.1371/journal.pone.0343916",
+   "citationKey": "zhigalovRapidInvisibleFrequency2026",
+   "ISSN": "1932-6203",
+   "language": "english",
+   "tags": [
+    "method: meg",
+    "project: GPmTRF",
+    "topic: frequency-tagging",
+    "topic: rift"
+   ],
+   "collections": []
+  },
+  {
    "key": "CBCKYENJ",
    "itemType": "journalArticle",
    "title": "Surprisal contributes little beyond contextual embeddings in high-gamma ECoG encoding",
@@ -546,7 +529,7 @@
    ]
   },
   {
-   "key": "Y3UW72DL",
+   "key": "KVFXIL8R",
    "itemType": "journalArticle",
    "title": "Phonological Representations in Language Models",
    "creators": [
@@ -558,7 +541,7 @@
    ],
    "date": "2026",
    "citationKey": "gorielyPhonologicalRepresentationsLanguage",
-   "language": "en",
+   "language": "english",
    "tags": [
     "project: GPmTRF",
     "stance: supports: phoneme-level-surprisal",
@@ -566,9 +549,62 @@
     "topic: language-models",
     "topic: phoneme-level"
    ],
-   "collections": [
-    "D5UAEACJ"
-   ]
+   "collections": []
+  },
+  {
+   "key": "AN6T4NSC",
+   "itemType": "journalArticle",
+   "title": "Cortico-subcortical multi-head self-attention as a substrate for cognitive performance",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Vasanth Kumar",
+     "lastName": "Babu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Arno",
+     "lastName": "Granier"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Timothee",
+     "lastName": "Proix"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marmaduke",
+     "lastName": "Woodman"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Titas",
+     "lastName": "Balvocius"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Ausra",
+     "lastName": "Saudargiene"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Walter",
+     "lastName": "Senn"
+    }
+   ],
+   "abstractNote": "The neocortex is central to mammalian cognition, yet a computational framework that is both biologically constrained and capable of performing complex cognitive tasks remains missing. Here we show that corticothalamic circuits are well suited to implement multi-head self- and cross-attention, the mechanism underlying the cognitive abilities of transformer networks. We propose that layer 2/3 pyramidal cells maintain a recurrent key-value memory, while layer 5 pyramidal cells decode the memory retrieved by an incoming query. The computation of keys, values and queries maps onto core and matrix thalamo-cortical projections, distributed across the micro- and macro-columns of a cortical area. One cortical area forms an attention head, and cortex a multi-head self-attention network. The same thalamo-cortical microcircuit also calculates sensory prediction errors guiding gradient-based synaptic plasticity. A reward-prediction error gates via basal ganglia the cortical output and the re-activation of hippocampal memories. The trained network aligns with human intracranial recordings during speech perception. Overall, the suggested cortico-subcortical attention circuit may represent a substrate for the cognitive capacity of mammals.",
+   "date": "2026",
+   "citationKey": "babuCorticosubcorticalMultiheadSelfattention",
+   "language": "english",
+   "tags": [
+    "method: simulation",
+    "project: background",
+    "project: journal-club",
+    "status: to-read",
+    "topic: attention-mechanisms",
+    "topic: neural-circuits"
+   ],
+   "collections": []
   },
   {
    "key": "VNINDZE3",
@@ -628,6 +664,33 @@
    ]
   },
   {
+   "key": "K8XSGG6R",
+   "itemType": "book",
+   "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Daniel",
+     "lastName": "Jurafsky"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "H. James",
+     "lastName": "Martin"
+    }
+   ],
+   "date": "2025",
+   "citationKey": "SpeechLanguageProcessing",
+   "tags": [
+    "method: review",
+    "project: background",
+    "status: key-reference",
+    "topic: computational-linguistics",
+    "topic: nlp"
+   ],
+   "collections": []
+  },
+  {
    "key": "CS45EYTA",
    "itemType": "book",
    "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models",
@@ -655,6 +718,67 @@
    "collections": [
     "TPC6Q2K8"
    ]
+  },
+  {
+   "key": "TPMUPGUK",
+   "itemType": "journalArticle",
+   "title": "Patterns of genetic admixture reveal similar rates of borrowing across diverse scenarios of language contact",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Anna",
+     "lastName": "Graff"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Damián E",
+     "lastName": "Blasi"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Erik J",
+     "lastName": "Ringen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Vladimir",
+     "lastName": "Bajić"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Daphné",
+     "lastName": "Bavelier"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kentaro K",
+     "lastName": "Shimizu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Brigitte",
+     "lastName": "Pakendorf"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Chiara",
+     "lastName": "Barbieri"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Balthasar",
+     "lastName": "Bickel"
+    }
+   ],
+   "publicationTitle": "Science AdvAnceS",
+   "date": "2025",
+   "citationKey": "graffPatternsGeneticAdmixture2025",
+   "language": "english",
+   "tags": [
+    "topic: language-contact",
+    "topic: linguistic-diversity"
+   ],
+   "collections": []
   },
   {
    "key": "J8SX3SFR",
@@ -923,6 +1047,52 @@
    ]
   },
   {
+   "key": "482SV7CG",
+   "itemType": "journalArticle",
+   "title": "Concurrent processing of the prosodic hierarchy is supported by cortical entrainment and phase-amplitude coupling",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Chantal",
+     "lastName": "Oderbolz"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Elisabeth",
+     "lastName": "Stark"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sebastian",
+     "lastName": "Sauppe"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Martin",
+     "lastName": "Meyer"
+    }
+   ],
+   "abstractNote": "Abstract Models of phonology posit a hierarchy of prosodic units that is relatively independent from syntactic structure, requiring its own parsing. It remains unexplored how this prosodic hierarchy is represented in the brain. We investigated this foundational question by means of an electroencephalography (EEG) study. Thirty young adults listened to German sentences containing manipulations at different levels of the prosodic hierarchy. Evaluating speech-to-brain cortical entrainment and phase-amplitude coupling revealed that prosody's hierarchical structure is maintained at the neural level during spoken language comprehension. The faithfulness of this tracking varied as a function of the hierarchy's degree of intactness as well as systematic interindividual differences in audio-motor synchronization abilities. The results underscore the role of complex oscillatory mechanisms in configuring the continuous and hierarchical nature of the speech signal and situate prosody as a structure indispensable from theoretical perspectives on spoken language comprehension in the brain.",
+   "publicationTitle": "Cerebral Cortex",
+   "date": "2024-12",
+   "volume": "34",
+   "issue": "12",
+   "pages": "bhae479",
+   "DOI": "10.1093/cercor/bhae479",
+   "citationKey": "oderbolzConcurrentProcessingProsodic2024",
+   "ISSN": "1047-3211, 1460-2199",
+   "language": "english",
+   "tags": [
+    "method: eeg",
+    "project: thesis",
+    "status: key-reference",
+    "topic: oscillatory-entrainment",
+    "topic: pac",
+    "topic: prosody-hierarchy"
+   ],
+   "collections": []
+  },
+  {
    "key": "H5Q6TMFJ",
    "itemType": "preprint",
    "title": "Dynamic modeling of EEG responses to natural speech reveals earlier processing of predictable words",
@@ -972,6 +1142,51 @@
    "collections": [
     "BUDY4VK9"
    ]
+  },
+  {
+   "key": "HD23GZE6",
+   "itemType": "journalArticle",
+   "title": "The speech neuroprosthesis",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Alexander B.",
+     "lastName": "Silva"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kaylo T.",
+     "lastName": "Littlejohn"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jessie R.",
+     "lastName": "Liu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "David A.",
+     "lastName": "Moses"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Edward F.",
+     "lastName": "Chang"
+    }
+   ],
+   "publicationTitle": "Nature Reviews Neuroscience",
+   "date": "2024-07",
+   "volume": "25",
+   "issue": "7",
+   "pages": "473–492",
+   "DOI": "10.1038/s41583-024-00819-9",
+   "citationKey": "silvaSpeechNeuroprosthesis2024",
+   "ISSN": "1471-003X, 1471-0048",
+   "language": "english",
+   "tags": [
+    "topic: BCI-decoding"
+   ],
+   "collections": []
   },
   {
    "key": "B5V6ZC9K",
@@ -1052,6 +1267,87 @@
    ]
   },
   {
+   "key": "K24UDEG9",
+   "itemType": "conferencePaper",
+   "title": "Positive Transfer of the Whisper Speech Transformer to Human and Animal Voice Activity Detection",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Nianlong",
+     "lastName": "Gu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kanghwi",
+     "lastName": "Lee"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Maris",
+     "lastName": "Basha"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sumit",
+     "lastName": "Kumar Ram"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Guanghao",
+     "lastName": "You"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Richard H. R.",
+     "lastName": "Hahnloser"
+    }
+   ],
+   "proceedingsTitle": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+   "publisher": "IEEE",
+   "place": "Seoul, Korea, Republic of",
+   "date": "2024-04",
+   "pages": "7505–7509",
+   "DOI": "10.1109/ICASSP48485.2024.10447620",
+   "ISBN": "979-8-3503-4485-1",
+   "citationKey": "guPositiveTransferWhisper2024",
+   "language": "english",
+   "tags": [
+    "topic: animal-communication",
+    "topic: transformers",
+    "topic: voice-activity-detection"
+   ],
+   "collections": []
+  },
+  {
+   "key": "AKW2DEXM",
+   "itemType": "book",
+   "title": "Homer's Living Language: Formularity, Dialect, and Creativity in Oral-Traditional Poetry",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Chiara",
+     "lastName": "Bozzone"
+    }
+   ],
+   "abstractNote": "What if formularity, meter, and Kunstsprache in Homer weren't abstract, mechanical systems that constrained the poet's freedom, but rather adaptive technologies that helped poets to sustain feats of great creativity? This book explores this hypothesis by reassessing the key formal features of Homer's poetic technique through the lenses of contemporary linguistics and the cognitive sciences, as well as by drawing some unexpected parallels from the contemporary world (from the dialects of English used in popular music, to the prosodic strategies employed in live sports commentary, to the neuroscience of jazz improvisation). Aimed at Classics students and specialists alike, this book provides thorough and accessible introductions to the main debates in Homeric poetics, along with new and thought-provoking ways of understanding Homeric creativity.",
+   "edition": "1",
+   "date": "2024-04",
+   "publisher": "Cambridge University Press",
+   "ISBN": "978-1-009-06715-7 978-1-316-51241-8 978-1-009-06588-7",
+   "DOI": "10.1017/9781009067157",
+   "citationKey": "bozzoneHomersLivingLanguage2024",
+   "shortTitle": "Homer's Living Language",
+   "language": "english",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics",
+    "topic: oral-poetry",
+    "topic: speech-rhythm"
+   ],
+   "collections": []
+  },
+  {
    "key": "CH84VKII",
    "itemType": "journalArticle",
    "title": "Human and nonhuman norms: a dimensional framework",
@@ -1094,7 +1390,45 @@
    ]
   },
   {
-   "key": "EF83L4TQ",
+   "key": "VBQ6ZV5B",
+   "itemType": "journalArticle",
+   "title": "Human and nonhuman norms: a dimensional framework",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Kristin",
+     "lastName": "Andrews"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simon",
+     "lastName": "Fitzpatrick"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Evan",
+     "lastName": "Westra"
+    }
+   ],
+   "abstractNote": "Human communities teem with a variety of social norms. In order to change unjust and harmful social norms, it is crucial to identify the psychological processes that give rise to them. Most researchers take it for granted that social norms are uniquely human. By contrast, we approach this matter from a comparative perspective, leveraging recent research on animal social behaviour. While there is currently only suggestive evidence for norms in nonhuman communities, we argue that human social norms are likely produced by a wide range of mechanisms, many of which we share with nonhuman animals. Approaching this variability from a comparative perspective can help norm researchers expand and reframe the range of hypotheses they test when attempting to understand the causes of socially normative behaviours in humans. First, we diagnose some of the theoretical obstacles to developing a comparative science of social norms, and offer a few basic constructs and distinctions to help norm researchers overcome these obstacles. Then we develop a six-dimensional model of the psychological and social factors that contribute to variability in both human and potential nonhuman norms. This article is part of the theme issue `Social norm change: drivers and consequences'.",
+   "publicationTitle": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+   "date": "2024-03",
+   "volume": "379",
+   "issue": "1897",
+   "pages": "20230026",
+   "DOI": "10.1098/rstb.2023.0026",
+   "citationKey": "andrewsHumanNonhumanNorms2024",
+   "ISSN": "0962-8436, 1471-2970",
+   "shortTitle": "Human and nonhuman norms",
+   "language": "english",
+   "tags": [
+    "topic: animal-cognition",
+    "topic: norms"
+   ],
+   "collections": []
+  },
+  {
+   "key": "QQ8R74HA",
    "itemType": "journalArticle",
    "title": "Formalising Mathematics",
    "creators": [
@@ -1106,7 +1440,7 @@
    ],
    "date": "2024",
    "citationKey": "buzzardFormalisingMathematics",
-   "language": "en",
+   "language": "english",
    "tags": [
     "method: review",
     "project: GPmTRF",
@@ -1115,9 +1449,7 @@
     "topic: formal-verification",
     "topic: lean"
    ],
-   "collections": [
-    "FXV67EVP"
-   ]
+   "collections": []
   },
   {
    "key": "DVBCQ2GB",
@@ -1222,6 +1554,77 @@
    ]
   },
   {
+   "key": "C2PPZ6UM",
+   "itemType": "journalArticle",
+   "title": "Human-like systematic generalization through a meta-learning neural network",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Brenden M.",
+     "lastName": "Lake"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marco",
+     "lastName": "Baroni"
+    }
+   ],
+   "abstractNote": "Abstract The power of human language and thought arises from systematic compositionality—the algebraic ability to understand and produce novel combinations from known components. Fodor and Pylyshyn 1 famously argued that artificial neural networks lack this capacity and are therefore not viable models of the mind. Neural networks have advanced considerably in the years since, yet the systematicity challenge persists. Here we successfully address Fodor and Pylyshyn's challenge by providing evidence that neural networks can achieve human-like systematicity when optimized for their compositional skills. To do so, we introduce the meta-learning for compositionality (MLC) approach for guiding training through a dynamic stream of compositional tasks. To compare humans and machines, we conducted human behavioural experiments using an instruction learning paradigm. After considering seven different models, we found that, in contrast to perfectly systematic but rigid probabilistic symbolic models, and perfectly flexible but unsystematic neural networks, only MLC achieves both the systematicity and flexibility needed for human-like generalization. MLC also advances the compositional skills of machine learning systems in several systematic generalization benchmarks. Our results show how a standard neural network architecture, optimized for its compositional skills, can mimic human systematic generalization in a head-to-head comparison.",
+   "publicationTitle": "Nature",
+   "date": "2023-11",
+   "volume": "623",
+   "issue": "7985",
+   "pages": "115–121",
+   "DOI": "10.1038/s41586-023-06668-3",
+   "citationKey": "lakeHumanlikeSystematicGeneralization2023",
+   "ISSN": "0028-0836, 1476-4687",
+   "language": "english",
+   "tags": [
+    "method: meta-learning",
+    "topic: compositionality"
+   ],
+   "collections": []
+  },
+  {
+   "key": "LJ9STI5M",
+   "itemType": "journalArticle",
+   "title": "Hierarchical structure in language and action: A formal comparison.",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Cas W.",
+     "lastName": "Coopmans"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Karthikeya",
+     "lastName": "Kaushik"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "Since the cognitive revolution, language and action have been compared as cognitive systems, with crossdomain convergent views recently gaining renewed interest in biology, neuroscience, and cognitive science. Language and action are both combinatorial systems whose mode of combination has been argued to be hierarchical, combining elements into constituents of increasingly larger size. This structural similarity has led to the suggestion that they rely on shared cognitive and neural resources. In this article, we compare the conceptual and formal properties of hierarchy in language and action using set theory. We show that the strong compositionality of language requires a particular formalism, a magma, to describe the algebraic structure corresponding to the set of hierarchical structures underlying sentences. When this formalism is applied to actions, it appears to be both too strong and too weak. To overcome these limitations, which are related to the weak compositionality and sequential nature of action structures, we formalize the algebraic structure corresponding to the set of actions as a trace monoid. We aim to capture the different system properties of language and action in terms of the distinction between hierarchical sets and hierarchical sequences and discuss the implications for the way both systems could be represented in the brain.",
+   "publicationTitle": "Psychological Review",
+   "date": "2023-07",
+   "volume": "130",
+   "issue": "4",
+   "pages": "935–952",
+   "DOI": "10.1037/rev0000429",
+   "citationKey": "coopmansHierarchicalStructureLanguage2023",
+   "ISSN": "1939-1471, 0033-295X",
+   "shortTitle": "Hierarchical structure in language and action",
+   "language": "english",
+   "tags": [
+    "method: formal-comparison",
+    "project: thesis",
+    "topic: hierarchical-structure"
+   ],
+   "collections": []
+  },
+  {
    "key": "6RVIQLCE",
    "itemType": "journalArticle",
    "title": "Dialect differences and linguistic divergence: A crosslinguistic survey of grammatical variation",
@@ -1264,6 +1667,77 @@
    ]
   },
   {
+   "key": "YDDJJF68",
+   "itemType": "journalArticle",
+   "title": "Dialect differences and linguistic divergence: A crosslinguistic survey of grammatical variation",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "John",
+     "lastName": "Mansfield"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Henry",
+     "lastName": "Leslie-O'Neill"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Haoyi",
+     "lastName": "Li"
+    }
+   ],
+   "abstractNote": "This article presents a new type of comparative linguistic survey, analyzing (socio)linguistic variation in a database of 1,155 grammatical constructions drawn from 42 diverse languages. We focus in particular on variation in the expression of grammatical meanings, and the extent to which grammatical variation differentiates geographic dialects. This is the first study we know of to present a systematic, crosslinguistic survey of dialect differentiation. We identify three main structural types of grammatical variation—form, order, and omission—and find that in situations of close contact between dialects, where signaling of distinct group identities is more relevant, form variables are more likely to differentiate dialects than the other two types. Order and omission variables usually only differentiate dialects that have minimal contact. Our survey suggests that social signaling may have a substantial role in the divergence of grammars, and provides systematic support for previous proposals regarding convergence and divergence under contact.",
+   "publicationTitle": "Language Dynamics and Change",
+   "date": "2023-05",
+   "volume": "13",
+   "issue": "2",
+   "pages": "232–276",
+   "DOI": "10.1163/22105832-bja10026",
+   "citationKey": "mansfieldDialectDifferencesLinguistic2023",
+   "ISSN": "2210-5824, 2210-5832",
+   "shortTitle": "Dialect differences and linguistic divergence",
+   "language": "english",
+   "tags": [
+    "topic: dialect-variation",
+    "topic: typology"
+   ],
+   "collections": []
+  },
+  {
+   "key": "FRWAXMJU",
+   "itemType": "journalArticle",
+   "title": "What neural oscillations can and cannot do for syntactic structure building",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Nina",
+     "lastName": "Kazanina"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Alessandro",
+     "lastName": "Tavano"
+    }
+   ],
+   "publicationTitle": "Nature Reviews Neuroscience",
+   "date": "2023-02",
+   "volume": "24",
+   "issue": "2",
+   "pages": "113–128",
+   "DOI": "10.1038/s41583-022-00659-5",
+   "citationKey": "kazaninaWhatNeuralOscillations2023",
+   "ISSN": "1471-003X, 1471-0048",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "stance: disagrees-w-chunking",
+    "topic: oscillations",
+    "topic: syntax"
+   ],
+   "collections": []
+  },
+  {
    "key": "E28ZWSM2",
    "itemType": "journalArticle",
    "title": "Compositionality in Computational Linguistics",
@@ -1299,6 +1773,39 @@
    "collections": [
     "TPC6Q2K8"
    ]
+  },
+  {
+   "key": "JF7EEAU2",
+   "itemType": "journalArticle",
+   "title": "Compositionality in Computational Linguistics",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Lucia",
+     "lastName": "Donatelli"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Alexander",
+     "lastName": "Koller"
+    }
+   ],
+   "abstractNote": "Neural models greatly outperform grammar-based models across many tasks in modern computational linguistics. This raises the question of whether linguistic principles, such as the Principle of Compositionality, still have value as modeling tools. We review the recent literature and find that while an overly strict interpretation of compositionality makes it hard to achieve broad coverage in semantic parsing tasks, compositionality is still necessary for a model to learn the correct linguistic generalizations from limited data. Reconciling both of these qualities requires the careful exploration of a novel design space; we also review some recent results that may help in this exploration.",
+   "publicationTitle": "Annual Review of Linguistics",
+   "date": "2023-01",
+   "volume": "9",
+   "issue": "1",
+   "pages": "463–481",
+   "DOI": "10.1146/annurev-linguistics-030521-044439",
+   "citationKey": "donatelliCompositionalityComputationalLinguistics2023",
+   "ISSN": "2333-9683, 2333-9691",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "topic: compositionality",
+    "topic: computational-linguistics"
+   ],
+   "collections": []
   },
   {
    "key": "7BHSQNAU",
@@ -1406,6 +1913,103 @@
    ]
   },
   {
+   "key": "ASB3UWXU",
+   "itemType": "journalArticle",
+   "title": "Optionality in animal communication: a novel framework for examining the evolution of arbitrariness",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Stuart K.",
+     "lastName": "Watson"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Piera",
+     "lastName": "Filippi"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Luca",
+     "lastName": "Gasparri"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Nikola",
+     "lastName": "Falk"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Nicole",
+     "lastName": "Tamer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Paul",
+     "lastName": "Widmer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marta",
+     "lastName": "Manser"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Hans-Johann",
+     "lastName": "Glock"
+    }
+   ],
+   "abstractNote": "A critical feature of language is that the form of words need not bear any perceptual similarity to their function – these relationships can be `arbitrary'. The capacity to process these arbitrary form–function associations facilitates the enormous expressive power of language. However, the evolutionary roots of our capacity for arbitrariness, i.e. the extent to which related abilities may be shared with animals, is largely unexamined. We argue this is due to the challenges of applying such an intrinsically linguistic concept to animal communication, and address this by proposing a novel conceptual framework highlighting a key underpinning of linguistic arbitrariness, which is nevertheless applicable to non-human species. Specifically, we focus on the capacity to associate alternative functions with a signal, or alternative signals with a function, a feature we refer to as optionality. We apply this framework to a broad survey of findings from animal communication studies and identify five key dimensions of communicative optionality: signal production, signal adjustment, signal usage, signal combinatoriality and signal perception. We find that optionality is widespread in non-human animals across each of these dimensions, although only humans demonstrate it in all five. Finally, we discuss the relevance of optionality to behavioural and cognitive domains outside of communication. This investigation provides a powerful new conceptual framework for the cross-species investigation of the origins of arbitrariness, and promises to generate original insights into animal communication and language evolution more generally.",
+   "publicationTitle": "Biological Reviews",
+   "date": "2022-12",
+   "volume": "97",
+   "issue": "6",
+   "pages": "2057–2075",
+   "DOI": "10.1111/brv.12882",
+   "citationKey": "watsonOptionalityAnimalCommunication2022",
+   "ISSN": "1464-7931, 1469-185X",
+   "shortTitle": "Optionality in animal communication",
+   "language": "english",
+   "tags": [
+    "topic: animal-communication",
+    "topic: arbitrariness"
+   ],
+   "collections": []
+  },
+  {
+   "key": "ECRKC723",
+   "itemType": "journalArticle",
+   "title": "Associative memory of structured knowledge",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Julia",
+     "lastName": "Steinberg"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Haim",
+     "lastName": "Sompolinsky"
+    }
+   ],
+   "abstractNote": "Abstract A long standing challenge in biological and artificial intelligence is to understand how new knowledge can be constructed from known building blocks in a way that is amenable for computation by neuronal circuits. Here we focus on the task of storage and recall of structured knowledge in long-term memory. Specifically, we ask how recurrent neuronal networks can store and retrieve multiple knowledge structures. We model each structure as a set of binary relations between events and attributes (attributes may represent e.g., temporal order, spatial location, role in semantic structure), and map each structure to a distributed neuronal activity pattern using a vector symbolic architecture scheme.We then use associative memory plasticity rules to store the binarized patterns as fixed points in a recurrent network. By a combination of signal-to-noise analysis and numerical simulations, we demonstrate that our model allows for efficient storage of these knowledge structures, such that the memorized structures as well as their individual building blocks (e.g., events and attributes) can be subsequently retrieved from partial retrieving cues. We show that long-term memory of structured knowledge relies on a new principle of computation beyond the memory basins. Finally, we show that our model can be extended to store sequences of memories as single attractors.",
+   "publicationTitle": "Scientific Reports",
+   "date": "2022-12",
+   "volume": "12",
+   "issue": "1",
+   "pages": "21808",
+   "DOI": "10.1038/s41598-022-25708-y",
+   "citationKey": "steinbergAssociativeMemoryStructured2022",
+   "ISSN": "2045-2322",
+   "language": "english",
+   "tags": [
+    "method: simulation",
+    "project: journal-club",
+    "topic: associative-memory",
+    "topic: attractor-networks"
+   ],
+   "collections": []
+  },
+  {
    "key": "S25ICEI6",
    "itemType": "journalArticle",
    "title": "A global analysis of matches and mismatches between human genetic and linguistic histories",
@@ -1488,6 +2092,180 @@
    ]
   },
   {
+   "key": "T445XGCW",
+   "itemType": "journalArticle",
+   "title": "A global analysis of matches and mismatches between human genetic and linguistic histories",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Chiara",
+     "lastName": "Barbieri"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Damián E.",
+     "lastName": "Blasi"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Epifanía",
+     "lastName": "Arango-Isaza"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Alexandros G.",
+     "lastName": "Sotiropoulos"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Harald",
+     "lastName": "Hammarström"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Søren",
+     "lastName": "Wichmann"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simon J.",
+     "lastName": "Greenhill"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Russell D.",
+     "lastName": "Gray"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Robert",
+     "lastName": "Forkel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Balthasar",
+     "lastName": "Bickel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kentaro K.",
+     "lastName": "Shimizu"
+    }
+   ],
+   "abstractNote": "Human history is written in both our genes and our languages. The extent to which our biological and linguistic histories are congruent has been the subject of considerable debate, with clear examples of both matches and mismatches. To disentangle the patterns of demographic and cultural transmission, we need a global systematic assessment of matches and mismatches. Here, we assemble a genomic database (GeLaTo, or Genes and Languages Together) specifically curated to investigate genetic and linguistic diversity worldwide. We find that most populations in GeLaTo that speak languages of the same language family (i.e., that descend from the same ancestor language) are also genetically highly similar. However, we also identify nearly 20% mismatches in populations genetically close to linguistically unrelated groups. These mismatches, which occur within the time depth of known linguistic relatedness up to about 10,000 y, are scattered around the world, suggesting that they are a regular outcome in human history. Most mismatches result from populations shifting to the language of a neighboring population that is genetically different because of independent demographic histories. In line with the regularity of such shifts, we find that only half of the language families in GeLaTo are genetically more cohesive than expected under spatial autocorrelations. Moreover, the genetic and linguistic divergence times of population pairs match only rarely, with Indo-European standing out as the family with most matches in our sample. Together, our database and findings pave the way for systematically disentangling demographic and cultural history and for quantifying processes of shifts in language and social identities on a global scale.",
+   "publicationTitle": "Proceedings of the National Academy of Sciences",
+   "date": "2022-11",
+   "volume": "119",
+   "issue": "47",
+   "pages": "e2122084119",
+   "DOI": "10.1073/pnas.2122084119",
+   "citationKey": "barbieriGlobalAnalysisMatches2022",
+   "ISSN": "0027-8424, 1091-6490",
+   "language": "english",
+   "tags": [
+    "topic: language-evolution",
+    "topic: linguistic-diversity",
+    "topic: population-genetics"
+   ],
+   "collections": []
+  },
+  {
+   "key": "7RSMVLP3",
+   "itemType": "journalArticle",
+   "title": "Statistical Learning of Language: A Meta-Analysis Into 25 Years of Research",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Erin S.",
+     "lastName": "Isbilen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Morten H.",
+     "lastName": "Christiansen"
+    }
+   ],
+   "abstractNote": "Statistical learning is a key concept in our understanding of language acquisition. Ample work has highlighted its role in numerous linguistic functions—yet statistical learning is not a unitary construct, and its consistency across different language properties remains unclear. In a meta-analysis of auditorylinguistic statistical learning research spanning the last 25 years, we evaluated how learning varies across different language properties in infants, children, and adults and surveyed the methodological trends in the literature. We found robust learning across stimuli (syllables, words, etc.) in infants, and across stimuli and structures (adjacent dependencies, non-adjacent dependencies, etc.) in adults, with larger effect sizes when multiple cues were present. However, the analysis also showed significant publication bias and revealed a tendency toward using a narrow range of simplified language properties, including in the strength of the transitional probabilities used during training. Bayes factor analyses revealed prevalent data insensitivity of moderators commonly hypothesized to impact learning, such as the amount of exposure and transitional probability strength, which contradict core theoretical assumptions in the field. Methodological factors, such as the tasks used at test, also significantly impacted effect sizes in adults and children, suggesting that choice of task may critically constrain current theories of how statistical learning operates. Collectively, our results suggest that auditorylinguistic statistical learning has the kind of robustness needed to play a foundational role in language acquisition, but that more research is warranted to reveal its full potential.",
+   "publicationTitle": "Cognitive Science",
+   "date": "2022-09",
+   "volume": "46",
+   "issue": "9",
+   "pages": "e13198",
+   "DOI": "10.1111/cogs.13198",
+   "citationKey": "isbilenStatisticalLearningLanguage2022",
+   "ISSN": "0364-0213, 1551-6709",
+   "shortTitle": "Statistical Learning of Language",
+   "language": "english",
+   "tags": [
+    "method: meta-analysis",
+    "topic: statistical-learning"
+   ],
+   "collections": []
+  },
+  {
+   "key": "9F25Z7K6",
+   "itemType": "journalArticle",
+   "title": "The function and evolution of child-directed communication",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Johanna",
+     "lastName": "Schick"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Caroline",
+     "lastName": "Fryns"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Franziska",
+     "lastName": "Wegdell"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marion",
+     "lastName": "Laporte"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Klaus",
+     "lastName": "Zuberbühler"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Carel P.",
+     "lastName": "Van Schaik"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simon W.",
+     "lastName": "Townsend"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sabine",
+     "lastName": "Stoll"
+    }
+   ],
+   "abstractNote": "AHUum: aPnlesacseocmonmfiurnmitchaattealwlhitehadsimngalllevcehlisladrreerneipnreusnenutseudaclorarnedctlhyi:ghly conspicuous ways (childdirected communication (CDC)), which enhance social bonding and facilitate language acquisition. CDC-like inputs are also reported for some vocally learning animals, suggesting similar functions in facilitating communicative competence. However, adult great apes, our closest living relatives, rarely signal to their infants, implicating communication surrounding the infant as the main input for infant great apes and early humans. Given cross-cultural variation in the amount and structure of CDC, we suggest that child-surrounding communication (CSC) provides essential compensatory input when CDC is less prevalent—a paramount topic for future studies.",
+   "publicationTitle": "PLOS Biology",
+   "date": "2022-05",
+   "volume": "20",
+   "issue": "5",
+   "pages": "e3001630",
+   "DOI": "10.1371/journal.pbio.3001630",
+   "citationKey": "schickFunctionEvolutionChilddirected2022",
+   "ISSN": "1545-7885",
+   "language": "english",
+   "tags": [
+    "topic: animal-communication",
+    "topic: child-directed-communication",
+    "topic: language-evolution"
+   ],
+   "collections": []
+  },
+  {
    "key": "2NXJ332W",
    "itemType": "journalArticle",
    "title": "The interaction engine: cuteness selection and the evolution of the interactional base for language",
@@ -1508,6 +2286,26 @@
    "collections": [
     "VV6K9MYU"
    ]
+  },
+  {
+   "key": "A3Q3KAH2",
+   "itemType": "journalArticle",
+   "title": "The interaction engine: Cuteness selection and the evolution of the interactional base for language",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Stephen C",
+     "lastName": "Levinson"
+    }
+   ],
+   "date": "2022",
+   "citationKey": "levinsonInteractionEngineCuteness",
+   "language": "english",
+   "tags": [
+    "topic: interaction-engine",
+    "topic: language-evolution"
+   ],
+   "collections": []
   },
   {
    "key": "CHBPHIG6",
@@ -1555,6 +2353,51 @@
    "collections": [
     "VV6K9MYU"
    ]
+  },
+  {
+   "key": "L6S2JKEK",
+   "itemType": "journalArticle",
+   "title": "A convergent interaction engine: Vocal communication among marmoset monkeys",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "J M",
+     "lastName": "Burkart"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "J E C",
+     "lastName": "Adriaense"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "R K",
+     "lastName": "Brügger"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "F M",
+     "lastName": "Miss"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "K",
+     "lastName": "Wierucka"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "C P",
+     "lastName": "van Schaik"
+    }
+   ],
+   "date": "2022",
+   "citationKey": "burkartConvergentInteractionEngine",
+   "language": "english",
+   "tags": [
+    "topic: animal-communication",
+    "topic: interaction-engine"
+   ],
+   "collections": []
   },
   {
    "key": "EMT8L9YV",
@@ -1679,7 +2522,7 @@
    ]
   },
   {
-   "key": "P3W6G2NQ",
+   "key": "QWKMC4DU",
    "itemType": "journalArticle",
    "title": "Spatial 3D Matérn Priors for Fast Whole-Brain fMRI Analysis",
    "creators": [
@@ -1709,17 +2552,15 @@
      "lastName": "Villani"
     }
    ],
-   "abstractNote": "Bayesian whole-brain functional magnetic resonance imaging (fMRI) analysis with three-dimensional spatial smoothing priors has been shown to produce state-of-the-art activity maps without pre-smoothing the data. The proposed inference algorithms are computationally demanding however, and the spatial priors used have several less appealing properties, such as being improper and having inﬁnite spatial range. We propose a statistical inference framework for whole-brain fMRI analysis based on the class of Mat´ern covariance functions. The framework uses the Gaussian Markov random ﬁeld (GMRF) representation of possibly anisotropic spatial Mate´rn ﬁelds via the stochastic partial diﬀerential equation (SPDE) approach of Lindgren et al. (2011). This allows for more ﬂexible and interpretable spatial priors, while maintaining the sparsity required for fast inference in the high-dimensional whole-brain setting. We develop an accelerated stochastic gradient descent (SGD) optimization algorithm for empirical Bayes (EB) inference of the spatial hyperparameters. Conditionally on the inferred hyperparameters, we make a fully Bayesian treatment of the brain activity. The Mat´ern prior is applied to both simulated and experimental task-fMRI data and clearly demonstrates that it is a more reasonable choice than the previously used priors, using comparisons of activity maps, prior simulation and cross-validation.",
+   "abstractNote": "Bayesian whole-brain functional magnetic resonance imaging (fMRI) analysis with three-dimensional spatial smoothing priors has been shown to produce state-of-the-art activity maps without pre-smoothing the data. The proposed inference algorithms are computationally demanding however, and the spatial priors used have several less appealing properties, such as being improper and having infinite spatial range. We propose a statistical inference framework for whole-brain fMRI analysis based on the class of Mat´ern covariance functions. The framework uses the Gaussian Markov random field (GMRF) representation of possibly anisotropic spatial Mate´rn fields via the stochastic partial differential equation (SPDE) approach of Lindgren et al. (2011). This allows for more flexible and interpretable spatial priors, while maintaining the sparsity required for fast inference in the high-dimensional whole-brain setting. We develop an accelerated stochastic gradient descent (SGD) optimization algorithm for empirical Bayes (EB) inference of the spatial hyperparameters. Conditionally on the inferred hyperparameters, we make a fully Bayesian treatment of the brain activity. The Mat´ern prior is applied to both simulated and experimental task-fMRI data and clearly demonstrates that it is a more reasonable choice than the previously used priors, using comparisons of activity maps, prior simulation and cross-validation.",
    "publicationTitle": "Bayesian Analysis",
-   "date": "2021-12-1",
+   "date": "2021-12",
    "volume": "16",
    "issue": "4",
-   "journalAbbreviation": "Bayesian Anal.",
    "DOI": "10.1214/21-BA1283",
    "citationKey": "sidenSpatial3DMatern2021",
-   "url": "https://projecteuclid.org/journals/bayesian-analysis/volume-16/issue-4/Spatial-3D-Mat%c3%a9rn-Priors-for-Fast-Whole-Brain-fMRI-Analysis/10.1214/21-BA1283.full",
    "ISSN": "1936-0975",
-   "language": "en",
+   "language": "english",
    "tags": [
     "method: fmri",
     "project: GPmTRF",
@@ -1729,9 +2570,69 @@
     "topic: kernel-methods",
     "topic: spatial-priors"
    ],
-   "collections": [
-    "9LJ8YV5H"
-   ]
+   "collections": []
+  },
+  {
+   "key": "B2MV84YA",
+   "itemType": "journalArticle",
+   "title": "Global predictors of language endangerment and the future of linguistic diversity",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Lindell",
+     "lastName": "Bromham"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Russell",
+     "lastName": "Dinnage"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Hedvig",
+     "lastName": "Skirgård"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrew",
+     "lastName": "Ritchie"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marcel",
+     "lastName": "Cardillo"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Felicity",
+     "lastName": "Meakins"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simon",
+     "lastName": "Greenhill"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Xia",
+     "lastName": "Hua"
+    }
+   ],
+   "abstractNote": "Abstract Language diversity is under threat. While each language is subject to specific social, demographic and political pressures, there may also be common threatening processes. We use an analysis of 6,511 spoken languages with 51 predictor variables spanning aspects of population, documentation, legal recognition, education policy, socioeconomic indicators and environmental features to show that, counter to common perception, contact with other languages per se is not a driver of language loss. However, greater road density, which may encourage population movement, is associated with increased endangerment. Higher average years of schooling is also associated with greater endangerment, evidence that formal education can contribute to loss of language diversity. Without intervention, language loss could triple within 40 years, with at least one language lost per month. To avoid the loss of over 1,500 languages by the end of the century, urgent investment is needed in language documentation, bilingual education programmes and other community-based programmes.",
+   "publicationTitle": "Nature Ecology & Evolution",
+   "date": "2021-12",
+   "volume": "6",
+   "issue": "2",
+   "pages": "163–173",
+   "DOI": "10.1038/s41559-021-01604-y",
+   "citationKey": "bromhamGlobalPredictorsLanguage2021",
+   "ISSN": "2397-334X",
+   "language": "english",
+   "tags": [
+    "topic: language-endangerment",
+    "topic: linguistic-diversity"
+   ],
+   "collections": []
   },
   {
    "key": "JGL8B8QS",
@@ -1777,7 +2678,47 @@
    ]
   },
   {
-   "key": "983GPIE6",
+   "key": "TQYWECBJ",
+   "itemType": "journalArticle",
+   "title": "Native listeners rely on rhythmic cues when deciding on the nativeness of speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Elisa",
+     "lastName": "Pellegrino"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sandra",
+     "lastName": "Schwab"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Volker",
+     "lastName": "Dellwo"
+    }
+   ],
+   "abstractNote": "Foreign-accented speech typically deviates segmentally and suprasegmentally from native-accented speech. Two experiments were conducted to investigate the role of amplitude envelope (ENV), segment duration (DUR), and speech rate (SR) on Italian listeners' ability to identify native-accented Italian in utterances produced by Zurich German speakers. In experiment 1, listeners judged in a two-alternative forced-choice perception task which of the two stimuli in a trial they perceived as more native-like. Stimuli in each trial only varied in ENV and DUR, which were retrieved either from a native Italian speaker [first language (L1) donor] or from a German speaker of Italian [second language (L2) donor]. Results revealed that listeners make use of both DUR and ENV to identify the more native-like stimuli, but the effect of ENV was more subtle. In experiment 2, SR differences (resulting from native and non-native segment duration differences in experiment 1) were normalized for. It was found that this drastically reduced the effect of segment durations in terms of perceived nativeness; however, the ENV effect still remained. This was not the case in a control group of listeners without competence in Italian. Though effects were subtle, the study shows that ENV cues contribute to the percept of nativeness in L2 speech.",
+   "publicationTitle": "The Journal of the Acoustical Society of America",
+   "date": "2021-10",
+   "volume": "150",
+   "issue": "4",
+   "pages": "2836–2853",
+   "DOI": "10.1121/10.0006537",
+   "citationKey": "pellegrinoNativeListenersRely2021",
+   "ISSN": "0001-4966, 1520-8524",
+   "language": "english",
+   "tags": [
+    "method: behavioural",
+    "project: thesis",
+    "status: key-reference",
+    "topic: italian-prosody",
+    "topic: speech-rhythm"
+   ],
+   "collections": []
+  },
+  {
+   "key": "Y9AVVZGC",
    "itemType": "journalArticle",
    "title": "A general linear-time inference method for Gaussian Processes on one dimension",
    "creators": [
@@ -1789,7 +2730,7 @@
    ],
    "date": "2021",
    "citationKey": "loperGeneralLineartimeInference",
-   "language": "en",
+   "language": "english",
    "tags": [
     "project: GPmTRF",
     "stance: supports: matern-over-se",
@@ -1797,9 +2738,38 @@
     "topic: gaussian-process",
     "topic: kalman-filter"
    ],
-   "collections": [
-    "9LJ8YV5H"
-   ]
+   "collections": []
+  },
+  {
+   "key": "DIB2KHV4",
+   "itemType": "journalArticle",
+   "title": "A dual larynx motor networks hypothesis",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Michel",
+     "lastName": "Belyk"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Nicole",
+     "lastName": "Eichert"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Carolyn",
+     "lastName": "McGettigan"
+    }
+   ],
+   "date": "2021",
+   "citationKey": "belykDualLarynxMotor",
+   "language": "english",
+   "tags": [
+    "topic: language-evolution",
+    "topic: speech-production",
+    "topic: vocal-motor-control"
+   ],
+   "collections": []
   },
   {
    "key": "48LW2EW9",
@@ -1867,8 +2837,36 @@
    ]
   },
   {
-   "key": "TXA5QY8M",
-   "itemType": "preprint",
+   "key": "N66TZKII",
+   "itemType": "journalArticle",
+   "title": "Theorizing about the Syntax of Human Language: a",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Geoffrey Keith",
+     "lastName": "Pullum"
+    }
+   ],
+   "abstractNote": "Linguists standardly assume that a grammar is a formal system that `generates' a set of derivations. But this is not the only way to formalize grammars. I sketch a different basis for syntactic theory: modeltheoretic syntax (MTS). It defines grammars as finite sets of statements that are true (or false) in certain kinds of structure (finite labeled graphs such as trees). Such statements provide a direct description of syntactic structure. Generative grammars do not do this; they are strikingly ill-suited to accounting for certain familiar properties of human languages, like the fact that ungrammaticality is a matter of degree. Many aspects of linguistic phenomena look radically different when viewed in MTS terms. I pay special attention to the fact that sentences containing invented nonsense words (items not in the lexicon) are nonetheless perceived as sentences. I also argue that the MTS view dissolves the overblown controversy about whether the set of sentences in a human language is always infinite: many languages (both Brazilian indigenous languages and others) appear not to employ arbitrarily iterative devices for embedding or coordination, but under an MTS description this does not define them as radically distinct in typological terms.",
+   "publicationTitle": "Cadernos de Linguística",
+   "date": "2020-07",
+   "volume": "1",
+   "issue": "1",
+   "pages": "01–33",
+   "DOI": "10.25189/2675-4916.2020.v1.n1.id279",
+   "citationKey": "pullumTheorizingSyntaxHuman2020",
+   "ISSN": "26754916",
+   "shortTitle": "Theorizing about the Syntax of Human Language",
+   "language": "english",
+   "tags": [
+    "topic: linguistic-theory",
+    "topic: syntax"
+   ],
+   "collections": []
+  },
+  {
+   "key": "EWQKB5YL",
+   "itemType": "document",
    "title": "Hierarchical Bayesian Regression for Multi-Site Normative Modeling of Neuroimaging Data",
    "creators": [
     {
@@ -1917,13 +2915,11 @@
      "lastName": "Marquand"
     }
    ],
-   "abstractNote": "Clinical neuroimaging has recently witnessed explosive growth in data availability which brings studying heterogeneity in clinical cohorts to the spotlight. Normative modeling is an emerging statistical tool for achieving this objective. However, its application remains technically challenging due to diﬃculties in properly dealing with nuisance variation, for example due to variability in image acquisition devices. Here, in a fully probabilistic framework, we propose an application of hierarchical Bayesian regression (HBR) for multi-site normative modeling. Our experimental results conﬁrm the superiority of HBR in deriving more accurate normative ranges on large multi-site neuroimaging data compared to widely used methods. This provides the possibility i) to learn the normative range of structural and functional brain measures on large multi-site data; ii) to recalibrate and reuse the learned model on local small data; therefore, HBR closes the technical loop for applying normative modeling as a medical tool for the diagnosis and prognosis of mental disorders.",
-   "repository": "arXiv",
-   "archiveID": "arXiv:2005.12055",
-   "date": "2020-05-25",
+   "abstractNote": "Clinical neuroimaging has recently witnessed explosive growth in data availability which brings studying heterogeneity in clinical cohorts to the spotlight. Normative modeling is an emerging statistical tool for achieving this objective. However, its application remains technically challenging due to difficulties in properly dealing with nuisance variation, for example due to variability in image acquisition devices. Here, in a fully probabilistic framework, we propose an application of hierarchical Bayesian regression (HBR) for multi-site normative modeling. Our experimental results confirm the superiority of HBR in deriving more accurate normative ranges on large multi-site neuroimaging data compared to widely used methods. This provides the possibility i) to learn the normative range of structural and functional brain measures on large multi-site data; ii) to recalibrate and reuse the learned model on local small data; therefore, HBR closes the technical loop for applying normative modeling as a medical tool for the diagnosis and prognosis of mental disorders.",
+   "date": "2020-05",
+   "publisher": "arXiv",
    "DOI": "10.48550/arXiv.2005.12055",
    "citationKey": "kiaHierarchicalBayesianRegression2020",
-   "url": "http://arxiv.org/abs/2005.12055",
    "tags": [
     "method: fmri",
     "project: GPmTRF",
@@ -1932,9 +2928,7 @@
     "topic: hierarchical-bayes",
     "topic: normative-modelling"
    ],
-   "collections": [
-    "9LJ8YV5H"
-   ]
+   "collections": []
   },
   {
    "key": "MINDBXQD",
@@ -1978,6 +2972,42 @@
    "collections": [
     "D5UAEACJ"
    ]
+  },
+  {
+   "key": "ZN9T4DZM",
+   "itemType": "journalArticle",
+   "title": "Two Distinct Neural Timescales for Predictive Speech Processing",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Peter W.",
+     "lastName": "Donhauser"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sylvain",
+     "lastName": "Baillet"
+    }
+   ],
+   "abstractNote": "During speech listening, the brain could use contextual predictions to optimize sensory sampling and processing. We asked if such predictive processing is organized dynamically into separate oscillatory timescales. We trained a neural network that uses context to predict speech at the phoneme level. Using this model, we estimated contextual uncertainty and surprise of natural speech as factors to explain neurophysiological activity in human listeners. We show, first, that speech-related activity is hierarchically organized into two timescales: fast responses (theta: 4–10 Hz), restricted to early auditory regions, and slow responses (delta: 0.5–4 Hz), dominating in downstream auditory regions. Neural activity in these bands is selectively modulated by predictions: the gain of early theta responses varies according to the contextual uncertainty of speech, while later delta responses are selective to surprising speech inputs. We conclude that theta sensory sampling is tuned to maximize expected information gain, while delta encodes only non-redundant information.",
+   "publicationTitle": "Neuron",
+   "date": "2020-01",
+   "volume": "105",
+   "issue": "2",
+   "pages": "385-393.e9",
+   "DOI": "10.1016/j.neuron.2019.10.019",
+   "citationKey": "donhauserTwoDistinctNeural2020",
+   "ISSN": "08966273",
+   "language": "english",
+   "tags": [
+    "method: meg",
+    "project: GPmTRF",
+    "status: key-reference",
+    "topic: oscillatory-entrainment",
+    "topic: phoneme-level",
+    "topic: predictive-coding"
+   ],
+   "collections": []
   },
   {
    "key": "L8EVHYPX",
@@ -2060,6 +3090,49 @@
    ]
   },
   {
+   "key": "QGI2UE83",
+   "itemType": "journalArticle",
+   "title": "Parallels in the sequential organization of birdsong and human speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Tim",
+     "lastName": "Sainburg"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Brad",
+     "lastName": "Theilman"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marvin",
+     "lastName": "Thielk"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Timothy Q.",
+     "lastName": "Gentner"
+    }
+   ],
+   "abstractNote": "Abstract Human speech possesses a rich hierarchical structure that allows for meaning to be altered by words spaced far apart in time. Conversely, the sequential structure of nonhuman communication is thought to follow non-hierarchical Markovian dynamics operating over only short distances. Here, we show that human speech and birdsong share a similar sequential structure indicative of both hierarchical and Markovian organization. We analyze the sequential dynamics of song from multiple songbird species and speech from multiple languages by modeling the information content of signals as a function of the sequential distance between vocal elements. Across short sequence-distances, an exponential decay dominates the information in speech and birdsong, consistent with underlying Markovian processes. At longer sequence-distances, the decay in information follows a power law, consistent with underlying hierarchical processes. Thus, the sequential organization of acoustic elements in two learned vocal communication signals (speech and birdsong) shows functionally equivalent dynamics, governed by similar processes.",
+   "publicationTitle": "Nature Communications",
+   "date": "2019-08",
+   "volume": "10",
+   "issue": "1",
+   "pages": "3636",
+   "DOI": "10.1038/s41467-019-11605-y",
+   "citationKey": "sainburgParallelsSequentialOrganization2019",
+   "ISSN": "2041-1723",
+   "language": "english",
+   "tags": [
+    "topic: animal-communication",
+    "topic: birdsong",
+    "topic: sequential-structure"
+   ],
+   "collections": []
+  },
+  {
    "key": "XCCZM3ZX",
    "itemType": "journalArticle",
    "title": "The ecological drivers of variation in global language diversity",
@@ -2111,6 +3184,130 @@
    ]
   },
   {
+   "key": "SFSGPRVC",
+   "itemType": "journalArticle",
+   "title": "The ecological drivers of variation in global language diversity",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Xia",
+     "lastName": "Hua"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simon J.",
+     "lastName": "Greenhill"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marcel",
+     "lastName": "Cardillo"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Hilde",
+     "lastName": "Schneemann"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Lindell",
+     "lastName": "Bromham"
+    }
+   ],
+   "abstractNote": "Abstract Language diversity is distributed unevenly over the globe. Intriguingly, patterns of language diversity resemble biodiversity patterns, leading to suggestions that similar mechanisms may underlie both linguistic and biological diversification. Here we present the first global analysis of language diversity that compares the relative importance of two key ecological mechanisms – isolation and ecological risk – after correcting for spatial autocorrelation and phylogenetic non-independence. We find significant effects of climate on language diversity, consistent with the ecological risk hypothesis that areas of high year-round productivity lead to more languages by supporting human cultural groups with smaller distributions. Climate has a much stronger effect on language diversity than landscape features, such as altitudinal range and river density, which might contribute to isolation of cultural groups. The association between biodiversity and language diversity appears to be an incidental effect of their covariation with climate, rather than a causal link between the two.",
+   "publicationTitle": "Nature Communications",
+   "date": "2019-05",
+   "volume": "10",
+   "issue": "1",
+   "pages": "2047",
+   "DOI": "10.1038/s41467-019-09842-2",
+   "citationKey": "huaEcologicalDriversVariation2019",
+   "ISSN": "2041-1723",
+   "language": "english",
+   "tags": [
+    "topic: ecology",
+    "topic: linguistic-diversity"
+   ],
+   "collections": []
+  },
+  {
+   "key": "FB8RIIG6",
+   "itemType": "journalArticle",
+   "title": "How Efficiency Shapes Human Language",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Edward",
+     "lastName": "Gibson"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Richard",
+     "lastName": "Futrell"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Steven P.",
+     "lastName": "Piantadosi"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Isabelle",
+     "lastName": "Dautriche"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kyle",
+     "lastName": "Mahowald"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Leon",
+     "lastName": "Bergen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Roger",
+     "lastName": "Levy"
+    }
+   ],
+   "publicationTitle": "Trends in Cognitive Sciences",
+   "date": "2019-05",
+   "volume": "23",
+   "issue": "5",
+   "pages": "389–407",
+   "DOI": "10.1016/j.tics.2019.02.003",
+   "citationKey": "gibsonHowEfficiencyShapes2019",
+   "ISSN": "13646613",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "topic: communicative-efficiency",
+    "topic: language-evolution"
+   ],
+   "collections": []
+  },
+  {
+   "key": "MQQ2LEA8",
+   "itemType": "book",
+   "title": "Tragedy, the Greeks, and Us",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Simon",
+     "lastName": "Critchley"
+    }
+   ],
+   "date": "2019",
+   "citationKey": "critchleyTragedyGreeksUs",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics"
+   ],
+   "collections": []
+  },
+  {
    "key": "TDMGLEPB",
    "itemType": "book",
    "title": "Tragedy, the Greeks, and Us",
@@ -2131,6 +3328,52 @@
    "collections": [
     "CWAJKGVH"
    ]
+  },
+  {
+   "key": "TDAX5HHW",
+   "itemType": "journalArticle",
+   "title": "Proactive Sensing of Periodic and Aperiodic Auditory Patterns",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Johanna M.",
+     "lastName": "Rimmele"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Benjamin",
+     "lastName": "Morillon"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "David",
+     "lastName": "Poeppel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Luc H.",
+     "lastName": "Arnal"
+    }
+   ],
+   "publicationTitle": "Trends in Cognitive Sciences",
+   "date": "2018-10",
+   "volume": "22",
+   "issue": "10",
+   "pages": "870–882",
+   "DOI": "10.1016/j.tics.2018.08.003",
+   "citationKey": "rimmeleProactiveSensingPeriodic2018a",
+   "ISSN": "13646613",
+   "language": "english",
+   "tags": [
+    "method: behavioural",
+    "project: GPmTRF",
+    "project: thesis",
+    "status: key-reference",
+    "topic: auditory-patterns",
+    "topic: oscillatory-entrainment",
+    "topic: predictive-coding"
+   ],
+   "collections": []
   },
   {
    "key": "8964IBS6",
@@ -2183,6 +3426,55 @@
    "collections": [
     "YK6SHAT8"
    ]
+  },
+  {
+   "key": "IQUVC69I",
+   "itemType": "journalArticle",
+   "title": "Colorless green ideas do sleep furiously: Gradient acceptability and the nature of the grammar",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jon",
+     "lastName": "Sprouse"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Beracah",
+     "lastName": "Yankama"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sagar",
+     "lastName": "Indurkhya"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sandiway",
+     "lastName": "Fong"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Robert C.",
+     "lastName": "Berwick"
+    }
+   ],
+   "abstractNote": "Abstract In their recent paper, Lau, Clark, and Lappin explore the idea that the probability of the occurrence of word strings can form the basis of an adequate theory of grammar (Lau, Jey H., Alexander Clark & 15 Shalom Lappin. 2017. Grammaticality, acceptability, and probability: A prob- abilistic view of linguistic knowledge. Cognitive Science 41(5):1201–1241). To make their case, they present the results of correlating the output of several probabilistic models trained solely on naturally occurring sentences with the gradient acceptability judgments that humans report for ungrammatical sentences derived from roundtrip machine translation errors. In this paper, we first explore the logic of the Lau et al. argument, both in terms of the choice of evaluation metric (gradient acceptability), and in the choice of test data set (machine translation errors on random sentences from a corpus). We then present our own series of studies intended to allow for a better comparison between LCL's models and existing grammatical theories. We evaluate two of LCL's probabilistic models (trigrams and recurrent neural network) against three data sets (taken from journal articles, a textbook, and Chomsky's famous colorless-green-ideas sentence), using three evaluation metrics (LCL's gradience metric, a categorical version of the metric, and the experimental-logic metric used in the syntax literature). Our results suggest there are very real, measurable cost-benefit tradeoffs inherent in LCL's models across the three evaluation metrics. The gain in explanation of gradience (between 13% and 31% of gradience) is offset by losses in the other two metrics: a 43%-49% loss in coverage based on a categorical metric of explaining acceptability, and a loss of 12%-35% in explaining experimentally-defined phenomena. This suggests that anyone wishing to pursue LCL's models as competitors with existing syntactic theories must either be satisfied with this tradeoff, or modify the models to capture the phenomena that are not currently captured.",
+   "publicationTitle": "The Linguistic Review",
+   "date": "2018-09",
+   "volume": "35",
+   "issue": "3",
+   "pages": "575–599",
+   "DOI": "10.1515/tlr-2018-0005",
+   "citationKey": "sprouseColorlessGreenIdeas2018",
+   "ISSN": "0167-6318, 1613-3676",
+   "shortTitle": "Colorless green ideas do sleep furiously",
+   "language": "english",
+   "tags": [
+    "topic: acceptability-judgements",
+    "topic: probabilistic-grammar",
+    "topic: syntax"
+   ],
+   "collections": []
   },
   {
    "key": "AJ2TB6AS",
@@ -2279,6 +3571,92 @@
    ]
   },
   {
+   "key": "PJHZIU39",
+   "itemType": "journalArticle",
+   "title": "Functional Characterization of the Human Speech Articulation Network",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Alexandra",
+     "lastName": "Basilakos"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kimberly G",
+     "lastName": "Smith"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Paul",
+     "lastName": "Fillmore"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Julius",
+     "lastName": "Fridriksson"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Evelina",
+     "lastName": "Fedorenko"
+    }
+   ],
+   "abstractNote": "A number of brain regions have been implicated in articulation, but their precise computations remain debated. Using functional magnetic resonance imaging, we examine the degree of functional specificity of articulation-responsive brain regions to constrain hypotheses about their contributions to speech production. We find that articulation-responsive regions (1) are sensitive to articulatory complexity, but (2) are largely nonoverlapping with nearby domain-general regions that support diverse goal-directed behaviors. Furthermore, premotor articulation regions show selectivity for speech production over some related tasks (respiration control), but not others (nonspeech oral-motor [NSO] movements). This overlap between speech and nonspeech movements concords with electrocorticographic evidence that these regions encode articulators and their states, and with patient evidence whereby articulatory deficits are often accompanied by oral-motor deficits. In contrast, the superior temporal regions show strong selectivity for articulation relative to nonspeech movements, suggesting that these regions play a specific role in speech planning/production. Finally, articulation-responsive portions of posterior inferior frontal gyrus show some selectivity for articulation, in line with the hypothesis that this region prepares an articulatory code that is passed to the premotor cortex. Taken together, these results inform the architecture of the human articulation system.",
+   "publicationTitle": "Cerebral Cortex",
+   "date": "2018-05",
+   "volume": "28",
+   "issue": "5",
+   "pages": "1816–1830",
+   "DOI": "10.1093/cercor/bhx100",
+   "citationKey": "basilakosFunctionalCharacterizationHuman2018",
+   "ISSN": "1047-3211, 1460-2199",
+   "language": "english",
+   "tags": [
+    "method: fmri",
+    "topic: speech-production"
+   ],
+   "collections": []
+  },
+  {
+   "key": "794YZ7MT",
+   "itemType": "journalArticle",
+   "title": "Connectopic mapping with resting-state fMRI",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Koen V.",
+     "lastName": "Haak"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andre F.",
+     "lastName": "Marquand"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Christian F.",
+     "lastName": "Beckmann"
+    }
+   ],
+   "abstractNote": "Brain regions are often topographically connected: nearby locations within one brain area connect with nearby locations in another area. Mapping these connection topographies, or `connectopies' in short, is crucial for understanding how information is processed in the brain. Here, we propose principled, fully data-driven methods for mapping connectopies using functional magnetic resonance imaging (fMRI) data acquired at rest by combining spectral embedding of voxel-wise connectivity `fingerprints' with a novel approach to spatial statistical inference. We apply the approach in human primary motor and visual cortex, and show that it can trace biologically plausible, overlapping connectopies in individual subjects that follow these regions' somatotopic and retinotopic maps. As a generic mechanism to perform inference over connectopies, the new spatial statistics approach enables rigorous statistical testing of hypotheses regarding the fine-grained spatial profile of functional connectivity and whether that profile is different between subjects or between experimental conditions. The combined framework offers a fundamental alternative to existing approaches to investigating functional connectivity in the brain, from voxel- or seed-pair wise characterizations of functional association, towards a full, multivariate characterization of spatial topography.",
+   "publicationTitle": "NeuroImage",
+   "date": "2018-04",
+   "volume": "170",
+   "pages": "83–94",
+   "DOI": "10.1016/j.neuroimage.2017.06.075",
+   "citationKey": "haakConnectopicMappingRestingstate2018",
+   "ISSN": "10538119",
+   "language": "english",
+   "tags": [
+    "method: fmri",
+    "project: GPmTRF",
+    "stance: supports: matern-over-se",
+    "status: read",
+    "topic: connectivity-mapping"
+   ],
+   "collections": []
+  },
+  {
    "key": "TSVYK5UH",
    "itemType": "journalArticle",
    "title": "Infant Statistical Learning",
@@ -2316,6 +3694,115 @@
    ]
   },
   {
+   "key": "QWLJU9MR",
+   "itemType": "journalArticle",
+   "title": "Infant Statistical Learning",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jenny R.",
+     "lastName": "Saffran"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Natasha Z.",
+     "lastName": "Kirkham"
+    }
+   ],
+   "abstractNote": "Perception involves making sense of a dynamic, multimodal environment. In the absence of mechanisms capable of exploiting the statistical patterns in the natural world, infants would face an insurmountable computational problem. Infant statistical learning mechanisms facilitate the detection of structure. These abilities allow the infant to compute across elements in their environmental input, extracting patterns for further processing and subsequent learning. In this selective review, we summarize findings that show that statistical learning is both a broad and flexible mechanism (supporting learning from different modalities across many different content areas) and input specific (shifting computations depending on the type of input and goal of learning). We suggest that statistical learning not only provides a framework for studying language development and object knowledge in constrained laboratory settings, but also allows researchers to tackle realworld problems, such as multilingualism, the role of ever-changing learning environments, and differential developmental trajectories.",
+   "publicationTitle": "Annual Review of Psychology",
+   "date": "2018-01",
+   "volume": "69",
+   "issue": "1",
+   "pages": "181–203",
+   "DOI": "10.1146/annurev-psych-122216-011805",
+   "citationKey": "saffranInfantStatisticalLearning2018",
+   "ISSN": "0066-4308, 1545-2085",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "topic: language-acquisition",
+    "topic: statistical-learning"
+   ],
+   "collections": []
+  },
+  {
+   "key": "GPSQT2BB",
+   "itemType": "journalArticle",
+   "title": "Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Aki",
+     "lastName": "Vehtari"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrew",
+     "lastName": "Gelman"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jonah",
+     "lastName": "Gabry"
+    }
+   ],
+   "abstractNote": "Leave-one-out cross-validation (LOO) and the widely applicable information criterion (WAIC) are methods for estimating pointwise out-of-sample prediction accuracy from a fitted Bayesian model using the log-likelihood evaluated at the posterior simulations of the parameter values. LOO and WAIC have various advantages over simpler estimates of predictive error such as AIC and DIC but are less used in practice because they involve additional computational steps. Here we lay out fast and stable computations for LOO and WAIC that can be performed using existing simulation draws. We introduce an efficient computation of LOO using Pareto-smoothed importance sampling (PSIS), a new procedure for regularizing importance weights. Although WAIC is asymptotically equal to LOO, we demonstrate that PSIS-LOO is more robust in the finite case with weak priors or influential observations. As a byproduct of our calculations, we also obtain approximate standard errors for estimated predictive errors and for comparison of predictive errors between two models. We implement the computations in an R package called loo and demonstrate using models fit with the Bayesian inference package Stan.",
+   "publicationTitle": "Statistics and Computing",
+   "date": "2017-09",
+   "volume": "27",
+   "issue": "5",
+   "pages": "1413–1432",
+   "DOI": "10.1007/s11222-016-9696-4",
+   "citationKey": "vehtariPracticalBayesianModel2017",
+   "ISSN": "0960-3174, 1573-1375",
+   "tags": [
+    "project: GPmTRF",
+    "stance: supports: loo-waic-methodology",
+    "status: key-reference",
+    "topic: hierarchical-bayes",
+    "topic: model-comparison"
+   ],
+   "collections": []
+  },
+  {
+   "key": "TURBV7CT",
+   "itemType": "journalArticle",
+   "title": "Grammaticality, Acceptability, and Probability: A Probabilistic View of Linguistic Knowledge",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jey Han",
+     "lastName": "Lau"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Alexander",
+     "lastName": "Clark"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Shalom",
+     "lastName": "Lappin"
+    }
+   ],
+   "abstractNote": "The question of whether humans represent grammatical knowledge as a binary condition on membership in a set of well-formed sentences, or as a probabilistic property has been the subject of debate among linguists, psychologists, and cognitive scientists for many decades. Acceptability judgments present a serious problem for both classical binary and probabilistic theories of grammaticality. These judgements are gradient in nature, and so cannot be directly accommodated in a binary formal grammar. However, it is also not possible to simply reduce acceptability to probability. The acceptability of a sentence is not the same as the likelihood of its occurrence, which is, in part, determined by factors like sentence length and lexical frequency. In this paper, we present the results of a set of large-scale experiments using crowd-sourced acceptability judgments that demonstrate gradience to be a pervasive feature in acceptability judgments. We then show how one can predict acceptability judgments on the basis of probability by augmenting probabilistic language models with an acceptability measure. This is a function that normalizes probability values to eliminate the confounding factors of length and lexical frequency. We describe a sequence of modeling experiments with unsupervised language models drawn from state-of-the-art machine learning methods in natural language processing. Several of these models achieve very encouraging levels of accuracy in the acceptability prediction task, as measured by the correlation between the acceptability measure scores and mean human acceptability values. We consider the relevance of these results to the debate on the nature of grammatical competence, and we argue that they support the view that linguistic knowledge can be intrinsically probabilistic.",
+   "publicationTitle": "Cognitive Science",
+   "date": "2017-07",
+   "volume": "41",
+   "issue": "5",
+   "pages": "1202–1241",
+   "DOI": "10.1111/cogs.12414",
+   "citationKey": "lauGrammaticalityAcceptabilityProbability2017",
+   "ISSN": "0364-0213, 1551-6709",
+   "shortTitle": "Grammaticality, Acceptability, and Probability",
+   "language": "english",
+   "tags": [
+    "topic: probabilistic-grammar"
+   ],
+   "collections": []
+  },
+  {
    "key": "D4KNFMJL",
    "itemType": "journalArticle",
    "title": "Critical Behavior in Physics and Probabilistic Formal Languages",
@@ -2350,6 +3837,73 @@
    "collections": [
     "T8CVTTA9"
    ]
+  },
+  {
+   "key": "QAP2U4DW",
+   "itemType": "journalArticle",
+   "title": "Critical Behavior in Physics and Probabilistic Formal Languages",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Henry",
+     "lastName": "Lin"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Max",
+     "lastName": "Tegmark"
+    }
+   ],
+   "abstractNote": "We show that the mutual information between two symbols, as a function of the number of symbols between the two, decays exponentially in any probabilistic regular grammar, but can decay like a power law for a context-free grammar. This result about formal languages is closely related to a well-known result in classical statistical mechanics that there are no phase transitions in dimensions fewer than two. It is also related to the emergence of power law correlations in turbulence and cosmological inflation through recursive generative processes. We elucidate these physics connections and comment on potential applications of our results to machine learning tasks like training artificial recurrent neural networks. Along the way, we introduce a useful quantity, which we dub the rational mutual information, and discuss generalizations of our claims involving more complicated Bayesian networks.",
+   "publicationTitle": "Entropy. An International and Interdisciplinary Journal of Entropy and Information Studies",
+   "date": "2017-06",
+   "volume": "19",
+   "issue": "7",
+   "pages": "299",
+   "journalAbbreviation": "Entropy",
+   "DOI": "10.3390/e19070299",
+   "citationKey": "linCriticalBehaviorPhysics2017",
+   "ISSN": "1099-4300",
+   "language": "english",
+   "tags": [
+    "topic: formal-languages",
+    "topic: probabilistic-grammar"
+   ],
+   "collections": []
+  },
+  {
+   "key": "FIQDQISF",
+   "itemType": "journalArticle",
+   "title": "Variational Latent Gaussian Process for Recovering Single-Trial Dynamics from Population Spike Trains",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Yuan",
+     "lastName": "Zhao"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Il Memming",
+     "lastName": "Park"
+    }
+   ],
+   "abstractNote": "When governed by underlying low-dimensional dynamics, the interdependence of simultaneously recorded population of neurons can be explained by a small number of shared factors, or a low-dimensional trajectory. Recovering these latent trajectories, particularly from single-trial population recordings, may help us understand the dynamics that drive neural computation. However, due to the biophysical constraints and noise in the spike trains, inferring trajectories from data is a challenging statistical problem in general. Here, we propose a practical and efficient inference method, called the variational latent Gaussian process (vLGP). The vLGP combines a generative model with a history-dependent point process observation together with a smoothness prior on the latent trajectories. The vLGP improves upon earlier methods for recovering latent trajectories, which assume either observation models inappropriate for point processes or linear dynamics. We compare and validate vLGP on both simulated datasets and population recordings from the primary visual cortex. In the V1 dataset, we find that vLGP achieves substantially higher performance than previous methods for predicting omitted spike trains, as well as capturing both the toroidal topology of visual stimuli space, and the noise-correlation. These results show that vLGP is a robust method with a potential to reveal hidden neural dynamics from large-scale neural recordings.",
+   "publicationTitle": "Neural Computation",
+   "date": "2017-05",
+   "volume": "29",
+   "issue": "5",
+   "pages": "1293–1316",
+   "DOI": "10.1162/NECO_a_00953",
+   "citationKey": "zhaoVariationalLatentGaussian2017",
+   "ISSN": "0899-7667, 1530-888X",
+   "language": "english",
+   "tags": [
+    "project: GPmTRF",
+    "status: key-reference",
+    "topic: gaussian-process",
+    "topic: kalman-filter"
+   ],
+   "collections": []
   },
   {
    "key": "XGFVZG3T",
@@ -2447,6 +4001,180 @@
    ]
   },
   {
+   "key": "AGVU8H9R",
+   "itemType": "journalArticle",
+   "title": "Culture and biology in the origins of linguistic structure",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Simon",
+     "lastName": "Kirby"
+    }
+   ],
+   "abstractNote": "Language is systematically structured at all levels of description, arguably setting it apart from all other instances of communication in nature. In this article, I survey work over the last 20 years that emphasises the contributions of individual learning, cultural transmission, and biological evolution to explaining the structural design features of language. These 3 complex adaptive systems exist in a network of interactions: individual learning biases shape the dynamics of cultural evolution; universal features of linguistic structure arise from this cultural process and form the ultimate linguistic phenotype; the nature of this phenotype affects the fitness landscape for the biological evolution of the language faculty; and in turn this determines individuals' learning bias. Using a combination of computational simulation, laboratory experiments, and comparison with real-world cases of language emergence, I show that linguistic structure emerges as a natural outcome of cultural evolution once certain minimal biological requirements are in place.",
+   "publicationTitle": "Psychonomic Bulletin & Review",
+   "date": "2017-02",
+   "volume": "24",
+   "issue": "1",
+   "pages": "118–137",
+   "DOI": "10.3758/s13423-016-1166-7",
+   "citationKey": "kirbyCultureBiologyOrigins2017",
+   "ISSN": "1069-9384, 1531-5320",
+   "language": "english",
+   "tags": [
+    "topic: cultural-evolution",
+    "topic: language-evolution"
+   ],
+   "collections": []
+  },
+  {
+   "key": "C8GAFT9F",
+   "itemType": "journalArticle",
+   "title": "Characterization of hunter-gatherer networks and implications for cumulative culture",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "A. B.",
+     "lastName": "Migliano"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "A. E.",
+     "lastName": "Page"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "J.",
+     "lastName": "Gómez-Gardeñes"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "G. D.",
+     "lastName": "Salali"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "S.",
+     "lastName": "Viguier"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "M.",
+     "lastName": "Dyble"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "J.",
+     "lastName": "Thompson"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Nikhill",
+     "lastName": "Chaudhary"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "D.",
+     "lastName": "Smith"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "J.",
+     "lastName": "Strods"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "R.",
+     "lastName": "Mace"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "M. G.",
+     "lastName": "Thomas"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "V.",
+     "lastName": "Latora"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "L.",
+     "lastName": "Vinicius"
+    }
+   ],
+   "publicationTitle": "Nature Human Behaviour",
+   "date": "2017-02",
+   "volume": "1",
+   "issue": "2",
+   "pages": "0043",
+   "DOI": "10.1038/s41562-016-0043",
+   "citationKey": "miglianoCharacterizationHuntergathererNetworks2017",
+   "ISSN": "2397-3374",
+   "language": "english",
+   "tags": [
+    "topic: cultural-evolution",
+    "topic: cumulative-culture"
+   ],
+   "collections": []
+  },
+  {
+   "key": "JDC59XHK",
+   "itemType": "journalArticle",
+   "title": "Attention is All you Need",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Ashish",
+     "lastName": "Vaswani"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Noam",
+     "lastName": "Shazeer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Niki",
+     "lastName": "Parmar"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jakob",
+     "lastName": "Uszkoreit"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Llion",
+     "lastName": "Jones"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Aidan N",
+     "lastName": "Gomez"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Łukasz",
+     "lastName": "Kaiser"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Illia",
+     "lastName": "Polosukhin"
+    }
+   ],
+   "abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.",
+   "date": "2017",
+   "citationKey": "vaswaniAttentionAllYou",
+   "language": "english",
+   "tags": [
+    "status: foundational",
+    "topic: transformers"
+   ],
+   "collections": []
+  },
+  {
    "key": "CMSF5SSN",
    "itemType": "journalArticle",
    "title": "Attention is All you Need",
@@ -2505,53 +4233,6 @@
    ]
   },
   {
-   "key": "JCK96X6P",
-   "itemType": "journalArticle",
-   "title": "The Multivariate Temporal Response Function (mTRF) Toolbox: A MATLAB Toolbox for Relating Neural Signals to Continuous Stimuli",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Michael J.",
-     "lastName": "Crosse"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Giovanni M.",
-     "lastName": "Di Liberto"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Adam",
-     "lastName": "Bednar"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Edmund C.",
-     "lastName": "Lalor"
-    }
-   ],
-   "publicationTitle": "Frontiers in Human Neuroscience",
-   "date": "2016-11-30",
-   "volume": "10",
-   "journalAbbreviation": "Front. Hum. Neurosci.",
-   "DOI": "10.3389/fnhum.2016.00604",
-   "citationKey": "crosseMultivariateTemporalResponse2016",
-   "url": "http://journal.frontiersin.org/article/10.3389/fnhum.2016.00604/full",
-   "ISSN": "1662-5161",
-   "shortTitle": "The Multivariate Temporal Response Function (mTRF) Toolbox",
-   "language": "en",
-   "tags": [
-    "method: eeg",
-    "project: GPmTRF",
-    "stance: supports: mtrf-baseline",
-    "status: key-reference",
-    "topic: trf-methodology"
-   ],
-   "collections": [
-    "BUDY4VK9"
-   ]
-  },
-  {
    "key": "6FJD2KFZ",
    "itemType": "journalArticle",
    "title": "Computational Models of Auditory Scene Analysis: A Review",
@@ -2583,6 +4264,87 @@
    "ISSN": "1662-453X",
    "shortTitle": "Computational Models of Auditory Scene Analysis",
    "language": "en",
+   "tags": [
+    "method: review",
+    "project: background",
+    "status: cite-candidate",
+    "topic: auditory-scene-analysis"
+   ],
+   "collections": []
+  },
+  {
+   "key": "DIZ25MAV",
+   "itemType": "journalArticle",
+   "title": "The Multivariate Temporal Response Function (mTRF) Toolbox: A MATLAB Toolbox for Relating Neural Signals to Continuous Stimuli",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Michael J.",
+     "lastName": "Crosse"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Giovanni M.",
+     "lastName": "Di Liberto"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Adam",
+     "lastName": "Bednar"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Edmund C.",
+     "lastName": "Lalor"
+    }
+   ],
+   "publicationTitle": "Frontiers in Human Neuroscience",
+   "date": "2016-11",
+   "volume": "10",
+   "DOI": "10.3389/fnhum.2016.00604",
+   "citationKey": "crosseMultivariateTemporalResponse2016",
+   "ISSN": "1662-5161",
+   "shortTitle": "The Multivariate Temporal Response Function (mTRF) Toolbox",
+   "language": "english",
+   "tags": [
+    "method: eeg",
+    "project: GPmTRF",
+    "stance: supports: mtrf-baseline",
+    "status: key-reference",
+    "topic: trf-methodology"
+   ],
+   "collections": []
+  },
+  {
+   "key": "RAINXZQ8",
+   "itemType": "journalArticle",
+   "title": "Computational Models of Auditory Scene Analysis: A Review",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Beáta T.",
+     "lastName": "Szabó"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Susan L.",
+     "lastName": "Denham"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "István",
+     "lastName": "Winkler"
+    }
+   ],
+   "abstractNote": "Auditory scene analysis (ASA) refers to the process (es) of parsing the complex acoustic input into auditory perceptual objects representing either physical sources or temporal sound patterns, such as melodies, which contributed to the sound waves reaching the ears. A number of new computational models accounting for some of the perceptual phenomena of ASA have been published recently. Here we provide a theoretically motivated review of these computational models, aiming to relate their guiding principles to the central issues of the theoretical framework of ASA. Specifically, we ask how they achieve the grouping and separation of sound elements and whether they implement some form of competition between alternative interpretations of the sound input. We consider the extent to which they include predictive processes, as important current theories suggest that perception is inherently predictive, and also how they have been evaluated. We conclude that current computational models of ASA are fragmentary in the sense that rather than providing general competing interpretations of ASA, they focus on assessing the utility of specific processes (or algorithms) for finding the causes of the complex acoustic signal. This leaves open the possibility for integrating complementary aspects of the models into a more comprehensive theory of ASA.",
+   "publicationTitle": "Frontiers in Neuroscience",
+   "date": "2016-11",
+   "volume": "10",
+   "DOI": "10.3389/fnins.2016.00524",
+   "citationKey": "szaboComputationalModelsAuditory2016",
+   "ISSN": "1662-453X",
+   "shortTitle": "Computational Models of Auditory Scene Analysis",
+   "language": "english",
    "tags": [
     "method: review",
     "project: background",
@@ -2637,6 +4399,78 @@
    "collections": [
     "9LJ8YV5H"
    ]
+  },
+  {
+   "key": "Y7JTWM6W",
+   "itemType": "journalArticle",
+   "title": "Cortical tracking of hierarchical linguistic structures in connected speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Nai",
+     "lastName": "Ding"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Lucia",
+     "lastName": "Melloni"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Hang",
+     "lastName": "Zhang"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Xing",
+     "lastName": "Tian"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "David",
+     "lastName": "Poeppel"
+    }
+   ],
+   "publicationTitle": "Nature Neuroscience",
+   "date": "2016-01",
+   "volume": "19",
+   "issue": "1",
+   "pages": "158–164",
+   "DOI": "10.1038/nn.4186",
+   "citationKey": "dingCorticalTrackingHierarchical2016",
+   "ISSN": "1097-6256, 1546-1726",
+   "language": "english",
+   "tags": [
+    "method: meg",
+    "project: thesis",
+    "status: must-read",
+    "topic: cortical-tracking",
+    "topic: hierarchical-structure"
+   ],
+   "collections": []
+  },
+  {
+   "key": "YQMBXWB2",
+   "itemType": "journalArticle",
+   "title": "A Primer on Neural Network Models for Natural Language Processing",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Yoav",
+     "lastName": "Goldberg"
+    }
+   ],
+   "date": "2016",
+   "citationKey": "goldbergPrimerNeuralNetwork",
+   "tags": [
+    "method: review",
+    "project: background",
+    "status: key-reference",
+    "topic: computational-linguistics",
+    "topic: neural-network",
+    "topic: nlp"
+   ],
+   "collections": []
   },
   {
    "key": "PZB75XY2",
@@ -2704,6 +4538,41 @@
    ]
   },
   {
+   "key": "2FM3CFKL",
+   "itemType": "book",
+   "title": "Trask's historical linguistics",
+   "creators": [
+    {
+     "creatorType": "editor",
+     "firstName": "Robert McColl",
+     "lastName": "Millar"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "R. L.",
+     "lastName": "Trask"
+    }
+   ],
+   "abstractNote": "\"Trask's Historical Linguistics is an approachable and engaging introduction to historical linguistics - the study of language change over time. This third edition discusses language change, linguistic reconstruction, the birth and death of languages using language examples from around the world. Updated chapters on morphological change and the latest developments in sociolinguistic explanations of variation and change, as well as a brand new companion website with materials for both professors and students, make this third edition of Trask's Historical Linguistics indispensable for all students of language, linguistics and related disciplines\"--",
+   "edition": "3rd Edition",
+   "date": "2015",
+   "publisher": "Routledge",
+   "place": "New York",
+   "numPages": "391",
+   "ISBN": "978-0-415-70657-5",
+   "citationKey": "millarTrasksHistoricalLinguistics2015",
+   "language": "en",
+   "tags": [
+    "Comparative linguistics",
+    "Historical linguistics",
+    "LANGUAGE ARTS & DISCIPLINES / General",
+    "LANGUAGE ARTS & DISCIPLINES / Linguistics / Historical & Comparative"
+   ],
+   "collections": [
+    "YK6SHAT8"
+   ]
+  },
+  {
    "key": "38KYT37M",
    "itemType": "bookSection",
    "title": "Linguistic diversityand universals",
@@ -2747,6 +4616,48 @@
    "collections": [
     "UATTW3FY"
    ]
+  },
+  {
+   "key": "AFSKDRHW",
+   "itemType": "bookSection",
+   "title": "Linguistic diversityand universals",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Balthasar",
+     "lastName": "Bickel"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "N. J.",
+     "lastName": "Enfield"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Paul",
+     "lastName": "Kockelman"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Jack",
+     "lastName": "Sidnell"
+    }
+   ],
+   "bookTitle": "The Cambridge Handbook of Linguistic Anthropology",
+   "edition": "1",
+   "date": "2014-09",
+   "publisher": "Cambridge University Press",
+   "pages": "102–127",
+   "ISBN": "978-1-139-34287-2 978-1-107-03007-7",
+   "DOI": "10.1017/CBO9781139342872.006",
+   "citationKey": "bickelLinguisticDiversityandUniversals2014",
+   "language": "english",
+   "tags": [
+    "topic: language-evolution",
+    "topic: linguistic-diversity",
+    "topic: typology"
+   ],
+   "collections": []
   },
   {
    "key": "NJJ6NDPD",
@@ -2802,6 +4713,55 @@
    ]
   },
   {
+   "key": "LW96BC9M",
+   "itemType": "journalArticle",
+   "title": "Language evolution: Syntax before phonology?",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Katie",
+     "lastName": "Collier"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Balthasar",
+     "lastName": "Bickel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Carel P.",
+     "lastName": "Van Schaik"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marta B.",
+     "lastName": "Manser"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simon W.",
+     "lastName": "Townsend"
+    }
+   ],
+   "abstractNote": "Phonology and syntax represent two layers of sound combination central to language's expressive power. Comparative animal studies represent one approach to understand the origins of these combinatorial layers. Traditionally, phonology, where meaningless sounds form words, has been considered a simpler combination than syntax, and thus should be more common in animals. A linguistically informed review of animal call sequences demonstrates that phonology in animal vocal systems is rare, whereas syntax is more widespread. In the light of this and the absence of phonology in some languages, we hypothesize that syntax, present in all languages, evolved before phonology.",
+   "publicationTitle": "Proceedings of the Royal Society B: Biological Sciences",
+   "date": "2014-08",
+   "volume": "281",
+   "issue": "1788",
+   "pages": "20140263",
+   "DOI": "10.1098/rspb.2014.0263",
+   "citationKey": "collierLanguageEvolutionSyntax2014",
+   "ISSN": "0962-8452, 1471-2954",
+   "shortTitle": "Language evolution",
+   "language": "english",
+   "tags": [
+    "topic: language-evolution",
+    "topic: phonology",
+    "topic: syntax"
+   ],
+   "collections": []
+  },
+  {
    "key": "GSMCVKCW",
    "itemType": "journalArticle",
    "title": "The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo",
@@ -2833,7 +4793,7 @@
    ]
   },
   {
-   "key": "YB7J3Y7D",
+   "key": "DZ4A5BNU",
    "itemType": "journalArticle",
    "title": "Nonlinear Modelling and Control using Gaussian Processes",
    "creators": [
@@ -2845,16 +4805,14 @@
    ],
    "date": "2014",
    "citationKey": "mchutchonNonlinearModellingControl",
-   "language": "en",
+   "language": "english",
    "tags": [
     "project: GPmTRF",
     "status: cite-candidate",
     "topic: gaussian-process",
     "topic: kernel-methods"
    ],
-   "collections": [
-    "8VPRW9X2"
-   ]
+   "collections": []
   },
   {
    "key": "J4LI3F6U",
@@ -2878,6 +4836,68 @@
    "collections": [
     "UATTW3FY"
    ]
+  },
+  {
+   "key": "6WAPGAIS",
+   "itemType": "journalArticle",
+   "title": "Distributional Typology: Statistical inquiries into the dynamics of linguistic diversity",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Balthasar",
+     "lastName": "Bickel"
+    }
+   ],
+   "abstractNote": "Over the past two decades, linguistic typology has been moving increasingly away from its original goal of classifying languages into ideal types that would be constrained by categorical universals. What has been emerging as a new paradigm instead starts from the distribution of structures in the world, asking “what's where why?” I present here a concrete approach to this question, called `Distributional Typology'. The approach starts from causal theories on the forces that affect language change, from processing preferences to the historical contingencies of language contact. The predictions of these theories can then be tested against fine-grained matrices of cross-linguistic diversity, using statistical methods for estimating diachronic trends from synchronic distributions.",
+   "date": "2013",
+   "citationKey": "bickelDistributionalTypologyStatistical2013",
+   "language": "english",
+   "tags": [
+    "topic: linguistic-diversity",
+    "topic: typology"
+   ],
+   "collections": []
+  },
+  {
+   "key": "5PRVE9AH",
+   "itemType": "journalArticle",
+   "title": "Distributed Representations of Words and Phrases and their Compositionality",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Tomas",
+     "lastName": "Mikolov"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Ilya",
+     "lastName": "Sutskever"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kai",
+     "lastName": "Chen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Greg S",
+     "lastName": "Corrado"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jeff",
+     "lastName": "Dean"
+    }
+   ],
+   "abstractNote": "The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling.",
+   "date": "2013",
+   "citationKey": "mikolovDistributedRepresentationsWords",
+   "language": "english",
+   "tags": [
+    "status: foundational",
+    "topic: word-embeddings"
+   ],
+   "collections": []
   },
   {
    "key": "32TZ2LWA",
@@ -2954,6 +4974,88 @@
    ]
   },
   {
+   "key": "CVX7IYBF",
+   "itemType": "journalArticle",
+   "title": "Distinctive signatures of recursion",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Maurício Dias",
+     "lastName": "Martins"
+    }
+   ],
+   "abstractNote": "Although recursion has been hypothesized to be a necessary capacity for the evolution of language, the multiplicity of definitions being used has undermined the broader interpretation of empirical results. I propose that only a definition focused on representational abilities allows the prediction of specific behavioural traits that enable us to distinguish recursion from non-recursive iteration and from hierarchical embedding: only subjects able to represent recursion, i.e. to represent different hierarchical dependencies (related by parenthood) with the same set of rules, are able to generalize and produce new levels of embedding beyond those specified a priori (in the algorithm or in the input). The ability to use such representations may be advantageous in several domains: action sequencing, problem-solving, spatial navigation, social navigation and for the emergence of conventionalized communication systems. The ability to represent contiguous hierarchical levels with the same rules may lead subjects to expect unknown levels and constituents to behave similarly, and this prior knowledge may bias learning positively. Finally, a new paradigm to test for recursion is presented. Preliminary results suggest that the ability to represent recursion in the spatial domain recruits both visual and verbal resources. Implications regarding language evolution are discussed.",
+   "publicationTitle": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+   "date": "2012-07",
+   "volume": "367",
+   "issue": "1598",
+   "pages": "2055–2064",
+   "DOI": "10.1098/rstb.2012.0097",
+   "citationKey": "martinsDistinctiveSignaturesRecursion2012a",
+   "ISSN": "0962-8436, 1471-2970",
+   "language": "english",
+   "tags": [
+    "topic: language-evolution",
+    "topic: recursion"
+   ],
+   "collections": []
+  },
+  {
+   "key": "ED6CU7YR",
+   "itemType": "journalArticle",
+   "title": "Cortical oscillations and sensory predictions",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Luc H.",
+     "lastName": "Arnal"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Anne-Lise",
+     "lastName": "Giraud"
+    }
+   ],
+   "publicationTitle": "Trends in Cognitive Sciences",
+   "date": "2012-07",
+   "volume": "16",
+   "issue": "7",
+   "pages": "390–398",
+   "DOI": "10.1016/j.tics.2012.05.003",
+   "citationKey": "arnalCorticalOscillationsSensory2012a",
+   "ISSN": "13646613",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "project: GPmTRF",
+    "project: thesis",
+    "status: key-reference",
+    "topic: oscillatory-entrainment",
+    "topic: predictive-coding"
+   ],
+   "collections": []
+  },
+  {
+   "key": "BCGPAI8X",
+   "itemType": "book",
+   "title": "A Computable Universe",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Sir Roger Penrose",
+     "lastName": "Hector Zenil"
+    }
+   ],
+   "date": "2012",
+   "citationKey": "computableuniverse_zenil_2013",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: computation-foundations"
+   ],
+   "collections": []
+  },
+  {
    "key": "25UNICG7",
    "itemType": "book",
    "title": "A Computable Universe",
@@ -2974,7 +5076,41 @@
    "collections": []
   },
   {
-   "key": "WTHCGJR4",
+   "key": "SVF5YGMV",
+   "itemType": "journalArticle",
+   "title": "Predictive coding",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Yanping",
+     "lastName": "Huang"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Rajesh P. N.",
+     "lastName": "Rao"
+    }
+   ],
+   "abstractNote": "Abstract Predictive coding is a unifying framework for understanding redundancy reduction and efficient coding in the nervous system. By transmitting only the unpredicted portions of an incoming sensory signal, predictive coding allows the nervous system to reduce redundancy and make full use of the limited dynamic range of neurons. Starting with the hypothesis of efficient coding as a design principle in the sensory system, predictive coding provides a functional explanation for a range of neural responses and many aspects of brain organization. The lateral and temporal antagonism in receptive fields in the retina and lateral geniculate nucleus occur naturally as a consequence of predictive coding of natural images. In the higher visual system, predictive coding provides an explanation for oriented receptive fields and contextual effects as well as the hierarchical reciprocally connected organization of the cortex. Predictive coding has also been found to be consistent with a variety of neurophysiological and psychophysical data obtained from different areas of the brain. WIREs Cogni Sci 2011 2 580–593 DOI: 10.1002/wcs.142 This article is categorized under: Computer Science > Neural Networks",
+   "publicationTitle": "WIREs Cognitive Science",
+   "date": "2011-09",
+   "volume": "2",
+   "issue": "5",
+   "pages": "580–593",
+   "DOI": "10.1002/wcs.142",
+   "citationKey": "huangPredictiveCoding2011",
+   "ISSN": "1939-5078, 1939-5086",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "project: GPmTRF",
+    "status: foundational",
+    "topic: predictive-coding"
+   ],
+   "collections": []
+  },
+  {
+   "key": "94969WF6",
    "itemType": "journalArticle",
    "title": "A Bayesian foundation for individual learning under uncertainty",
    "creators": [
@@ -2988,12 +5124,10 @@
    "publicationTitle": "Frontiers in Human Neuroscience",
    "date": "2011",
    "volume": "5",
-   "journalAbbreviation": "Front. Hum. Neurosci.",
    "DOI": "10.3389/fnhum.2011.00039",
    "citationKey": "mathysBayesianFoundationIndividual2011",
-   "url": "http://journal.frontiersin.org/article/10.3389/fnhum.2011.00039/abstract",
    "ISSN": "16625161",
-   "language": "en",
+   "language": "english",
    "tags": [
     "project: GPmTRF",
     "project: background",
@@ -3003,9 +5137,42 @@
     "topic: predictive-coding",
     "topic: uncertainty-learning"
    ],
-   "collections": [
-    "PWWPG7N8"
-   ]
+   "collections": []
+  },
+  {
+   "key": "NQK3M4BR",
+   "itemType": "conferencePaper",
+   "title": "Kalman filtering and smoothing solutions to temporal Gaussian process regression models",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jouni",
+     "lastName": "Hartikainen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simo",
+     "lastName": "Sarkka"
+    }
+   ],
+   "abstractNote": "In this paper, we show how temporal (i.e., time-series) Gaussian process regression models in machine learning can be reformulated as linear-Gaussian state space models, which can be solved exactly with classical Kalman filtering theory. The result is an efficient non-parametric learning algorithm, whose computational complexity grows linearly with respect to number of observations. We show how the reformulation can be done for Mat´ern family of covariance functions analytically and for squared exponential covariance function by applying spectral Taylor series approximation. Advantages of the proposed approach are illustrated with two numerical experiments.",
+   "proceedingsTitle": "2010 IEEE International Workshop on Machine Learning for Signal Processing",
+   "publisher": "IEEE",
+   "place": "Kittila, Finland",
+   "date": "2010-08",
+   "pages": "379–384",
+   "DOI": "10.1109/MLSP.2010.5589113",
+   "ISBN": "978-1-4244-7875-0",
+   "citationKey": "hartikainenKalmanFilteringSmoothing2010",
+   "language": "english",
+   "tags": [
+    "project: GPmTRF",
+    "stance: supports: matern-kalman-inference",
+    "status: key-reference",
+    "topic: gaussian-process",
+    "topic: kalman-filter"
+   ],
+   "collections": []
   },
   {
    "key": "TQ6LTQFB",
@@ -3038,6 +5205,33 @@
    ]
   },
   {
+   "key": "AMGLLNV8",
+   "itemType": "book",
+   "title": "Greek: a history of the language and its speakers",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Geoffrey C.",
+     "lastName": "Horrocks"
+    }
+   ],
+   "edition": "2nd ed",
+   "date": "2010",
+   "publisher": "Wiley-Blackwell",
+   "place": "Malden (Mass.) Oxford Chichester (UK)",
+   "ISBN": "978-1-4051-3415-6",
+   "citationKey": "horrocksGreekHistoryLanguage2010",
+   "shortTitle": "Greek",
+   "language": "english",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics",
+    "topic: historical_linguistics"
+   ],
+   "collections": []
+  },
+  {
    "key": "ZFCQ7P3E",
    "itemType": "book",
    "title": "Greek: a history of the language and its speakers",
@@ -3063,11 +5257,60 @@
     "topic: historical_linguistics"
    ],
    "collections": [
-    "CWAJKGVH"
+    "CWAJKGVH",
+    "XF9BMQ52"
    ]
   },
   {
-   "key": "TU9YUS38",
+   "key": "ACZUQYB7",
+   "itemType": "journalArticle",
+   "title": "Bayesian model selection for group studies",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Klaas Enno",
+     "lastName": "Stephan"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Will D.",
+     "lastName": "Penny"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jean",
+     "lastName": "Daunizeau"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Rosalyn J.",
+     "lastName": "Moran"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Karl J.",
+     "lastName": "Friston"
+    }
+   ],
+   "publicationTitle": "NeuroImage",
+   "date": "2009-07",
+   "volume": "46",
+   "issue": "4",
+   "pages": "1004–1017",
+   "DOI": "10.1016/j.neuroimage.2009.03.025",
+   "citationKey": "stephanBayesianModelSelection2009",
+   "ISSN": "10538119",
+   "language": "english",
+   "tags": [
+    "project: GPmTRF",
+    "status: key-reference",
+    "topic: hierarchical-bayes",
+    "topic: model-recovery"
+   ],
+   "collections": []
+  },
+  {
+   "key": "G4BIWJ93",
    "itemType": "book",
    "title": "Gaussian processes for machine learning",
    "creators": [
@@ -3087,10 +5330,9 @@
    "date": "2008",
    "publisher": "MIT Press",
    "place": "Cambridge, Mass.",
-   "numPages": "248",
    "ISBN": "978-0-262-18253-9",
    "citationKey": "rasmussenGaussianProcessesMachine2008",
-   "language": "en",
+   "language": "english",
    "tags": [
     "method: review",
     "project: GPmTRF",
@@ -3100,9 +5342,31 @@
     "topic: gaussian-process",
     "topic: kernel-methods"
    ],
-   "collections": [
-    "R2CABLCD"
-   ]
+   "collections": []
+  },
+  {
+   "key": "VVGZRYQ2",
+   "itemType": "book",
+   "title": "An independent study guide to reading Greek",
+   "creators": [
+    {
+     "creatorType": "editor",
+     "name": "Joint association of classical teachers' Greek course"
+    }
+   ],
+   "edition": "2nd ed",
+   "date": "2008",
+   "publisher": "Cambridge university press",
+   "place": "Cambridge",
+   "ISBN": "978-0-521-69850-4",
+   "citationKey": "jointassociationofclassicalteachersgreekcourseIndependentStudyGuide2008",
+   "language": "english",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics"
+   ],
+   "collections": []
   },
   {
    "key": "VCJ2I3R3",
@@ -3127,8 +5391,34 @@
     "topic: classics"
    ],
    "collections": [
-    "CWAJKGVH"
+    "CWAJKGVH",
+    "XF9BMQ52"
    ]
+  },
+  {
+   "key": "7FM568ZD",
+   "itemType": "book",
+   "title": "The Regional Diversification of Latin 200 BC - AD 600",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "J. N.",
+     "lastName": "Adams"
+    }
+   ],
+   "abstractNote": "Classical Latin appears to be without regional dialects, yet Latin evolved in little more than a millennium into a variety of different languages (the Romance languages: Italian, French, Spanish, Portuguese etc.). Was regional diversity apparent from the earliest times, obscured perhaps by the standardisation of writing, or did some catastrophic event in late antiquity cause the language to vary? These questions have long intrigued Latinists and Romance philologists, struck by the apparent uniformity of Latin alongside the variety of Romance. This book, first published in 2007, establishes that Latin was never geographically uniform. The changing patterns of diversity and the determinants of variation are examined from the time of the early inscriptions of Italy, through to late antiquity and the beginnings of the Romance dialects in the western Roman provinces. This is the most comprehensive treatment ever undertaken of the regional diversification of Latin throughout its history in the Roman period.",
+   "edition": "1",
+   "date": "2007-12-13",
+   "publisher": "Cambridge University Press",
+   "ISBN": "978-0-521-88149-4 978-0-511-48297-7 978-1-107-68458-4",
+   "DOI": "10.1017/CBO9780511482977",
+   "citationKey": "adamsRegionalDiversificationLatin2007",
+   "url": "https://www.cambridge.org/core/product/identifier/9780511482977/type/book",
+   "language": "en",
+   "collections": [
+    "YEIMZRME"
+   ],
+   "tags": []
   },
   {
    "key": "GY57J8SS",
@@ -3176,6 +5466,79 @@
    ]
   },
   {
+   "key": "PU58XI8S",
+   "itemType": "journalArticle",
+   "title": "Biconvex sets and optimization with biconvex functions: a survey and extensions",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jochen",
+     "lastName": "Gorski"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Frank",
+     "lastName": "Pfeuffer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kathrin",
+     "lastName": "Klamroth"
+    }
+   ],
+   "abstractNote": "The problem of optimizing a biconvex function over a given (bi)convex or compact set frequently occurs in theory as well as in industrial applications, for example, in the field of multifacility location or medical image registration. Thereby, a function f : X × Y → R is called biconvex, if f (x, y) is convex in y for fixed x ∈ X , and f (x, y) is convex in x for fixed y ∈ Y . This paper presents a survey of existing results concerning the theory of biconvex sets and biconvex functions and gives some extensions. In particular, we focus on biconvex minimization problems and survey methods and algorithms for the constrained as well as for the unconstrained case. Furthermore, we state new theoretical results for the maximum of a biconvex function over biconvex sets.",
+   "publicationTitle": "Mathematical Methods of Operations Research",
+   "date": "2007-11",
+   "volume": "66",
+   "issue": "3",
+   "pages": "373–407",
+   "DOI": "10.1007/s00186-007-0161-1",
+   "citationKey": "gorskiBiconvexSetsOptimization2007",
+   "ISSN": "1432-2994, 1432-5217",
+   "shortTitle": "Biconvex sets and optimization with biconvex functions",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "project: background",
+    "stance: supports: als-fitting-method",
+    "status: read",
+    "topic: optimisation"
+   ],
+   "collections": []
+  },
+  {
+   "key": "TQKGGAUL",
+   "itemType": "journalArticle",
+   "title": "Word learning as Bayesian inference.",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Fei",
+     "lastName": "Xu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Joshua B.",
+     "lastName": "Tenenbaum"
+    }
+   ],
+   "abstractNote": "We apply a computational theory of concept learning based on Bayesian inference (Tenenbaum, 1999) to the problem of learning words from examples. The theory provides a framework for understanding how people can generalize meaningfully from just one or a few positive examples of a novel word, without assuming that words are mutually exclusive or map only onto basic-level categories. We also describe experiments with adults and children designed to evaluate the model.",
+   "publicationTitle": "Psychological Review",
+   "date": "2007",
+   "volume": "114",
+   "issue": "2",
+   "pages": "245–272",
+   "DOI": "10.1037/0033-295X.114.2.245",
+   "citationKey": "xuWordLearningBayesian2007",
+   "ISSN": "1939-1471, 0033-295X",
+   "language": "english",
+   "tags": [
+    "status: foundational",
+    "topic: bayesian-cognition"
+   ],
+   "collections": []
+  },
+  {
    "key": "49NUDCHG",
    "itemType": "journalArticle",
    "title": "Word learning as Bayesian inference.",
@@ -3210,6 +5573,35 @@
    "collections": [
     "VBNRVB7V"
    ]
+  },
+  {
+   "key": "G5JCMQ9Q",
+   "itemType": "book",
+   "title": "Time in ancient Greek literature",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Irene J. F.",
+     "lastName": "de Jong"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "René",
+     "lastName": "Nünlist"
+    }
+   ],
+   "series": "Studies in ancient Greek narrative",
+   "date": "2007",
+   "publisher": "Brill",
+   "place": "Leiden",
+   "ISBN": "978-90-04-16506-9",
+   "citationKey": "jongTimeAncientGreek2007",
+   "language": "english",
+   "tags": [
+    "status: read",
+    "topic: classics"
+   ],
+   "collections": []
   },
   {
    "key": "N33PWCR6",
@@ -3332,6 +5724,72 @@
    ]
   },
   {
+   "key": "ATTQ6QEY",
+   "itemType": "journalArticle",
+   "title": "Uncertainty, Neuromodulation, and Attention",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Angela J.",
+     "lastName": "Yu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Peter",
+     "lastName": "Dayan"
+    }
+   ],
+   "publicationTitle": "Neuron",
+   "date": "2005-05",
+   "volume": "46",
+   "issue": "4",
+   "pages": "681–692",
+   "DOI": "10.1016/j.neuron.2005.04.026",
+   "citationKey": "yuUncertaintyNeuromodulationAttention2005",
+   "ISSN": "08966273",
+   "language": "english",
+   "tags": [
+    "method: review",
+    "project: GPmTRF",
+    "project: background",
+    "stance: supports: surprisal-affects-kernel",
+    "status: read",
+    "topic: neuromodulation",
+    "topic: predictive-coding"
+   ],
+   "collections": []
+  },
+  {
+   "key": "6YHEILME",
+   "itemType": "journalArticle",
+   "title": "The Faculty of Language: What Is It, Who Has It, and How Did It Evolve?",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Marc D",
+     "lastName": "Hauser"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Noam",
+     "lastName": "Chomsky"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "W Tecumseh",
+     "lastName": "Fitch"
+    }
+   ],
+   "date": "2002",
+   "citationKey": "hauserFacultyLanguageWhat",
+   "language": "english",
+   "tags": [
+    "topic: faculty-of-language",
+    "topic: language-evolution"
+   ],
+   "collections": []
+  },
+  {
    "key": "EPYTDKG9",
    "itemType": "journalArticle",
    "title": "The Faculty of Language: What Is It, Who Has It, and How Did It Evolve?",
@@ -3395,6 +5853,40 @@
    ]
   },
   {
+   "key": "EGKTH9LS",
+   "itemType": "journalArticle",
+   "title": "ON THE PHONETIC BASES OF VOWEL-CONSONANT COORDINATION IN ITALIAN : A STUDY OF STRESS AND \"COMPENSATORY SHORTENING\"",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Mario",
+     "lastName": "Vayra"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Cinzia",
+     "lastName": "Avesani"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Carol A",
+     "lastName": "Fowler"
+    }
+   ],
+   "abstractNote": "This study focuses on the temporal organization of consonants and vowels in Italian, ostensibly a syllable-timed language. It aims to reveal the articulatory origins of a class of acoustic shortening phenomena known as \"compensatory.” We compared durations and first formant trajectories of /a/ in two compensatory contexts: 1) stressed /a/ in open vs. closed syllables; 2) stressed /a/ followed by one or two unstressed syllables. In addition, we measured /a/ in a prosodically different shortening context: stressed vs. unstressed position. We found that in Italian (as in English) shortening of a vowel before a tautosyllabic consonant is due to truncation by the closing gesture for the consonant. However, shortening due to destressing involves global reduction of the opening gesture for the vowel, evident from the beginning of the gesture. The similarity between these findings and those on English suggests a fundamental similarity in this aspect of their timing profiles.",
+   "date": "1999",
+   "citationKey": "vayraPHONETICBASESVOWELCONSONANT",
+   "language": "english",
+   "tags": [
+    "method: behavioural",
+    "project: thesis",
+    "status: key-reference",
+    "topic: italian-prosody",
+    "topic: phoneme-level"
+   ],
+   "collections": []
+  },
+  {
    "key": "7ZJHLQUC",
    "itemType": "journalArticle",
    "title": "ON THE PHONETIC BASES OF VOWEL-CONSONANT COORDINATION IN ITALIAN : A STUDY OF STRESS AND \"COMPENSATORY SHORTENING\"",
@@ -3431,6 +5923,53 @@
    ]
   },
   {
+   "key": "RE467NHU",
+   "itemType": "book",
+   "title": "Historical linguistics: an introduction",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Lyle",
+     "lastName": "Campbell"
+    }
+   ],
+   "edition": "1st MIT Press ed",
+   "date": "1999",
+   "publisher": "MIT Press",
+   "place": "Cambridge, Mass",
+   "numPages": "396",
+   "ISBN": "978-0-262-53159-7",
+   "citationKey": "campbellHistoricalLinguisticsIntroduction1999",
+   "shortTitle": "Historical linguistics",
+   "language": "en",
+   "tags": [
+    "Historical linguistics"
+   ],
+   "collections": [
+    "YK6SHAT8"
+   ]
+  },
+  {
+   "key": "UXKLKJ5Y",
+   "itemType": "journalArticle",
+   "title": "Statistical Methods and Linguistics",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Steven",
+     "lastName": "Abney"
+    }
+   ],
+   "date": "1996",
+   "citationKey": "abneyStatisticalMethodsLinguistics",
+   "language": "english",
+   "tags": [
+    "topic: computational-linguistics",
+    "topic: probabilistic-grammar"
+   ],
+   "collections": []
+  },
+  {
    "key": "TSEABIQM",
    "itemType": "journalArticle",
    "title": "Statistical Methods and Linguistics",
@@ -3451,6 +5990,27 @@
    "collections": [
     "3ZTQUWJ5"
    ]
+  },
+  {
+   "key": "JJ5KY58Z",
+   "itemType": "book",
+   "title": "NATURE AND THE GREEKS and SCIENCE AND HUMANISM",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Erwin",
+     "lastName": "Schrödinger"
+    }
+   ],
+   "date": "1954",
+   "citationKey": "schrodingerNATUREGREEKSSCIENCE",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics",
+    "topic: history-of-science"
+   ],
+   "collections": []
   },
   {
    "key": "LUXLUGBB",
@@ -3497,6 +6057,26 @@
    "collections": []
   },
   {
+   "key": "4JAHPX5V",
+   "itemType": "book",
+   "title": "The Greeks and the Irrational",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "E. R.",
+     "lastName": "Dodds"
+    }
+   ],
+   "date": "1951",
+   "citationKey": "doddsGreeksIrrational",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics"
+   ],
+   "collections": []
+  },
+  {
    "key": "HQNV538R",
    "itemType": "book",
    "title": "The Greeks and the Irrational",
@@ -3517,6 +6097,27 @@
    "collections": [
     "CWAJKGVH"
    ]
+  },
+  {
+   "key": "LI576NQM",
+   "itemType": "book",
+   "title": "Greek Poetry for Everyman",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "F.L.",
+     "lastName": "Lucas"
+    }
+   ],
+   "date": "1951",
+   "citationKey": "lucasGreekPoetryEveryman",
+   "tags": [
+    "project: background",
+    "status: read",
+    "topic: classics",
+    "topic: oral-poetry"
+   ],
+   "collections": []
   },
   {
    "key": "MU3IK76R",
@@ -3690,54 +6291,6 @@
    ]
   },
   {
-   "key": "LQ2YCDPM",
-   "itemType": "journalArticle",
-   "title": "Proactive Sensing of Periodic and Aperiodic Auditory Patterns",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Johanna M.",
-     "lastName": "Rimmele"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Benjamin",
-     "lastName": "Morillon"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "David",
-     "lastName": "Poeppel"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Luc H.",
-     "lastName": "Arnal"
-    }
-   ],
-   "publicationTitle": "Trends in Cognitive Sciences",
-   "date": "10/2018",
-   "volume": "22",
-   "issue": "10",
-   "pages": "870-882",
-   "journalAbbreviation": "Trends in Cognitive Sciences",
-   "DOI": "10.1016/j.tics.2018.08.003",
-   "citationKey": "rimmeleProactiveSensingPeriodic2018a",
-   "url": "https://linkinghub.elsevier.com/retrieve/pii/S136466131830192X",
-   "ISSN": "13646613",
-   "language": "en",
-   "tags": [
-    "method: behavioural",
-    "project: GPmTRF",
-    "project: thesis",
-    "status: key-reference",
-    "topic: auditory-patterns",
-    "topic: oscillatory-entrainment",
-    "topic: predictive-coding"
-   ],
-   "collections": []
-  },
-  {
    "key": "44AZN5YE",
    "itemType": "journalArticle",
    "title": "Cortical tracking of hierarchical linguistic structures in connected speech",
@@ -3828,83 +6381,6 @@
    ]
   },
   {
-   "key": "S98TSPLL",
-   "itemType": "journalArticle",
-   "title": "Predictive coding",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Yanping",
-     "lastName": "Huang"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Rajesh P. N.",
-     "lastName": "Rao"
-    }
-   ],
-   "abstractNote": "Abstract\n            \n              Predictive coding is a unifying framework for understanding redundancy reduction and efficient coding in the nervous system. By transmitting only the unpredicted portions of an incoming sensory signal, predictive coding allows the nervous system to reduce redundancy and make full use of the limited dynamic range of neurons. Starting with the hypothesis of efficient coding as a\n              design principle\n              in the sensory system, predictive coding provides a functional explanation for a range of neural responses and many aspects of brain organization. The lateral and temporal antagonism in receptive fields in the retina and lateral geniculate nucleus occur naturally as a consequence of predictive coding of natural images. In the higher visual system, predictive coding provides an explanation for oriented receptive fields and contextual effects as well as the hierarchical reciprocally connected organization of the cortex. Predictive coding has also been found to be consistent with a variety of neurophysiological and psychophysical data obtained from different areas of the brain.\n              WIREs Cogni Sci\n              2011 2 580–593 DOI: 10.1002/wcs.142\n            \n            \n              This article is categorized under:\n              \n                \n                  Computer Science > Neural Networks",
-   "publicationTitle": "WIREs Cognitive Science",
-   "date": "09/2011",
-   "volume": "2",
-   "issue": "5",
-   "pages": "580-593",
-   "journalAbbreviation": "WIRES Cognitive Science",
-   "DOI": "10.1002/wcs.142",
-   "citationKey": "huangPredictiveCoding2011",
-   "url": "https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.142",
-   "ISSN": "1939-5078, 1939-5086",
-   "language": "en",
-   "tags": [
-    "method: review",
-    "project: GPmTRF",
-    "status: foundational",
-    "topic: predictive-coding"
-   ],
-   "collections": [
-    "PWWPG7N8"
-   ]
-  },
-  {
-   "key": "DNZAAUCC",
-   "itemType": "conferencePaper",
-   "title": "Kalman filtering and smoothing solutions to temporal Gaussian process regression models",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Jouni",
-     "lastName": "Hartikainen"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Simo",
-     "lastName": "Sarkka"
-    }
-   ],
-   "abstractNote": "In this paper, we show how temporal (i.e., time-series) Gaussian process regression models in machine learning can be reformulated as linear-Gaussian state space models, which can be solved exactly with classical Kalman ﬁltering theory. The result is an efﬁcient non-parametric learning algorithm, whose computational complexity grows linearly with respect to number of observations. We show how the reformulation can be done for Mat´ern family of covariance functions analytically and for squared exponential covariance function by applying spectral Taylor series approximation. Advantages of the proposed approach are illustrated with two numerical experiments.",
-   "proceedingsTitle": "2010 IEEE International Workshop on Machine Learning for Signal Processing",
-   "conferenceName": "2010 IEEE International Workshop on Machine Learning for Signal Processing (MLSP)",
-   "publisher": "IEEE",
-   "place": "Kittila, Finland",
-   "date": "08/2010",
-   "pages": "379-384",
-   "DOI": "10.1109/MLSP.2010.5589113",
-   "ISBN": "978-1-4244-7875-0",
-   "citationKey": "hartikainenKalmanFilteringSmoothing2010",
-   "url": "http://ieeexplore.ieee.org/document/5589113/",
-   "language": "en",
-   "tags": [
-    "project: GPmTRF",
-    "stance: supports: matern-kalman-inference",
-    "status: key-reference",
-    "topic: gaussian-process",
-    "topic: kalman-filter"
-   ],
-   "collections": [
-    "9LJ8YV5H"
-   ]
-  },
-  {
    "key": "SL6KM722",
    "itemType": "journalArticle",
    "title": "The speech neuroprosthesis",
@@ -3989,7 +6465,7 @@
    "language": "en",
    "tags": [
     "method: formal-comparison",
-    "project: GPmTRF",
+    "project: thesis",
     "topic: hierarchical-structure"
    ],
    "collections": [
@@ -4035,58 +6511,6 @@
    ],
    "collections": [
     "TPC6Q2K8"
-   ]
-  },
-  {
-   "key": "5U7LKPPB",
-   "itemType": "journalArticle",
-   "title": "Bayesian model selection for group studies",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Klaas Enno",
-     "lastName": "Stephan"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Will D.",
-     "lastName": "Penny"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Jean",
-     "lastName": "Daunizeau"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Rosalyn J.",
-     "lastName": "Moran"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Karl J.",
-     "lastName": "Friston"
-    }
-   ],
-   "publicationTitle": "NeuroImage",
-   "date": "07/2009",
-   "volume": "46",
-   "issue": "4",
-   "pages": "1004-1017",
-   "journalAbbreviation": "NeuroImage",
-   "DOI": "10.1016/j.neuroimage.2009.03.025",
-   "citationKey": "stephanBayesianModelSelection2009",
-   "url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811909002638",
-   "ISSN": "10538119",
-   "language": "en",
-   "tags": [
-    "project: GPmTRF",
-    "status: key-reference",
-    "topic: hierarchical-bayes",
-    "topic: model-recovery"
-   ],
-   "collections": [
-    "9LJ8YV5H"
    ]
   },
   {
@@ -4149,127 +6573,6 @@
    "collections": [
     "NS9BTVXH",
     "T8CVTTA9"
-   ]
-  },
-  {
-   "key": "JF5T29T4",
-   "itemType": "journalArticle",
-   "title": "Variational Latent Gaussian Process for Recovering Single-Trial Dynamics from Population Spike Trains",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Yuan",
-     "lastName": "Zhao"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Il Memming",
-     "lastName": "Park"
-    }
-   ],
-   "abstractNote": "When governed by underlying low-dimensional dynamics, the interdependence of simultaneously recorded population of neurons can be explained by a small number of shared factors, or a low-dimensional trajectory. Recovering these latent trajectories, particularly from single-trial population recordings, may help us understand the dynamics that drive neural computation. However, due to the biophysical constraints and noise in the spike trains, inferring trajectories from data is a challenging statistical problem in general. Here, we propose a practical and eﬃcient inference method, called the variational latent Gaussian process (vLGP). The vLGP combines a generative model with a history-dependent point process observation together with a smoothness prior on the latent trajectories. The vLGP improves upon earlier methods for recovering latent trajectories, which assume either observation models inappropriate for point processes or linear dynamics. We compare and validate vLGP on both simulated datasets and population recordings from the primary visual cortex. In the V1 dataset, we ﬁnd that vLGP achieves substantially higher performance than previous methods for predicting omitted spike trains, as well as capturing both the toroidal topology of visual stimuli space, and the noise-correlation. These results show that vLGP is a robust method with a potential to reveal hidden neural dynamics from large-scale neural recordings.",
-   "publicationTitle": "Neural Computation",
-   "date": "05/2017",
-   "volume": "29",
-   "issue": "5",
-   "pages": "1293-1316",
-   "journalAbbreviation": "Neural Computation",
-   "DOI": "10.1162/NECO_a_00953",
-   "citationKey": "zhaoVariationalLatentGaussian2017",
-   "url": "http://arxiv.org/abs/1604.03053",
-   "ISSN": "0899-7667, 1530-888X",
-   "language": "en",
-   "tags": [
-    "project: GPmTRF",
-    "status: key-reference",
-    "topic: gaussian-process",
-    "topic: kalman-filter"
-   ],
-   "collections": [
-    "9LJ8YV5H"
-   ]
-  },
-  {
-   "key": "4P6LQV22",
-   "itemType": "journalArticle",
-   "title": "Uncertainty, Neuromodulation, and Attention",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Angela J.",
-     "lastName": "Yu"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Peter",
-     "lastName": "Dayan"
-    }
-   ],
-   "publicationTitle": "Neuron",
-   "date": "05/2005",
-   "volume": "46",
-   "issue": "4",
-   "pages": "681-692",
-   "journalAbbreviation": "Neuron",
-   "DOI": "10.1016/j.neuron.2005.04.026",
-   "citationKey": "yuUncertaintyNeuromodulationAttention2005",
-   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0896627305003624",
-   "ISSN": "08966273",
-   "language": "en",
-   "tags": [
-    "method: review",
-    "project: GPmTRF",
-    "project: background",
-    "stance: supports: surprisal-affects-kernel",
-    "status: read",
-    "topic: neuromodulation",
-    "topic: predictive-coding"
-   ],
-   "collections": [
-    "PWWPG7N8"
-   ]
-  },
-  {
-   "key": "6WCJZZ2J",
-   "itemType": "journalArticle",
-   "title": "Connectopic mapping with resting-state fMRI",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Koen V.",
-     "lastName": "Haak"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Andre F.",
-     "lastName": "Marquand"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Christian F.",
-     "lastName": "Beckmann"
-    }
-   ],
-   "abstractNote": "Brain regions are often topographically connected: nearby locations within one brain area connect with nearby locations in another area. Mapping these connection topographies, or ‘connectopies’ in short, is crucial for understanding how information is processed in the brain. Here, we propose principled, fully data-driven methods for mapping connectopies using functional magnetic resonance imaging (fMRI) data acquired at rest by combining spectral embedding of voxel-wise connectivity ‘ﬁngerprints’ with a novel approach to spatial statistical inference. We apply the approach in human primary motor and visual cortex, and show that it can trace biologically plausible, overlapping connectopies in individual subjects that follow these regions' somatotopic and retinotopic maps. As a generic mechanism to perform inference over connectopies, the new spatial statistics approach enables rigorous statistical testing of hypotheses regarding the ﬁne-grained spatial proﬁle of functional connectivity and whether that proﬁle is different between subjects or between experimental conditions. The combined framework offers a fundamental alternative to existing approaches to investigating functional connectivity in the brain, from voxel- or seed-pair wise characterizations of functional association, towards a full, multivariate characterization of spatial topography.",
-   "publicationTitle": "NeuroImage",
-   "date": "04/2018",
-   "volume": "170",
-   "pages": "83-94",
-   "journalAbbreviation": "NeuroImage",
-   "DOI": "10.1016/j.neuroimage.2017.06.075",
-   "citationKey": "haakConnectopicMappingRestingstate2018",
-   "url": "https://linkinghub.elsevier.com/retrieve/pii/S1053811917305463",
-   "ISSN": "10538119",
-   "language": "en",
-   "tags": [
-    "method: fmri",
-    "project: GPmTRF",
-    "stance: supports: matern-over-se",
-    "status: read",
-    "topic: connectivity-mapping"
-   ],
-   "collections": [
-    "9LJ8YV5H"
    ]
   },
   {
@@ -4362,44 +6665,12 @@
    ]
   },
   {
-   "key": "LCMG74Z5",
-   "itemType": "journalArticle",
-   "title": "Two Distinct Neural Timescales for Predictive Speech Processing",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Peter W.",
-     "lastName": "Donhauser"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Sylvain",
-     "lastName": "Baillet"
-    }
-   ],
-   "abstractNote": "During speech listening, the brain could use contextual predictions to optimize sensory sampling and processing. We asked if such predictive processing is organized dynamically into separate oscillatory timescales. We trained a neural network that uses context to predict speech at the phoneme level. Using this model, we estimated contextual uncertainty and surprise of natural speech as factors to explain neurophysiological activity in human listeners. We show, ﬁrst, that speech-related activity is hierarchically organized into two timescales: fast responses (theta: 4–10 Hz), restricted to early auditory regions, and slow responses (delta: 0.5–4 Hz), dominating in downstream auditory regions. Neural activity in these bands is selectively modulated by predictions: the gain of early theta responses varies according to the contextual uncertainty of speech, while later delta responses are selective to surprising speech inputs. We conclude that theta sensory sampling is tuned to maximize expected information gain, while delta encodes only non-redundant information.",
-   "publicationTitle": "Neuron",
-   "date": "01/2020",
-   "volume": "105",
-   "issue": "2",
-   "pages": "385-393.e9",
-   "journalAbbreviation": "Neuron",
-   "DOI": "10.1016/j.neuron.2019.10.019",
-   "citationKey": "donhauserTwoDistinctNeural2020",
-   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0896627319308931",
-   "ISSN": "08966273",
-   "language": "en",
-   "tags": [
-    "method: meg",
-    "project: GPmTRF",
-    "status: key-reference",
-    "topic: oscillatory-entrainment",
-    "topic: phoneme-level",
-    "topic: predictive-coding"
-   ],
-   "collections": [
-    "D5UAEACJ"
-   ]
+   "key": "4MURFE7R",
+   "itemType": "bookSection",
+   "title": "Chapter 13.4 - Divergent transitions & non-centered priors: a real risk for my 6 NUTS fit",
+   "citationKey": "zotero-item-544",
+   "tags": [],
+   "collections": []
   },
   {
    "key": "7F2MF6DY",
