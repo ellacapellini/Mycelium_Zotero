@@ -1,5 +1,5 @@
 {
- "count": 162,
+ "count": 163,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -20,6 +20,11 @@
    "key": "U7HNT49E",
    "name": "Ancient Languages & Cultures",
    "parent": null
+  },
+  {
+   "key": "6LXC5JND",
+   "name": "Ancient Religion",
+   "parent": "U7HNT49E"
   },
   {
    "key": "T4NSSWA3",
@@ -122,9 +127,9 @@
    "parent": null
   },
   {
-   "key": "YEIMZRME",
+   "key": "C9CYGIN3",
    "name": "Latin",
-   "parent": "U7HNT49E"
+   "parent": "YEIMZRME"
   },
   {
    "key": "FXV67EVP",
@@ -200,6 +205,11 @@
    "key": "JFYZE585",
    "name": "Resource Competition & Bilingualism",
    "parent": "ZXZ2C8AN"
+  },
+  {
+   "key": "YEIMZRME",
+   "name": "Rome",
+   "parent": "U7HNT49E"
   },
   {
    "key": "SUSBYMYL",
@@ -4815,6 +4825,47 @@
    "collections": []
   },
   {
+   "key": "W42YT8LG",
+   "itemType": "book",
+   "title": "From Jupiter to Christ: on the history of religion in the Roman imperial period",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jörg",
+     "lastName": "Rüpke"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "David M. B.",
+     "lastName": "Richardson"
+    }
+   ],
+   "abstractNote": "The history of Roman imperial religion is of fundamental importance to the history of religion in Europe. Emerging from a decade of research, From Jupiter to Christ demonstrates that the decisive change within the Roman imperial period was not a growing number of religions or changes in their ranking and success, but a modification of the idea of 'religion' and a change in the social place of religious practices and beliefs. Religion is shown to be transformed from a medium serving the individual necessities - dealing with human contingencies like sickness, insecurity, and death - and a medium serving the public formation of political identity, into an encompassing system of ways of life, group identities, and political legitimation. Instead of offering an encyclopaedic presentation of religious beliefs, symbols, and practices throughout the period, the volume thematically presents the media that manifested and diffused religion (institutions, texts, and law), and analyses representative cases. It asks how religion changed in processes of diffusion and immigration, how fast (or how slow) practices and institutions were appropriated and modified, and reveals how these changes made Roman religion 'exportable', creating those forms of intellectualisation and enscripturation which made religion an autonomous area, different from other social fields",
+   "edition": "Revised edition",
+   "date": "2014",
+   "publisher": "Oxford University Press",
+   "place": "Oxford, United Kingdom ; New York, NY",
+   "numPages": "328",
+   "ISBN": "978-0-19-870372-3",
+   "citationKey": "rupkeJupiterChristHistory2014",
+   "shortTitle": "From Jupiter to Christ",
+   "language": "en",
+   "tags": [
+    "Cultus",
+    "Godsdiensten",
+    "Jesus Christ",
+    "Jupiter",
+    "Jupiter (Roman deity)",
+    "Religion",
+    "Rome",
+    "Rome (Empire)",
+    "Romeinse rijk"
+   ],
+   "collections": [
+    "6LXC5JND"
+   ]
+  },
+  {
    "key": "J4LI3F6U",
    "itemType": "journalArticle",
    "title": "Distributional Typology: statistical inquiries into the dynamics of linguistic diversity",
@@ -5416,7 +5467,7 @@
    "url": "https://www.cambridge.org/core/product/identifier/9780511482977/type/book",
    "language": "en",
    "collections": [
-    "YEIMZRME"
+    "C9CYGIN3"
    ],
    "tags": []
   },
