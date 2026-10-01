@@ -1,5 +1,5 @@
 {
- "count": 163,
+ "count": 164,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -64,6 +64,11 @@
   {
    "key": "YK6SHAT8",
    "name": "Computational & Historical Linguistics",
+   "parent": null
+  },
+  {
+   "key": "WKNI46KW",
+   "name": "Computational Neuroscience",
    "parent": null
   },
   {
@@ -5684,6 +5689,37 @@
    ],
    "collections": [
     "CWAJKGVH"
+   ]
+  },
+  {
+   "key": "PJWEX5K9",
+   "itemType": "book",
+   "title": "Dynamical systems in neuroscience: the geometry of excitability and bursting",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Eugene M.",
+     "lastName": "Izhikevich"
+    }
+   ],
+   "series": "Computational neuroscience",
+   "date": "2007",
+   "publisher": "MIT Press",
+   "place": "Cambridge, Mass",
+   "numPages": "441",
+   "ISBN": "978-0-262-09043-8",
+   "citationKey": "izhikevichDynamicalSystemsNeuroscience2007",
+   "shortTitle": "Dynamical systems in neuroscience",
+   "language": "en",
+   "tags": [
+    "Differentiable dynamical systems",
+    "Models, Neurological",
+    "Neurology",
+    "Neurons",
+    "Neurosciences"
+   ],
+   "collections": [
+    "WKNI46KW"
    ]
   },
   {
