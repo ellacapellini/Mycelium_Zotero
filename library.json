@@ -1,5 +1,5 @@
 {
- "count": 164,
+ "count": 171,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -97,6 +97,11 @@
    "parent": "ZXZ2C8AN"
   },
   {
+   "key": "E88TA6N6",
+   "name": "Evlution & Architecture of Neural Control",
+   "parent": "6PZGWQJG"
+  },
+  {
    "key": "A3ZHFX6K",
    "name": "Formal Verification",
    "parent": null
@@ -150,6 +155,11 @@
    "key": "388RS579",
    "name": "Machine Learning & Audio Signal Processing",
    "parent": null
+  },
+  {
+   "key": "J8VYHPAS",
+   "name": "MCMC & Convergence Diagnostics",
+   "parent": "MN4PLWQI"
   },
   {
    "key": "4FKE4F8W",
@@ -2415,6 +2425,59 @@
    "collections": []
   },
   {
+   "key": "5NH2EAZK",
+   "itemType": "journalArticle",
+   "title": "Rank-Normalization, Folding, and Localization: An Improved Rˆ for Assessing Convergence of MCMC (with Discussion)",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Aki",
+     "lastName": "Vehtari"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrew",
+     "lastName": "Gelman"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Daniel",
+     "lastName": "Simpson"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Bob",
+     "lastName": "Carpenter"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Paul-Christian",
+     "lastName": "Bürkner"
+    }
+   ],
+   "abstractNote": "Markov chain Monte Carlo is a key computational tool in Bayesian statistics, but it can be challenging to monitor the convergence of an iterative stochastic algorithm. In this paper we show that the convergence diagnostic R̂ of Gelman and Rubin (1992) has serious ﬂaws. Traditional R̂ will fail to correctly diagnose convergence failures when the chain has a heavy tail or when the variance varies across the chains. In this paper we propose an alternative rank-based diagnostic that ﬁxes these problems. We also introduce a collection of quantile-based local eﬃciency measures, along with a practical approach for computing Monte Carlo error estimates for quantiles. We suggest that common trace plots should be replaced with rank plots from multiple chains. Finally, we give recommendations for how these methods should be used in practice.",
+   "publicationTitle": "Bayesian Analysis",
+   "date": "2021-6-1",
+   "volume": "16",
+   "issue": "2",
+   "journalAbbreviation": "Bayesian Anal.",
+   "DOI": "10.1214/20-BA1221",
+   "citationKey": "vehtariRankNormalizationFoldingLocalization2021",
+   "url": "https://projecteuclid.org/journals/bayesian-analysis/volume-16/issue-2/Rank-Normalization-Folding-and-Localization--An-Improved-R%cb%86-for/10.1214/20-BA1221.full",
+   "ISSN": "1936-0975",
+   "shortTitle": "Rank-Normalization, Folding, and Localization",
+   "language": "en",
+   "tags": [
+    "project: GPmTRF",
+    "topic: convergence-diagnostics",
+    "topic: hierarchical-bayes",
+    "topic: mcmc"
+   ],
+   "collections": [
+    "J8VYHPAS"
+   ]
+  },
+  {
    "key": "EMT8L9YV",
    "itemType": "journalArticle",
    "title": "Global predictors of language endangerment and the future of linguistic diversity",
@@ -3740,6 +3803,43 @@
     "topic: statistical-learning"
    ],
    "collections": []
+  },
+  {
+   "key": "T67CCN66",
+   "itemType": "journalArticle",
+   "title": "Sparsity information and regularization in the horseshoe and other shrinkage priors",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Juho",
+     "lastName": "Piironen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Aki",
+     "lastName": "Vehtari"
+    }
+   ],
+   "abstractNote": "The horseshoe prior has proven to be a noteworthy alternative for sparse Bayesian estimation, but has previously suﬀered from two problems. First, there has been no systematic way of specifying a prior for the global shrinkage hyperparameter based on the prior information about the degree of sparsity in the parameter vector. Second, the horseshoe prior has the undesired property that there is no possibility of specifying separately information about sparsity and the amount of regularization for the largest coeﬃcients, which can be problematic with weakly identiﬁed parameters, such as the logistic regression coeﬃcients in the case of data separation. This paper proposes solutions to both of these problems. We introduce a concept of eﬀective number of nonzero parameters, show an intuitive way of formulating the prior for the global hyperparameter based on the sparsity assumptions, and argue that the previous default choices are dubious based on their tendency to favor solutions with more unshrunk parameters than we typically expect a priori. Moreover, we introduce a generalization to the horseshoe prior, called the regularized horseshoe, that allows us to specify a minimum level of regularization to the largest values. We show that the new prior can be considered as the continuous counterpart of the spike-and-slab prior with a ﬁnite slab width, whereas the original horseshoe resembles the spike-and-slab with an inﬁnitely wide slab. Numerical experiments on synthetic and real world data illustrate the beneﬁt of both of these theoretical advances.",
+   "publicationTitle": "Electronic Journal of Statistics",
+   "date": "2017-1-1",
+   "volume": "11",
+   "issue": "2",
+   "journalAbbreviation": "Electron. J. Statist.",
+   "DOI": "10.1214/17-EJS1337SI",
+   "citationKey": "piironenSparsityInformationRegularization2017",
+   "url": "https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-11/issue-2/Sparsity-information-and-regularization-in-the-horseshoe-and-other-shrinkage/10.1214/17-EJS1337SI.full",
+   "ISSN": "1935-7524",
+   "language": "en",
+   "tags": [
+    "project: GPmTRF",
+    "topic: choosing-priors",
+    "topic: hierarchical-bayes",
+    "topic: shrinkage-priors"
+   ],
+   "collections": [
+    "W78TD57W"
+   ]
   },
   {
    "key": "GPSQT2BB",
@@ -5228,7 +5328,9 @@
     "topic: gaussian-process",
     "topic: kalman-filter"
    ],
-   "collections": []
+   "collections": [
+    "9LJ8YV5H"
+   ]
   },
   {
    "key": "TQ6LTQFB",
@@ -5748,6 +5850,7 @@
     "project: GPmTRF",
     "stance: supports: half-caughy-priors",
     "status: key-reference",
+    "topic: choosing-priors",
     "topic: hierarchical-bayes"
    ],
    "collections": [
@@ -6378,6 +6481,37 @@
    ]
   },
   {
+   "key": "6ZWAFVUD",
+   "itemType": "journalArticle",
+   "title": "Resynthesizing behavior through phylogenetic refinement",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Paul",
+     "lastName": "Cisek"
+    }
+   ],
+   "abstractNote": "This article proposes that biologically plausible theories of behavior can be constructed by following a method of Bphylogenetic refinement,^ whereby they are progressively elaborated from simple to complex according to phylogenetic data on the sequence of changes that occurred over the course of evolution. It is argued that sufficient data exist to make this approach possible, and that the result can more effectively delineate the true biological categories of neurophysiological mechanisms than do approaches based on definitions of putative functions inherited from psychological traditions. As an example, the approach is used to sketch a theoretical framework of how basic feedback control of interaction with the world was elaborated during vertebrate evolution, to give rise to the functional architecture of the mammalian brain. The results provide a conceptual taxonomy of mechanisms that naturally map to neurophysiological and neuroanatomical data and that offer a context for defining putative functions that, it is argued, are better grounded in biology than are some of the traditional concepts of cognitive science.",
+   "publicationTitle": "Attention, Perception, & Psychophysics",
+   "date": "10/2019",
+   "volume": "81",
+   "issue": "7",
+   "pages": "2265-2287",
+   "journalAbbreviation": "Atten Percept Psychophys",
+   "DOI": "10.3758/s13414-019-01760-1",
+   "citationKey": "cisekResynthesizingBehaviorPhylogenetic2019",
+   "url": "http://link.springer.com/10.3758/s13414-019-01760-1",
+   "ISSN": "1943-3921, 1943-393X",
+   "language": "en",
+   "tags": [
+    "topic: evolution-of-cognition",
+    "topic:neural-circuits"
+   ],
+   "collections": [
+    "E88TA6N6"
+   ]
+  },
+  {
    "key": "44AZN5YE",
    "itemType": "journalArticle",
    "title": "Cortical tracking of hierarchical linguistic structures in connected speech",
@@ -6752,6 +6886,66 @@
    ]
   },
   {
+   "key": "YEDVFYAX",
+   "itemType": "journalArticle",
+   "title": "Rank-normalization, folding, and localization: An improved R̂ for assessing convergence of MCMC",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Aki",
+     "lastName": "Vehtari"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrew",
+     "lastName": "Gelman"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Daniel",
+     "lastName": "Simpson"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Bob",
+     "lastName": "Carpenter"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Paul-Christian",
+     "lastName": "Bürkner"
+    }
+   ],
+   "abstractNote": "Markov chain Monte Carlo is a key computational tool in Bayesian statistics, but it can be challenging to monitor the convergence of an iterative stochastic algorithm. In this paper we show that the convergence diagnostic R̂ of Gelman and Rubin(1992) has serious ﬂaws. Traditional R̂ will fail to correctly diagnose convergence failures when the chain has a heavy tail or when the variance varies across the chains. In this paper we propose an alternative rank-based diagnostic that ﬁxes these problems. We also introduce a collection of quantile-based local efﬁciency measures, along with a practical approach for computing Monte Carlo error estimates for quantiles. We suggest that common trace plots should be replaced with rank plots from multiple chains. Finally, we give recommendations for how these methods should be used in practice.",
+   "citationKey": "vehtariRanknormalizationFoldingLocalization",
+   "language": "en",
+   "tags": [],
+   "collections": []
+  },
+  {
+   "key": "LHCEXMTZ",
+   "itemType": "journalArticle",
+   "title": "Hamiltonian Monte Carlo for Hierarchical Models",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Michael",
+     "lastName": "Betancourt"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Mark",
+     "lastName": "Girolami"
+    }
+   ],
+   "citationKey": "betancourtHamiltonianMonteCarlo",
+   "language": "en",
+   "collections": [
+    "J8VYHPAS"
+   ],
+   "tags": []
+  },
+  {
    "key": "4MURFE7R",
    "itemType": "bookSection",
    "title": "Chapter 13.4 - Divergent transitions & non-centered priors: a real risk for my 6 NUTS fit",
@@ -6764,6 +6958,47 @@
    "itemType": "bookSection",
    "title": "Chapter 13.4 - Divergent transitions & non-centered priors: a real risk for my 6 NUTS fit",
    "citationKey": "zotero-item-544",
+   "tags": [],
+   "collections": []
+  },
+  {
+   "key": "JDXFXWZN",
+   "itemType": "journalArticle",
+   "title": "A Conceptual Introduction to Hamiltonian Monte Carlo",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Michael",
+     "lastName": "Betancourt"
+    }
+   ],
+   "abstractNote": "Hamiltonian Monte Carlo has proven a remarkable empirical success, but only recently have we begun to develop a rigorous understanding of why it performs so well on diﬃcult problems and how it is best applied in practice. Unfortunately, that understanding is conﬁned within the mathematics of diﬀerential geometry which has limited its dissemination, especially to the applied communities for which it is particularly important.",
+   "citationKey": "betancourtConceptualIntroductionHamiltoniana",
+   "language": "en",
+   "tags": [
+    "method: review",
+    "project: GPmTRF",
+    "topic: hamiltonian-monte-carlo",
+    "topic: mcmc"
+   ],
+   "collections": [
+    "J8VYHPAS"
+   ]
+  },
+  {
+   "key": "MRKIDMAY",
+   "itemType": "journalArticle",
+   "title": "A Conceptual Introduction to Hamiltonian Monte Carlo",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Michael",
+     "lastName": "Betancourt"
+    }
+   ],
+   "abstractNote": "Hamiltonian Monte Carlo has proven a remarkable empirical success, but only recently have we begun to develop a rigorous understanding of why it performs so well on diﬃcult problems and how it is best applied in practice. Unfortunately, that understanding is conﬁned within the mathematics of diﬀerential geometry which has limited its dissemination, especially to the applied communities for which it is particularly important.",
+   "citationKey": "betancourtConceptualIntroductionHamiltonian",
+   "language": "en",
    "tags": [],
    "collections": []
   }
