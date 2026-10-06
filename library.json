@@ -1,5 +1,5 @@
 {
- "count": 171,
+ "count": 169,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -1070,52 +1070,6 @@
    "collections": [
     "B4U4EXS2"
    ]
-  },
-  {
-   "key": "482SV7CG",
-   "itemType": "journalArticle",
-   "title": "Concurrent processing of the prosodic hierarchy is supported by cortical entrainment and phase-amplitude coupling",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Chantal",
-     "lastName": "Oderbolz"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Elisabeth",
-     "lastName": "Stark"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Sebastian",
-     "lastName": "Sauppe"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Martin",
-     "lastName": "Meyer"
-    }
-   ],
-   "abstractNote": "Abstract Models of phonology posit a hierarchy of prosodic units that is relatively independent from syntactic structure, requiring its own parsing. It remains unexplored how this prosodic hierarchy is represented in the brain. We investigated this foundational question by means of an electroencephalography (EEG) study. Thirty young adults listened to German sentences containing manipulations at different levels of the prosodic hierarchy. Evaluating speech-to-brain cortical entrainment and phase-amplitude coupling revealed that prosody's hierarchical structure is maintained at the neural level during spoken language comprehension. The faithfulness of this tracking varied as a function of the hierarchy's degree of intactness as well as systematic interindividual differences in audio-motor synchronization abilities. The results underscore the role of complex oscillatory mechanisms in configuring the continuous and hierarchical nature of the speech signal and situate prosody as a structure indispensable from theoretical perspectives on spoken language comprehension in the brain.",
-   "publicationTitle": "Cerebral Cortex",
-   "date": "2024-12",
-   "volume": "34",
-   "issue": "12",
-   "pages": "bhae479",
-   "DOI": "10.1093/cercor/bhae479",
-   "citationKey": "oderbolzConcurrentProcessingProsodic2024",
-   "ISSN": "1047-3211, 1460-2199",
-   "language": "english",
-   "tags": [
-    "method: eeg",
-    "project: thesis",
-    "status: key-reference",
-    "topic: oscillatory-entrainment",
-    "topic: pac",
-    "topic: prosody-hierarchy"
-   ],
-   "collections": []
   },
   {
    "key": "H5Q6TMFJ",
@@ -3647,53 +3601,6 @@
    "collections": [
     "BZPLIYJA"
    ]
-  },
-  {
-   "key": "PJHZIU39",
-   "itemType": "journalArticle",
-   "title": "Functional Characterization of the Human Speech Articulation Network",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Alexandra",
-     "lastName": "Basilakos"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Kimberly G",
-     "lastName": "Smith"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Paul",
-     "lastName": "Fillmore"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Julius",
-     "lastName": "Fridriksson"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Evelina",
-     "lastName": "Fedorenko"
-    }
-   ],
-   "abstractNote": "A number of brain regions have been implicated in articulation, but their precise computations remain debated. Using functional magnetic resonance imaging, we examine the degree of functional specificity of articulation-responsive brain regions to constrain hypotheses about their contributions to speech production. We find that articulation-responsive regions (1) are sensitive to articulatory complexity, but (2) are largely nonoverlapping with nearby domain-general regions that support diverse goal-directed behaviors. Furthermore, premotor articulation regions show selectivity for speech production over some related tasks (respiration control), but not others (nonspeech oral-motor [NSO] movements). This overlap between speech and nonspeech movements concords with electrocorticographic evidence that these regions encode articulators and their states, and with patient evidence whereby articulatory deficits are often accompanied by oral-motor deficits. In contrast, the superior temporal regions show strong selectivity for articulation relative to nonspeech movements, suggesting that these regions play a specific role in speech planning/production. Finally, articulation-responsive portions of posterior inferior frontal gyrus show some selectivity for articulation, in line with the hypothesis that this region prepares an articulatory code that is passed to the premotor cortex. Taken together, these results inform the architecture of the human articulation system.",
-   "publicationTitle": "Cerebral Cortex",
-   "date": "2018-05",
-   "volume": "28",
-   "issue": "5",
-   "pages": "1816–1830",
-   "DOI": "10.1093/cercor/bhx100",
-   "citationKey": "basilakosFunctionalCharacterizationHuman2018",
-   "ISSN": "1047-3211, 1460-2199",
-   "language": "english",
-   "tags": [
-    "method: fmri",
-    "topic: speech-production"
-   ],
-   "collections": []
   },
   {
    "key": "794YZ7MT",
