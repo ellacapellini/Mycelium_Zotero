@@ -1,5 +1,5 @@
 {
- "count": 169,
+ "count": 170,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -98,7 +98,7 @@
   },
   {
    "key": "E88TA6N6",
-   "name": "Evlution & Architecture of Neural Control",
+   "name": "Evolution & Architecture of Neural Control",
    "parent": "6PZGWQJG"
   },
   {
@@ -137,6 +137,11 @@
    "parent": null
   },
   {
+   "key": "5IJGJWSU",
+   "name": "Language Network & Neuromodulation",
+   "parent": null
+  },
+  {
    "key": "C9CYGIN3",
    "name": "Latin",
    "parent": "YEIMZRME"
@@ -160,6 +165,11 @@
    "key": "J8VYHPAS",
    "name": "MCMC & Convergence Diagnostics",
    "parent": "MN4PLWQI"
+  },
+  {
+   "key": "8SJUQQ57",
+   "name": "ML & Compositional Models",
+   "parent": "388RS579"
   },
   {
    "key": "4FKE4F8W",
@@ -438,6 +448,46 @@
    ],
    "collections": [
     "9LJ8YV5H"
+   ]
+  },
+  {
+   "key": "ZFYEAM3I",
+   "itemType": "preprint",
+   "title": "Learning Compositional Latent Structure with Vector Networks",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Niclas",
+     "lastName": "Pokel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Benjamin F.",
+     "lastName": "Grewe"
+    }
+   ],
+   "abstractNote": "Deep networks are powerful function approximators, but they typically store many different computations in shared weight matrices, making it difficult to selectively reuse or adapt parts of them when a familiar structure appears in novel combinations. We introduce theVector Network(VN), a hierarchical recurrent architecture in which each layer replaces a fixed weight matrix with a library of reusable rank-1 weight atoms. For each input, VN minimizes a layer-local energy to infer a sparse set of active weight atoms and their coefficients, jointly constrained by bottomup input reconstruction and top-down feedback consistency. These weight atom coefficients then compose an input-specific low-rank weight matrix for that sample. After convergence, slow learning updates only the selected weight atoms through local residual signals scaled by the inferred coefficients. We evaluate VN on four compositional benchmarks spanning 1D signals, 2D spatial decoding, N-body dynamics, and compositional MNIST. VN matches strong baselines in distribution while often achieving out-of-distribution error about an order of magnitude lower when familiar factors must be recombined in novel ways. Vector networks thus make compositional generalization a structural property of the architecture and inference process rather than a brittle byproduct of fitting many behaviors into one shared dense parameter substrate.",
+   "repository": "arXiv",
+   "archiveID": "arXiv:2605.28007",
+   "date": "2026-05-27",
+   "DOI": "10.48550/arXiv.2605.28007",
+   "citationKey": "pokelLearningCompositionalLatent2026",
+   "url": "http://arxiv.org/abs/2605.28007",
+   "language": "en",
+   "tags": [
+    "method: simulation",
+    "topic sparse-coding",
+    "topic: compositionality",
+    "topic: dictionary-learning",
+    "topic: energy-based-models",
+    "topic: hebbian-learning",
+    "topic: hierarchical-processing",
+    "topic: neural-network",
+    "topic: ood-generalisation",
+    "topic: predictive-coding"
+   ],
+   "collections": [
+    "8SJUQQ57"
    ]
   },
   {
@@ -866,62 +916,6 @@
    ],
    "collections": [
     "UATTW3FY"
-   ]
-  },
-  {
-   "key": "KDJ8DKIK",
-   "itemType": "conferencePaper",
-   "title": "Positive Transfer of the Whisper Speech Transformer to Human and Animal Voice Activity Detection",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Nianlong",
-     "lastName": "Gu"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Kanghwi",
-     "lastName": "Lee"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Maris",
-     "lastName": "Basha"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Sumit",
-     "lastName": "Kumar Ram"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Guanghao",
-     "lastName": "You"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Richard H. R.",
-     "lastName": "Hahnloser"
-    }
-   ],
-   "proceedingsTitle": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-   "conferenceName": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-   "publisher": "IEEE",
-   "place": "Seoul, Korea, Republic of",
-   "date": "2024-4-14",
-   "pages": "7505-7509",
-   "DOI": "10.1109/ICASSP48485.2024.10447620",
-   "ISBN": "979-8-3503-4485-1",
-   "citationKey": "guPositiveTransferWhisper2024",
-   "url": "https://ieeexplore.ieee.org/document/10447620/",
-   "language": "en",
-   "tags": [
-    "topic: animal-communication",
-    "topic: transformers",
-    "topic: voice-activity-detection"
-   ],
-   "collections": [
-    "P854X6QH"
    ]
   },
   {
@@ -6237,6 +6231,70 @@
    ],
    "collections": [
     "RX93PEAY"
+   ]
+  },
+  {
+   "key": "3K2NPAN2",
+   "itemType": "journalArticle",
+   "title": "The interacting language network: A framework for neuromodulation and clinical translation",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Basil C.",
+     "lastName": "Preisig"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Timothée",
+     "lastName": "Proix"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Valentina",
+     "lastName": "Borghesani"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Silvia",
+     "lastName": "Brem"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Silvia",
+     "lastName": "Marchesotti"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Adrian G.",
+     "lastName": "Guggisberg"
+    }
+   ],
+   "abstractNote": "Language disorders following stroke, neurodegeneration, or altered neurodevelopment markedly impair communication and quality of life. Despite advances in behavioural and neuromodulation therapies, treatment outcomes remain modest. Attempts to modulate local excitability in single brain regions have yielded limited benefits. We argue for a shift in neuromodulation for language, from interventions that target isolated regions to approaches that modulate distributed neural networks. To support this shift, we introduce the Interacting Language Network (ILN), a theoretical framework that integrates evidence for local functional specialisation with evidence for distributed processing. The ILN extends existing models by formalising how dynamic interaction between sensorimotor and heteromodal language circuits enables flexible communication. The ILN is grounded in evolutionary, neurobiological and clinical work showing that complex language abilities depend on the disproportionate expansion of association cortices and white matter pathways in humans, which enable longrange communication between specialised regions. Converging findings from neurotypical and clinical populations demonstrate that although specific regions make distinct contributions to language, their function depends critically on dynamic interactions, particularly between frontal and temporo-parietal areas. The ILN delineates current knowledge about the architecture and interaction principles of the language network, identifies important gaps that impede progress, and outlines concrete avenues to advance network-based neuromodulation for language disorders. Ultimately, targeting interacting language networks rather than isolated regions holds the potential to deliver more effective and personalised treatments for individuals with language impairment.",
+   "publicationTitle": "Neuroscience & Biobehavioral Reviews",
+   "date": "12/2026",
+   "volume": "191",
+   "pages": "106972",
+   "journalAbbreviation": "Neuroscience & Biobehavioral Reviews",
+   "DOI": "10.1016/j.neubiorev.2026.106972",
+   "citationKey": "preisigInteractingLanguageNetwork2026",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S014976342600429X",
+   "ISSN": "01497634",
+   "shortTitle": "The interacting language network",
+   "language": "en",
+   "tags": [
+    "method: review",
+    "project: background",
+    "topic: aphasia",
+    "topic: connectivity-mapping",
+    "topic: language-network",
+    "topic: neuromodulation",
+    "topic: oscillations",
+    "topic: oscillatory-entrainment",
+    "topic: pac",
+    "topic: predictive-coding"
+   ],
+   "collections": [
+    "5IJGJWSU"
    ]
   },
   {
