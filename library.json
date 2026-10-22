@@ -1,5 +1,5 @@
 {
- "count": 170,
+ "count": 173,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -1066,6 +1066,56 @@
    ]
   },
   {
+   "key": "U83C2RHN",
+   "itemType": "journalArticle",
+   "title": "Top-down information shapes lexical processing when listening to continuous speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Laura",
+     "lastName": "Gwilliams"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Alec",
+     "lastName": "Marantz"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "David",
+     "lastName": "Poeppel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jean-Remi",
+     "lastName": "King"
+    }
+   ],
+   "publicationTitle": "Language, Cognition and Neuroscience",
+   "date": "2024-09-13",
+   "volume": "39",
+   "issue": "8",
+   "pages": "1045-1058",
+   "journalAbbreviation": "Language, Cognition and Neuroscience",
+   "DOI": "10.1080/23273798.2023.2171072",
+   "citationKey": "gwilliamsTopdownInformationShapes2024",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/23273798.2023.2171072",
+   "ISSN": "2327-3798, 2327-3801",
+   "language": "en",
+   "tags": [
+    "method: MASC",
+    "method: meg",
+    "project: PhD Interview",
+    "topic: lexical processing",
+    "topic: predictive-coding",
+    "topic: top-down context",
+    "topic: word-class representations"
+   ],
+   "collections": [
+    "PWWPG7N8"
+   ]
+  },
+  {
    "key": "H5Q6TMFJ",
    "itemType": "preprint",
    "title": "Dynamic modeling of EEG responses to natural speech reveals earlier processing of predictable words",
@@ -2065,6 +2115,43 @@
    ]
   },
   {
+   "key": "7LGIFAQ2",
+   "itemType": "preprint",
+   "title": "Reconstructing Computational Dynamics from Neural Measurements with Recurrent Neural Networks",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Daniel",
+     "lastName": "Durstewitz"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Georgia",
+     "lastName": "Koppe"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Max Ingo",
+     "lastName": "Thurm"
+    }
+   ],
+   "abstractNote": "Mechanistic and computational models in neuroscience usually take the form of systems of differential or time-recursive equations. The spatio-temporal behavior of such systems is the subject of dynamical systems theory (DST). DST provides a powerful mathematical toolbox for describing and analyzing neurobiological processes at any level, from molecules to behavior, and has been a mainstay of computational neuroscience for decades. Recently, recurrent neural networks (RNNs) became a popular machine learning tool for studying the nonlinear dynamics underlying neural or behavioral observations. By training RNNs on the same behavioral tasks as employed for animal subjects and dissecting their inner workings, insights and hypotheses about the neuro-computational underpinnings of behavior could be generated. Alternatively, RNNs may be trained directly on the physiological and behavioral time series at hand. Ideally, the once trained RNN would then be able to generate data with the same temporal and geometrical properties as those observed. This is called dynamical systems reconstruction, a burgeoning field in machine learning and nonlinear dynamics. Through this more powerful approach the trained RNN becomes a surrogate for the experimentally probed system, as far as its dynamical and computational properties are concerned. The trained system can then be systematically analyzed, probed and simulated. Here we will review this highly exciting and rapidly expanding field, including recent trends in machine learning that may as yet be less well known in neuroscience. We will also discuss important validation tests, caveats, and requirements of RNN-based dynamical systems reconstruction. Concepts and applications will be illustrated with various examples from neuroscience.",
+   "repository": "Neuroscience",
+   "date": "2022-11-01",
+   "DOI": "10.1101/2022.10.31.514408",
+   "citationKey": "durstewitzReconstructingComputationalDynamics2022",
+   "url": "http://biorxiv.org/lookup/doi/10.1101/2022.10.31.514408",
+   "language": "en",
+   "tags": [
+    "project: PhD Interview",
+    "topic: RNNs",
+    "topic: neural-population-dynamics"
+   ],
+   "collections": [
+    "WKNI46KW"
+   ]
+  },
+  {
    "key": "T445XGCW",
    "itemType": "journalArticle",
    "title": "A global analysis of matches and mismatches between human genetic and linguistic histories",
@@ -2828,6 +2915,54 @@
    ],
    "collections": [
     "VV6K9MYU"
+   ]
+  },
+  {
+   "key": "L9EAVZP2",
+   "itemType": "journalArticle",
+   "title": "The phase of cortical oscillations determines the perceptual fate of visual cues in naturalistic audiovisual speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Raphaël",
+     "lastName": "Thézé"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Anne-Lise",
+     "lastName": "Giraud"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Pierre",
+     "lastName": "Mégevand"
+    }
+   ],
+   "abstractNote": "Rhythmic cerebral activity predicts whether the visual or the auditory component of speech influences perception.\n          , \n            When we see our interlocutor, our brain seamlessly extracts visual cues from their face and processes them along with the sound of their voice, making speech an intrinsically multimodal signal. Visual cues are especially important in noisy environments, when the auditory signal is less reliable. Neuronal oscillations might be involved in the cortical processing of audiovisual speech by selecting which sensory channel contributes more to perception. To test this, we designed computer-generated naturalistic audiovisual speech stimuli where one mismatched phoneme-viseme pair in a key word of sentences created bistable perception. Neurophysiological recordings (high-density scalp and intracranial electroencephalography) revealed that the precise phase angle of theta-band oscillations in posterior temporal and occipital cortex of the right hemisphere was crucial to select whether the auditory or the visual speech cue drove perception. We demonstrate that the phase of cortical oscillations acts as an instrument for sensory selection in audiovisual speech processing.",
+   "publicationTitle": "Science Advances",
+   "date": "2020-11-06",
+   "volume": "6",
+   "issue": "45",
+   "pages": "eabc6348",
+   "journalAbbreviation": "Sci. Adv.",
+   "DOI": "10.1126/sciadv.abc6348",
+   "citationKey": "thezePhaseCorticalOscillations2020",
+   "url": "https://www.science.org/doi/10.1126/sciadv.abc6348",
+   "ISSN": "2375-2548",
+   "language": "en",
+   "tags": [
+    "method: 3D-animated-characters",
+    "method: McGurk-effect",
+    "method: ReadSpeaker-textto-speech-software",
+    "method: eeg",
+    "method: hdeeg",
+    "method: iELVis",
+    "method: ieeg",
+    "project: PhD Interview",
+    "topic: theta-band cortical oscillations"
+   ],
+   "collections": [
+    "B4U4EXS2"
    ]
   },
   {
