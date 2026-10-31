@@ -1,5 +1,5 @@
 {
- "count": 185,
+ "count": 186,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -2148,6 +2148,53 @@
     "topic: hierarchical-structure"
    ],
    "collections": []
+  },
+  {
+   "key": "78ATTSE7",
+   "itemType": "journalArticle",
+   "title": "Causal inference for time series",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Jakob",
+     "lastName": "Runge"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andreas",
+     "lastName": "Gerhardus"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Gherardo",
+     "lastName": "Varando"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Veronika",
+     "lastName": "Eyring"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Gustau",
+     "lastName": "Camps-Valls"
+    }
+   ],
+   "publicationTitle": "Nature Reviews Earth & Environment",
+   "date": "2023-06-27",
+   "volume": "4",
+   "issue": "7",
+   "pages": "487-505",
+   "journalAbbreviation": "Nat Rev Earth Environ",
+   "DOI": "10.1038/s43017-023-00431-y",
+   "citationKey": "rungeCausalInferenceTime2023",
+   "url": "https://www.nature.com/articles/s43017-023-00431-y",
+   "ISSN": "2662-138X",
+   "language": "en",
+   "collections": [
+    "LQ3TYML7"
+   ],
+   "tags": []
   },
   {
    "key": "6RVIQLCE",
