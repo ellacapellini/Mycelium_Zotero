@@ -1,5 +1,5 @@
 {
- "count": 154,
+ "count": 169,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -582,6 +582,51 @@
    ]
   },
   {
+   "key": "5YA8UNSX",
+   "itemType": "journalArticle",
+   "title": "Accent type modulates frequency-specific neural tracking of speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Anna M",
+     "lastName": "Czepiel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Holly",
+     "lastName": "Bradley"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Christina M",
+     "lastName": "Vanden Bosch Der Nederlanden"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Elizabeth K",
+     "lastName": "Johnson"
+    }
+   ],
+   "abstractNote": "In the real world, listeners often find speech in a non-native (L2) accent harder to understand than speech in their own native (L1) accent. In ideal laboratory listening settings, these struggles can become smaller. For this reason, most research on L2 accent processing uses speech-in-noise paradigms to avoid ceiling effects. Here, we explore whether neural tracking provides a sensitive measure of L2-processing difficulties, even in ideal listening conditions. In our electroencephalography (EEG) study, Canadian English-speaking adults were presented with Canadian (L1) and Mandarin-accented (L2) English. We assessed neural tracking of speech by analyzing coherence between the speech envelope and EEG. We found significantly stronger tracking for L1-accented speech, in canonical delta-theta frequencies, as well as higherfrequency bands associated with fine-grained phonemic encoding. Exploratory analyses illustrated that transcription errors correlated with neural tracking and that neural tracking was greater for L1- than L2-accented speech at the word and phoneme rate. These findings indicate that accent type modulates neural tracking of speech at specific frequencies, even in passive, quiet settings. This study highlights the sensitivity of frequency-specific neural tracking methods for elucidating subtle accent-related variations in speech, offering a foundation for future work on accent processing across more diverse speaker and listener populations.",
+   "publicationTitle": "Cerebral Cortex",
+   "date": "2026-09-01",
+   "volume": "36",
+   "issue": "9",
+   "pages": "bhag133",
+   "DOI": "10.1093/cercor/bhag133",
+   "url": "https://academic.oup.com/cercor/article/doi/10.1093/cercor/bhag133/8828961",
+   "ISSN": "1047-3211, 1460-2199",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: accent-type",
+    "topic: frequency-specific-neural-tracking"
+   ],
+   "collections": [
+    "B4U4EXS2"
+   ]
+  },
+  {
    "key": "873M822Y",
    "itemType": "preprint",
    "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
@@ -959,6 +1004,56 @@
    ],
    "collections": [
     "388RS579"
+   ]
+  },
+  {
+   "key": "RNWKRE2Q",
+   "itemType": "journalArticle",
+   "title": "Linguistic structure and language familiarity sharpen phoneme encoding in the brain",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Filiz",
+     "lastName": "Tezcan"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sanne",
+     "lastName": "Ten Oever"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Fan",
+     "lastName": "Bai"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Noémie",
+     "lastName": "Te Rietmolen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "Abstract\n            How does the brain turn a physical signal like speech into meaning? It draws on two key sources: linguistic structure (e.g., phonemes, syntax) and statistical regularities from experience. Yet how these jointly shape neural representations of language remains unclear. We used MEG to track phonemic and acoustic encoding during spoken language comprehension in native Dutch, Mandarin-Chinese, and Turkish speakers. Phoneme-level encoding is stronger during sentence comprehension than in word lists, and more robust within words than random syllables. Surprisingly, similar encoding emerges even in an uncomprehended language but only with prior exposure. In contrast, acoustic edges are briefly suppressed early in comprehension. This suggests that the brain’s alignment to speech (in phase and power) is robustly tuned by structure and by learned statistical patterns. Our findings show how structured knowledge and experience-based learning interact to shape neural responses to language, offering insight into how the brain processes complex, meaningful signals.",
+   "publicationTitle": "Communications Biology",
+   "date": "2026-03-20",
+   "volume": "9",
+   "issue": "1",
+   "pages": "638",
+   "journalAbbreviation": "Commun Biol",
+   "DOI": "10.1038/s42003-026-09865-8",
+   "url": "https://www.nature.com/articles/s42003-026-09865-8",
+   "ISSN": "2399-3642",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: crossing-languages"
+   ],
+   "collections": [
+    "B4U4EXS2"
    ]
   },
   {
@@ -1913,7 +2008,9 @@
    "url": "http://biorxiv.org/lookup/doi/10.1101/2024.02.01.578181",
    "language": "en",
    "tags": [
+    "method: meg",
     "project: thesis",
+    "topic: IP-level (low delta)",
     "topic: contested delta argument"
    ],
    "collections": [
@@ -2589,6 +2686,52 @@
    "collections": []
   },
   {
+   "key": "NDB4BS27",
+   "itemType": "journalArticle",
+   "title": "Hierarchy, Not Lexical Regularity, Modulates Low-Frequency Neural Synchrony During Language Comprehension",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Chia-Wen",
+     "lastName": "Lo"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Tzu-Yun",
+     "lastName": "Tung"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Alan Hezao",
+     "lastName": "Ke"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jonathan R.",
+     "lastName": "Brennan"
+    }
+   ],
+   "abstractNote": "Neural responses appear to synchronize with sentence structure. However, researchers have debated whether this response in the delta band (0.5–3 Hz) really reflects hierarchical information or simply lexical regularities. Computational simulations in which sentences are represented simply as sequences of high-dimensional numeric vectors that encode lexical information seem to give rise to power spectra similar to those observed for sentence synchronization, suggesting that sentence-level cortical tracking findings may reflect sequential lexical or part-of-speech information, and not necessarily hierarchical syntactic information. Using electroencephalography (EEG) data and the frequency-tagging paradigm, we develop a novel experimental condition to tease apart the predictions of the lexical and the hierarchical accounts of the attested low-frequency synchronization. Under a lexical model, synchronization should be observed even when words are reversed within their phrases (e.g., “sheep white grass eat” instead of “white sheep eat grass”), because the same lexical items are preserved at the same regular intervals. Critically, such stimuli are not syntactically well-formed; thus a hierarchical model does not predict synchronization of phrase- and sentence-level structure in the reversed phrase condition. Computational simulations confirm these diverging predictions. EEG data from N = 31 native speakers of Mandarin show robust delta synchronization to syntactically well-formed isochronous speech. Importantly, no such pattern is observed for reversed phrases, consistent with the hierarchical, but not the lexical, accounts.",
+   "publicationTitle": "Neurobiology of Language",
+   "date": "2022-09-22",
+   "volume": "3",
+   "issue": "4",
+   "pages": "538-555",
+   "DOI": "10.1162/nol_a_00077",
+   "url": "https://direct.mit.edu/nol/article/3/4/538/112111/Hierarchy-Not-Lexical-Regularity-Modulates-Low",
+   "ISSN": "2641-4368",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: hierarchical-processing",
+    "topic: language comprehension",
+    "topic: neural-synchrony"
+   ],
+   "collections": [
+    "B4U4EXS2"
+   ]
+  },
+  {
    "key": "DFZQMAZ5",
    "itemType": "journalArticle",
    "title": "A hierarchy of linguistic predictions during natural language comprehension",
@@ -2994,6 +3137,42 @@
    "collections": []
   },
   {
+   "key": "X7QFISUJ",
+   "itemType": "journalArticle",
+   "title": "Correction by Focus: Cleft Constructions and the Cross-Linguistic Variation in Phonological Form",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Markus",
+     "lastName": "Greif"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Stavros",
+     "lastName": "Skopeteas"
+    }
+   ],
+   "abstractNote": "A challenging issue of cross-linguistic variation is that the same syntactic construction may appear in different arrays of contexts depending on language. For instance, cleft constructions appear with contrastive focus in English, but in a larger array of contexts in French. A part of the cross-linguistic variation may be due to prosodic differences, since prosodic possibilities determine the array of focus structures that can be mapped onto one and the same syntactic conﬁguration. In the present study, we compare languages with ﬂexible nuclear-accent placement (English, German), with languages that do not use this prosodic strategy (French, Mandarin Chinese). In a speech production experiment, we examine the prosodic realization of contrastive focus and identify prosodic reﬂexes of focus in all languages. The presence of different phonetic reﬂexes of focus suggests that – anything else being equal – the same syntactic constructions should be possible in the same array of contexts. In an acceptability study with written questionnaires, we examined the felicity of cleft constructions in contexts licensing a focus within the cleft clause. This focus structure is orthogonal to the preferred focus structure of cleft constructions and can appear in cases of second-occurrence foci (in contexts of correction). The obtained judgments reveal a distinction between languages with ﬂexible nuclear-accent placement (English, German) and languages with other types of reﬂexes of focus (French, Chinese): languages of the former type have an advantage in using cleft constructions with a focus within the cleft clause, which shows that the array of contexts of using clefts in English and German is not a proper subset of the array of contexts applying to the same constructions in French and Chinese. The obtained differences can be explained by the role of prosodic devices and corroborate the view that prosodic reﬂexes of focus have different semantic-pragmatic import: it is easier to establish a focus structure that is orthogonal to the syntax in a language with ﬂexible nuclear-accent placement (English, German); this does not hold for prosodic correlates of focus that reinforce the articulation of prosodic constituents (French) or the articulation of lexical tones (Chinese).",
+   "publicationTitle": "Frontiers in Psychology",
+   "date": "2021-11-29",
+   "volume": "12",
+   "pages": "648478",
+   "journalAbbreviation": "Front. Psychol.",
+   "DOI": "10.3389/fpsyg.2021.648478",
+   "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.648478/full",
+   "ISSN": "1664-1078",
+   "shortTitle": "Correction by Focus",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: mark-focus",
+    "topic: nucler-accent-placement"
+   ],
+   "collections": [
+    "Z3RPBTJU"
+   ]
+  },
+  {
    "key": "TQYWECBJ",
    "itemType": "journalArticle",
    "title": "Native listeners rely on rhythmic cues when deciding on the nativeness of speech",
@@ -3033,6 +3212,57 @@
    ],
    "collections": [
     "Z3RPBTJU"
+   ]
+  },
+  {
+   "key": "YKFTYZL2",
+   "itemType": "journalArticle",
+   "title": "Language Proficiency Entails Tuning Cortical Activity to Second Language Speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Mikel",
+     "lastName": "Lizarazu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Manuel",
+     "lastName": "Carreiras"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Mathieu",
+     "lastName": "Bourguignon"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Asier",
+     "lastName": "Zarraga"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Nicola",
+     "lastName": "Molinaro"
+    }
+   ],
+   "abstractNote": "Cortical tracking of linguistic structures in speech, such as phrases (<3 Hz, delta band) and syllables (3–8 Hz, theta band), is known to be crucial for speech comprehension. However, it has not been established whether this effect is related to language proficiency. Here, we investigate how auditory cortical activity in second language (L2) learners tracked L2 speech. Using magnetoencephalography, we recorded brain activity from participants listening to Spanish and Basque. Participants were Spanish native (L1) language speakers studying Basque (L2) at the same language center at three different levels: beginner (Grade 1), intermediate (Grade 2), and advanced (Grade 3). We found that 1) both delta and theta tracking to L2 speech in the auditory cortex were related to L2 learning proficiency and that 2) top-down modulations of activity in the left auditory regions during L2 speech listening—by the left inferior frontal and motor regions in delta band and by the left middle temporal regions in theta band—were also related to L2 proficiency. Altogether, these results indicate that the ability to learn an L2 is related to successful cortical tracking of L2 speech and its modulation by neuronal oscillations in higher-order cortical regions.",
+   "publicationTitle": "Cerebral Cortex",
+   "date": "2021-07-05",
+   "volume": "31",
+   "issue": "8",
+   "pages": "3820-3831",
+   "DOI": "10.1093/cercor/bhab051",
+   "url": "https://academic.oup.com/cercor/article/31/8/3820/6206850",
+   "ISSN": "1047-3211, 1460-2199",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: L2",
+    "topic: entrainment",
+    "topic: language-proficiency"
+   ],
+   "collections": [
+    "B4U4EXS2"
    ]
   },
   {
@@ -3206,6 +3436,41 @@
    ],
    "collections": [
     "B4U4EXS2"
+   ]
+  },
+  {
+   "key": "CC8CNRKN",
+   "itemType": "journalArticle",
+   "title": "The role of isochrony in speech perception in noise",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Vincent",
+     "lastName": "Aubanel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jean-Luc",
+     "lastName": "Schwartz"
+    }
+   ],
+   "abstractNote": "Abstract\n            The role of isochrony in speech—the hypothetical division of speech units into equal duration intervals—has been the subject of a long-standing debate. Current approaches in neurosciences have brought new perspectives in that debate through the theoretical framework of predictive coding and cortical oscillations. Here we assess the comparative roles of naturalness and isochrony in the intelligibility of speech in noise for French and English, two languages representative of two well-established contrastive rhythm classes. We show that both top-down predictions associated with the natural timing of speech and to a lesser extent bottom-up predictions associated with isochrony at a syllabic timescale improve intelligibility. We found a similar pattern of results for both languages, suggesting that temporal characterisation of speech from different rhythm classes could be unified around a single core speech unit, with neurophysiologically defined duration and linguistically anchored temporal location. Taken together, our results suggest that isochrony does not seem to be a main dimension of speech processing, but may be a consequence of neurobiological processing constraints, manifesting in behavioural performance and ultimately explaining why isochronous stimuli occupy a particular status in speech and human perception in general.",
+   "publicationTitle": "Scientific Reports",
+   "date": "2020-11-11",
+   "volume": "10",
+   "issue": "1",
+   "pages": "19580",
+   "journalAbbreviation": "Sci Rep",
+   "DOI": "10.1038/s41598-020-76594-1",
+   "url": "https://www.nature.com/articles/s41598-020-76594-1",
+   "ISSN": "2045-2322",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: isochrony"
+   ],
+   "collections": [
+    "Z3RPBTJU"
    ]
   },
   {
@@ -5310,6 +5575,36 @@
    "collections": []
   },
   {
+   "key": "BZ4I8SUI",
+   "itemType": "conferencePaper",
+   "title": "On the phonetics of rhythm of Italian: patterns of duration in pre-planned and spontaneous speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Rosa",
+     "lastName": "Giordano"
+    }
+   ],
+   "abstractNote": "This paper is concerned with the phonetic correlates of main stress in Italian and presents the analysis of the duration of syllabic nuclei in connected speech and in different speaking styles. Spontaneous dialogues are analysed basing on earlier works on pre-planned speech which investigated both [+stress] / [-stress] and stress/accent contrasts in Italian.",
+   "proceedingsTitle": "Speech Prosody 2008",
+   "conferenceName": "Speech Prosody 2008",
+   "publisher": "ISCA",
+   "date": "2008-5-6",
+   "pages": "347-350",
+   "DOI": "10.21437/SpeechProsody.2008-78",
+   "url": "https://www.isca-archive.org/speechprosody_2008/giordano08_speechprosody.html",
+   "shortTitle": "On the phonetics of rhythm of Italian",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: italian-prosody",
+    "topic: phonology"
+   ],
+   "collections": [
+    "Z3RPBTJU"
+   ]
+  },
+  {
    "key": "G4BIWJ93",
    "itemType": "book",
    "title": "Gaussian processes for machine learning",
@@ -5657,6 +5952,56 @@
     "topic: predictive-coding"
    ],
    "collections": []
+  },
+  {
+   "key": "Z8QTDADR",
+   "itemType": "bookSection",
+   "title": "Stress-Focus correspondence in Italian",
+   "creators": [
+    {
+     "creatorType": "editor",
+     "firstName": "Claire",
+     "lastName": "Beyssade"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Reineke",
+     "lastName": "Bok-Bennema"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Frank",
+     "lastName": "Drijkoningen"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Paola",
+     "lastName": "Monachesi"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Kriszta",
+     "lastName": "Szendrői"
+    }
+   ],
+   "bookTitle": "Romance Languages and Linguistic Theory 2000",
+   "series": "Current Issues in Linguistic Theory",
+   "volume": "232",
+   "date": "2002-9-5",
+   "publisher": "John Benjamins Publishing Company",
+   "place": "Amsterdam",
+   "pages": "287-303",
+   "ISBN": "978-90-272-4742-1 978-1-58811-331-3 978-90-272-7538-7",
+   "DOI": "10.1075/cilt.232.16sze",
+   "url": "https://benjamins.com/catalog/cilt.232.16sze",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: italian-prosody"
+   ],
+   "collections": [
+    "Z3RPBTJU"
+   ]
   },
   {
    "key": "6YHEILME",
@@ -6102,6 +6447,104 @@
    ]
   },
   {
+   "key": "7DDUJE3X",
+   "itemType": "journalArticle",
+   "title": "Cortical Tracking of Speech Across Rhythm Classes in English‐, French‐, and Japanese‐Learning 4‐ and 8‐Month‐Old Infants",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Varghese",
+     "lastName": "Peter"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Marina",
+     "lastName": "Kalashnikova"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sandrien Van",
+     "lastName": "Ommen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Reiko",
+     "lastName": "Mazuka"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Denis",
+     "lastName": "Burnham"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Thierry",
+     "lastName": "Nazzi"
+    }
+   ],
+   "abstractNote": "It has been proposed that the world’s languages fall into three rhythmic classes according to the units that determine their rhythmic structure: stress-based (e.g., English), syllable-based (e.g., French), and mora-based (e.g., Japanese). These rhythmic differences modulate language-specific processing in adults and young infants. It has also been proposed that the syllable is the default rhythmic unit across languages, more prominent in acquisition and processing. This study investigated the development of these language-specific versus language-general effects on the neural processing of speech, focusing on cortical tracking at frequency bands potentially corresponding to three rhythmic units (2.5 Hz/foot, 5 Hz/syllable, 10 Hz/mora). We assessed cortical tracking in 119 infants belonging to one of three native-language groups: English, French, and Japanese, and two age groups: 4 and 8 months. Infants heard CVN (consonant-vowel-nasal) syllable strings synthesized using a native-language voice in their respective native language, a non-native voice (Polish), and a non-speech (vocoded) version of the non-native voice stimuli. In all conditions, the stimuli consisted of 100-ms morae, combining into 200-ms syllables, combining into 400-ms bisyllabic feet. In all three language groups and at both ages, results showed (1) efficient cortical tracking at 5 and 10 Hz, but inconsistent tracking at 2.5 Hz; (2) stronger tracking at 5 Hz, and (3) differential tracking of speech and non-speech stimuli. These findings establish that language-general rhythmic processing guides cortical tracking, that the cross-linguistic syllabic level is dominant until at least 8 months, and that speech stimuli are processed differently than non-speech stimuli by at least 4 months.",
+   "publicationTitle": "Developmental Science",
+   "date": "09/2026",
+   "volume": "29",
+   "issue": "5",
+   "pages": "e70271",
+   "journalAbbreviation": "Developmental Science",
+   "DOI": "10.1111/desc.70271",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/desc.70271",
+   "ISSN": "1363-755X, 1467-7687",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: cortical-tracking",
+    "topic: rhythm-classes"
+   ],
+   "collections": [
+    "Z3RPBTJU"
+   ]
+  },
+  {
+   "key": "LJEA6DCT",
+   "itemType": "journalArticle",
+   "title": "Cross-linguistic and acoustic-driven effects on multiscale neural synchrony to stress rhythms",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Deling",
+     "lastName": "He"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Eugene H.",
+     "lastName": "Buder"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Gavin M.",
+     "lastName": "Bidelman"
+    }
+   ],
+   "abstractNote": "We investigated how neural oscillations code the hierarchical nature of stress rhythms in speech and how stress processing varies with language experience. By measuring phase synchrony of multilevel EEG-acoustic tracking and intra-brain cross-frequency coupling, we show the encoding of stress involves different neural signatures (delta rhythms = stress foot rate; theta rhythms = syllable rate), is stronger for amplitude vs. duration stress cues, and induces nested delta-theta coherence mirroring the stress-syllable hierarchy in speech. Only native English, but not Mandarin, speakers exhibited enhanced neural entrainment at central stress (2 Hz) and syllable (4 Hz) rates intrinsic to natural English. English individuals with superior cortical-stress tracking capabilities also displayed stronger neural hierarchical coherence, highlighting a nuanced interplay between internal nesting of brain rhythms and external entrainment rooted in language-specific speech rhythms. Our cross-language findings reveal brain-speech synchronization is not purely a “bottom-up” but benefits from “top-down” processing from listeners’ language-specific experience.",
+   "publicationTitle": "Brain and Language",
+   "date": "09/2024",
+   "volume": "256",
+   "pages": "105463",
+   "journalAbbreviation": "Brain and Language",
+   "DOI": "10.1016/j.bandl.2024.105463",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0093934X24000865",
+   "ISSN": "0093934X",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: enhanced-tracking",
+    "topic: supports-tuned-by-listeners'-language",
+    "topic: top-down",
+    "topic:delta-theta-coupling"
+   ],
+   "collections": [
+    "B4U4EXS2"
+   ]
+  },
+  {
    "key": "3GUWH6YF",
    "itemType": "journalArticle",
    "title": "Statistical Learning of Language: A Meta‐Analysis Into 25 Years of Research",
@@ -6136,6 +6579,153 @@
    ],
    "collections": [
     "RHFI5T2H"
+   ]
+  },
+  {
+   "key": "7CFQ8ZBV",
+   "itemType": "journalArticle",
+   "title": "Prosodic manifestations of the Effort Code in Catalan, Italian and Spanish contrastive focus",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Maria Del Mar",
+     "lastName": "Vanrell"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Antonio",
+     "lastName": "Stella"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Barbara Gili",
+     "lastName": "Fivela"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Pilar",
+     "lastName": "Prieto"
+    }
+   ],
+   "abstractNote": "This paper investigates the relevance of three prosodic parameters (alignment, duration and scaling) in the conveyance of contrastive focus in Catalan, Italian and Spanish. In particular, we seek to determine how the Effort Code is instantiated in the expression of contrastive focus in both production and perception. According to the Effort Code, putting more effort into speech production will lead to greater articulatory precision (de Jong 1995, Gussenhoven 2004) and this is related to the expression of focus in the sense that wider pitch excursions will be used to signal meanings that are relevant from an informational point of view. A dual production and perception experiment based on an identification task was conducted. Results for the production part show that contrastive focus accents have earlier peaks for all three languages but f0 peaks are systematically lower only in Italian. Syllables bearing the contrastive focus accents are also longer in the three languages. Regarding the results for the perception part, converging evidence is found not only for an active perceptual use of the three prosodic parameters present in production but also for language-specific preferences for particular prosodic parameters.",
+   "publicationTitle": "Journal of the International Phonetic Association",
+   "date": "08/2013",
+   "volume": "43",
+   "issue": "2",
+   "pages": "195-220",
+   "journalAbbreviation": "Journal of the International Phonetic Association",
+   "DOI": "10.1017/S0025100313000066",
+   "url": "https://www.cambridge.org/core/product/identifier/S0025100313000066/type/journal_article",
+   "ISSN": "0025-1003, 1475-3502",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: italian-prosody"
+   ],
+   "collections": [
+    "Z3RPBTJU"
+   ]
+  },
+  {
+   "key": "7CAHD6VG",
+   "itemType": "journalArticle",
+   "title": "Continuous speech tracking in bilinguals reflects adaptation to both language and noise",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Benjamin D.",
+     "lastName": "Zinszer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Qiming",
+     "lastName": "Yuan"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Zhaoqi",
+     "lastName": "Zhang"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Bharath",
+     "lastName": "Chandrasekaran"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Taomei",
+     "lastName": "Guo"
+    }
+   ],
+   "abstractNote": "Listeners regularly comprehend continuous speech despite noisy conditions. Previous studies show that neural tracking of speech degrades under noise, predicts comprehension, and increases for non-native listeners. We test the hypothesis that listeners similarly increase tracking for both L2 and noisy L1 speech, after adjusting for comprehension. Twenty-four Chinese-English bilinguals underwent EEG while listening to one hour of an audiobook, mixed with three levels of noise, in Mandarin and English and answered comprehension questions. We estimated tracking of the speech envelope in EEG for each one-minute segment using the multivariate temporal response function (mTRF). Contrary to our prediction, L2 tracking was significantly lower than L1, while L1 tracking significantly increased with noise maskers without reducing comprehension. However, greater L2 proficiency was positively associated with greater L2 tracking. We discuss how studies of speech envelope tracking using noise and bilingualism might be reconciled through a focus on exerted rather than demanded effort.",
+   "publicationTitle": "Brain and Language",
+   "date": "07/2022",
+   "volume": "230",
+   "pages": "105128",
+   "journalAbbreviation": "Brain and Language",
+   "DOI": "10.1016/j.bandl.2022.105128",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0093934X2200058X",
+   "ISSN": "0093934X",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: bilinguals",
+    "topic: continuous-speech"
+   ],
+   "collections": [
+    "B4U4EXS2"
+   ]
+  },
+  {
+   "key": "THGBENV4",
+   "itemType": "journalArticle",
+   "title": "Neural Signatures of Hierarchical Linguistic Structures in Second Language Listening Comprehension",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Lingxi",
+     "lastName": "Lu"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Yating",
+     "lastName": "Deng"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Zhe",
+     "lastName": "Xiao"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Rong",
+     "lastName": "Jiang"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jia-Hong",
+     "lastName": "Gao"
+    }
+   ],
+   "abstractNote": "Native speakers excel at parsing continuous speech into smaller elements and entraining their neural activities to the linguistic hierarchy at different levels (e.g., syllables, phrases, and sentences) to achieve speech comprehension. However, how a nonnative brain tracks hierarchical linguistic structures in second language (L2) speech comprehension and whether it relates to top-down attention and language proficiency remains elusive. Here, we applied a frequency-tagging paradigm in human adults and investigated the neural tracking responses to hierarchically organized linguistic structures (i.e., the syllabic rate of 4 Hz, the phrasal rate of 2 Hz, and the sentential rate of 1 Hz) in both first language (L1) and L2 listeners when they attended to a speech stream or ignored it. We revealed disrupted neural responses to higher-order linguistic structures (i.e., phrases and sentences) for L2 listeners in which the phrasal-level tracking was functionally related to an L2 subject’s language proficiency. We also observed less efficient top-down modulation of attention in L2 speech comprehension than in L1 speech comprehension. Our results indicate that the reduced d-band neuronal oscillations that subserve the internal construction of higher-order linguistic structures may compromise listening comprehension in a nonnative language.",
+   "publicationTitle": "eneuro",
+   "date": "06/2023",
+   "volume": "10",
+   "issue": "6",
+   "pages": "ENEURO.0346-22.2023",
+   "journalAbbreviation": "eNeuro",
+   "DOI": "10.1523/ENEURO.0346-22.2023",
+   "url": "https://www.eneuro.org/lookup/doi/10.1523/ENEURO.0346-22.2023",
+   "ISSN": "2373-2822",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: L2",
+    "topic: hierarchical-structure",
+    "topic: neural-signatures"
+   ],
+   "collections": [
+    "B4U4EXS2"
    ]
   },
   {
@@ -6410,6 +7000,34 @@
    ]
   },
   {
+   "key": "DIL3ZFKV",
+   "itemType": "journalArticle",
+   "title": "The perception of prominence in L2 German. A preliminary assessment using periodic-energy-based measurements.",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Vincenzo",
+     "lastName": "Damiazzi"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Simona",
+     "lastName": "Sbranna"
+    }
+   ],
+   "issue": "2",
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: F0",
+    "topic: german-italian",
+    "topic: syllables"
+   ],
+   "collections": [
+    "Z3RPBTJU"
+   ]
+  },
+  {
    "key": "LHCEXMTZ",
    "itemType": "journalArticle",
    "title": "Hamiltonian Monte Carlo for Hierarchical Models",
@@ -6431,6 +7049,27 @@
     "J8VYHPAS"
    ],
    "tags": []
+  },
+  {
+   "key": "FZSQEATG",
+   "itemType": "journalArticle",
+   "title": "Early language experience modulates the cortical tracking of speech",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Marie",
+     "lastName": "Lallier"
+    }
+   ],
+   "language": "en",
+   "tags": [
+    "project: thesis",
+    "topic: cortical-tracking",
+    "topic: delta-coherence"
+   ],
+   "collections": [
+    "B4U4EXS2"
+   ]
   },
   {
    "key": "4MURFE7R",
