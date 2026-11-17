@@ -1,5 +1,5 @@
 {
- "count": 169,
+ "count": 168,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -135,6 +135,11 @@
    "key": "W78TD57W",
    "name": "Hierarchical & Mixed Effects Methodology",
    "parent": "MN4PLWQI"
+  },
+  {
+   "key": "CG8AGXXE",
+   "name": "Homer",
+   "parent": "CWAJKGVH"
   },
   {
    "key": "T8CVTTA9",
@@ -1910,7 +1915,9 @@
     "topic: oral-poetry",
     "topic: speech-rhythm"
    ],
-   "collections": []
+   "collections": [
+    "CG8AGXXE"
+   ]
   },
   {
    "key": "VBQ6ZV5B",
@@ -2683,7 +2690,9 @@
     "topic: linguistic-diversity",
     "topic: population-genetics"
    ],
-   "collections": []
+   "collections": [
+    "J4Q3Q3PY"
+   ]
   },
   {
    "key": "NDB4BS27",
@@ -3972,7 +3981,9 @@
     "status: read",
     "topic: classics"
    ],
-   "collections": []
+   "collections": [
+    "CWAJKGVH"
+   ]
   },
   {
    "key": "TDAX5HHW",
@@ -4473,7 +4484,9 @@
     "topic: cultural-evolution",
     "topic: language-evolution"
    ],
-   "collections": []
+   "collections": [
+    "NS9BTVXH"
+   ]
   },
   {
    "key": "C8GAFT9F",
@@ -4564,7 +4577,9 @@
     "topic: cultural-evolution",
     "topic: cumulative-culture"
    ],
-   "collections": []
+   "collections": [
+    "UATTW3FY"
+   ]
   },
   {
    "key": "CMSF5SSN",
@@ -5119,7 +5134,9 @@
     "topic: phonology",
     "topic: syntax"
    ],
-   "collections": []
+   "collections": [
+    "J4Q3Q3PY"
+   ]
   },
   {
    "key": "GSMCVKCW",
@@ -5342,26 +5359,6 @@
     "status: key-reference",
     "topic: oscillatory-entrainment",
     "topic: predictive-coding"
-   ],
-   "collections": []
-  },
-  {
-   "key": "25UNICG7",
-   "itemType": "book",
-   "title": "A Computable Universe",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Sir Roger Penrose",
-     "lastName": "Hector Zenil"
-    }
-   ],
-   "date": "2012",
-   "citationKey": "computableuniverse_zenil_2013",
-   "tags": [
-    "project: background",
-    "status: read",
-    "topic: computation-foundations"
    ],
    "collections": []
   },
@@ -5661,7 +5658,9 @@
     "status: read",
     "topic: classics"
    ],
-   "collections": []
+   "collections": [
+    "XF9BMQ52"
+   ]
   },
   {
    "key": "7FM568ZD",
@@ -6031,7 +6030,9 @@
     "topic: faculty-of-language",
     "topic: language-evolution"
    ],
-   "collections": []
+   "collections": [
+    "NS9BTVXH"
+   ]
   },
   {
    "key": "EGKTH9LS",
@@ -6135,7 +6136,10 @@
     "topic: classics",
     "topic: history-of-science"
    ],
-   "collections": []
+   "collections": [
+    "CWAJKGVH",
+    "U7HNT49E"
+   ]
   },
   {
    "key": "QEX4GXI9",
