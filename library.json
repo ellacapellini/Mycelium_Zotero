@@ -1,5 +1,5 @@
 {
- "count": 168,
+ "count": 170,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -3639,6 +3639,36 @@
    ]
   },
   {
+   "key": "CMSQKC8P",
+   "itemType": "journalArticle",
+   "title": "Language and Trauma: An Introduction",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Brigitta",
+     "lastName": "Busch"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Tim",
+     "lastName": "McNamara"
+    }
+   ],
+   "abstractNote": "Abstract\n            This paper introduces the conceptual framing of studies of trauma. It considers how, on the one hand, applied linguistics may contribute to this study, responding to the suggestion that trauma ‘can be best understood through plural, multi-disciplinary perspectives’ (Luckhurst 2008: 214), and, on the other hand, the extent to which linguistic studies of trauma can contribute to a better understanding of what Coupland and Coupland (1997: 117) have called ‘discourses of the unsayable’. It argues that the tools of linguistic analysis may be used to understand the role of language in how individuals may experience, recount, and potentially recover from psychological trauma, in personal, literary, and institutional contexts, as exemplified by the papers in this volume.",
+   "publicationTitle": "Applied Linguistics",
+   "date": "2020-06-01",
+   "volume": "41",
+   "issue": "3",
+   "pages": "323-333",
+   "DOI": "10.1093/applin/amaa002",
+   "url": "https://academic.oup.com/applij/article/41/3/323/5821459",
+   "ISSN": "0142-6001, 1477-450X",
+   "shortTitle": "Language and Trauma",
+   "language": "en",
+   "tags": [],
+   "collections": []
+  },
+  {
    "key": "EWQKB5YL",
    "itemType": "document",
    "title": "Hierarchical Bayesian Regression for Multi-Site Normative Modeling of Neuroimaging Data",
@@ -3815,6 +3845,27 @@
    "collections": [
     "W78TD57W"
    ]
+  },
+  {
+   "key": "CD7GA5JP",
+   "itemType": "book",
+   "title": "How dead languages work",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Coulter H.",
+     "lastName": "George"
+    }
+   ],
+   "date": "2020",
+   "publisher": "Oxford University Press",
+   "place": "New York",
+   "ISBN": "978-0-19-885282-7",
+   "language": "en",
+   "collections": [
+    "U7HNT49E"
+   ],
+   "tags": []
   },
   {
    "key": "7GNSGVEW",
