@@ -1,5 +1,5 @@
 {
- "count": 170,
+ "count": 169,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -4224,45 +4224,6 @@
    "collections": [
     "BZPLIYJA"
    ]
-  },
-  {
-   "key": "794YZ7MT",
-   "itemType": "journalArticle",
-   "title": "Connectopic mapping with resting-state fMRI",
-   "creators": [
-    {
-     "creatorType": "author",
-     "firstName": "Koen V.",
-     "lastName": "Haak"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Andre F.",
-     "lastName": "Marquand"
-    },
-    {
-     "creatorType": "author",
-     "firstName": "Christian F.",
-     "lastName": "Beckmann"
-    }
-   ],
-   "abstractNote": "Brain regions are often topographically connected: nearby locations within one brain area connect with nearby locations in another area. Mapping these connection topographies, or `connectopies' in short, is crucial for understanding how information is processed in the brain. Here, we propose principled, fully data-driven methods for mapping connectopies using functional magnetic resonance imaging (fMRI) data acquired at rest by combining spectral embedding of voxel-wise connectivity `fingerprints' with a novel approach to spatial statistical inference. We apply the approach in human primary motor and visual cortex, and show that it can trace biologically plausible, overlapping connectopies in individual subjects that follow these regions' somatotopic and retinotopic maps. As a generic mechanism to perform inference over connectopies, the new spatial statistics approach enables rigorous statistical testing of hypotheses regarding the fine-grained spatial profile of functional connectivity and whether that profile is different between subjects or between experimental conditions. The combined framework offers a fundamental alternative to existing approaches to investigating functional connectivity in the brain, from voxel- or seed-pair wise characterizations of functional association, towards a full, multivariate characterization of spatial topography.",
-   "publicationTitle": "NeuroImage",
-   "date": "2018-04",
-   "volume": "170",
-   "pages": "83–94",
-   "DOI": "10.1016/j.neuroimage.2017.06.075",
-   "citationKey": "haakConnectopicMappingRestingstate2018",
-   "ISSN": "10538119",
-   "language": "english",
-   "tags": [
-    "method: fmri",
-    "project: GPmTRF",
-    "stance: supports: matern-over-se",
-    "status: read",
-    "topic: connectivity-mapping"
-   ],
-   "collections": []
   },
   {
    "key": "QWLJU9MR",
