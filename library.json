@@ -1,5 +1,5 @@
 {
- "count": 170,
+ "count": 180,
  "collections": [
   {
    "key": "Z94EMMSX",
@@ -454,6 +454,47 @@
    "language": "en",
    "collections": [
     "B4U4EXS2"
+   ],
+   "tags": []
+  },
+  {
+   "key": "JA9V7TUN",
+   "itemType": "bookSection",
+   "title": "Prosody versus Syntax, or Prosody and Syntax? Evaluating Accounts of Delta-Band Tracking",
+   "creators": [
+    {
+     "creatorType": "editor",
+     "firstName": "Lars",
+     "lastName": "Meyer"
+    },
+    {
+     "creatorType": "editor",
+     "firstName": "Antje",
+     "lastName": "Strauss"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Cas W.",
+     "lastName": "Coopmans"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "bookTitle": "Rhythms of Speech and Language",
+   "edition": "1",
+   "date": "2026-3-31",
+   "publisher": "Cambridge University Press",
+   "pages": "296-315",
+   "ISBN": "978-1-009-29588-8 978-1-009-29584-0 978-1-009-29585-7",
+   "DOI": "10.1017/9781009295888.021",
+   "url": "https://www.cambridge.org/core/product/identifier/9781009295888%23bp20/type/book_part",
+   "shortTitle": "Prosody versus Syntax, or Prosody and Syntax?",
+   "language": "en",
+   "collections": [
+    "BZPLIYJA"
    ],
    "tags": []
   },
@@ -1012,6 +1053,53 @@
    ]
   },
   {
+   "key": "SZVKXWEA",
+   "itemType": "journalArticle",
+   "title": "Linguistic structure and language familiarity sharpen phoneme encoding in the brain",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Filiz",
+     "lastName": "Tezcan"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Sanne",
+     "lastName": "Ten Oever"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Fan",
+     "lastName": "Bai"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Noémie",
+     "lastName": "Te Rietmolen"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "Abstract\n            How does the brain turn a physical signal like speech into meaning? It draws on two key sources: linguistic structure (e.g., phonemes, syntax) and statistical regularities from experience. Yet how these jointly shape neural representations of language remains unclear. We used MEG to track phonemic and acoustic encoding during spoken language comprehension in native Dutch, Mandarin-Chinese, and Turkish speakers. Phoneme-level encoding is stronger during sentence comprehension than in word lists, and more robust within words than random syllables. Surprisingly, similar encoding emerges even in an uncomprehended language but only with prior exposure. In contrast, acoustic edges are briefly suppressed early in comprehension. This suggests that the brain’s alignment to speech (in phase and power) is robustly tuned by structure and by learned statistical patterns. Our findings show how structured knowledge and experience-based learning interact to shape neural responses to language, offering insight into how the brain processes complex, meaningful signals.",
+   "publicationTitle": "Communications Biology",
+   "date": "2026-03-20",
+   "volume": "9",
+   "issue": "1",
+   "pages": "638",
+   "journalAbbreviation": "Commun Biol",
+   "DOI": "10.1038/s42003-026-09865-8",
+   "url": "https://www.nature.com/articles/s42003-026-09865-8",
+   "ISSN": "2399-3642",
+   "language": "en",
+   "collections": [
+    "Z3RPBTJU"
+   ],
+   "tags": []
+  },
+  {
    "key": "RNWKRE2Q",
    "itemType": "journalArticle",
    "title": "Linguistic structure and language familiarity sharpen phoneme encoding in the brain",
@@ -1552,6 +1640,81 @@
    ]
   },
   {
+   "key": "C7GDKVN8",
+   "itemType": "journalArticle",
+   "title": "The structure and statistics of language jointly shape cross-frequency neural dynamics during spoken language comprehension",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Hugo",
+     "lastName": "Weissbart"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "Abstract\n            Humans excel at extracting structurally-determined meaning from speech despite inherent physical variability. This study explores the brain’s ability to predict and understand spoken language robustly. It investigates the relationship between structural and statistical language knowledge in brain dynamics, focusing on phase and amplitude modulation. Using syntactic features from constituent hierarchies and surface statistics from a transformer model as predictors of forward encoding models, we reconstructed cross-frequency neural dynamics from MEG data during audiobook listening. Our findings challenge a strict separation of linguistic structure and statistics in the brain, with both aiding neural signal reconstruction. Syntactic features have a more temporally spread impact, and both word entropy and the number of closing syntactic constituents are linked to the phase-amplitude coupling of neural dynamics, implying a role in temporal prediction and cortical oscillation alignment during speech processing. Our results indicate that structured and statistical information jointly shape neural dynamics during spoken language comprehension and suggest an integration process via a cross-frequency coupling mechanism.",
+   "publicationTitle": "Nature Communications",
+   "date": "2024-10-14",
+   "volume": "15",
+   "issue": "1",
+   "pages": "8850",
+   "journalAbbreviation": "Nat Commun",
+   "DOI": "10.1038/s41467-024-53128-1",
+   "url": "https://www.nature.com/articles/s41467-024-53128-1",
+   "ISSN": "2041-1723",
+   "language": "en",
+   "tags": [
+    "method: GPT-2",
+    "method: meg",
+    "method: trf-methodology",
+    "project: GPmTRF",
+    "topic: pac",
+    "topic: surprisal-entropy"
+   ],
+   "collections": [
+    "BUDY4VK9"
+   ]
+  },
+  {
+   "key": "4L6JVSDK",
+   "itemType": "journalArticle",
+   "title": "Lexical Surprisal Shapes the Time Course of Syntactic Structure Building",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Sophie",
+     "lastName": "Slaats"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Antje S.",
+     "lastName": "Meyer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "When we understand language, we recognize words and combine them into sentences. In this article, we explore the hypothesis that listeners use probabilistic information about words to build syntactic structure. Recent work has shown that lexical probability and syntactic structure both modulate the delta-band (<4 Hz) neural signal. Here, we investigated whether the neural encoding of syntactic structure changes as a function of the distributional properties of a word. To this end, we analyzed MEG data of 24 native speakers of Dutch who listened to three fairytales with a total duration of 49 min. Using temporal response functions and a cumulative model-comparison approach, we evaluated the contributions of syntactic and distributional features to the variance in the delta-band neural signal. This revealed that lexical surprisal values (a distributional feature), as well as bottom-up node counts (a syntactic feature) positively contributed to the model of the delta-band neural signal. Subsequently, we compared responses to the syntactic feature between words with high- and low-surprisal values. This revealed a delay in the response to the syntactic feature as a consequence of the surprisal value of the word: high-surprisal values were associated with a delayed response to the syntactic feature by 150–190 ms. The delay was not affected by word duration, and did not have a lexical origin. These findings suggest that the brain uses probabilistic information to infer syntactic structure, and highlight an importance for the role of time in this process.",
+   "publicationTitle": "Neurobiology of Language",
+   "date": "2024-10-11",
+   "volume": "5",
+   "issue": "4",
+   "pages": "942-980",
+   "DOI": "10.1162/nol_a_00155",
+   "url": "https://direct.mit.edu/nol/article/5/4/942/123889/Lexical-Surprisal-Shapes-the-Time-Course-of",
+   "ISSN": "2641-4368",
+   "language": "en",
+   "collections": [
+    "D5UAEACJ"
+   ],
+   "tags": []
+  },
+  {
    "key": "U83C2RHN",
    "itemType": "journalArticle",
    "title": "Top-down information shapes lexical processing when listening to continuous speech",
@@ -1650,6 +1813,50 @@
    ],
    "collections": [
     "BUDY4VK9"
+   ]
+  },
+  {
+   "key": "GQVFCI6C",
+   "itemType": "journalArticle",
+   "title": "Structural and sequential regularities modulate phrase-rate neural tracking",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Junyuan",
+     "lastName": "Zhao"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Cas W.",
+     "lastName": "Coopmans"
+    }
+   ],
+   "abstractNote": "Abstract\n            Electrophysiological brain activity has been shown to synchronize with the quasi-regular repetition of grammatical phrases in connected speech—so-called phrase-rate neural tracking. Current debate centers around whether this phenomenon is best explained in terms of the syntactic properties of phrases or in terms of syntax-external information, such as the sequential repetition of parts of speech. As these two factors were confounded in previous studies, much of the literature is compatible with both accounts. Here, we used electroencephalography (EEG) to determine if and when the brain is sensitive to both types of information. Twenty native speakers of Mandarin Chinese listened to isochronously presented streams of monosyllabic words, which contained either grammatical two-word phrases (e.g., catch fish, sell house) or non-grammatical word combinations (e.g., full lend, bread far). Within the grammatical conditions, we varied two structural factors: the position of the head of each phrase and the type of attachment. Within the non-grammatical conditions, we varied the consistency with which parts of speech were repeated. Tracking was quantified through evoked power and inter-trial phase coherence, both derived from the frequency-domain representation of EEG responses. As expected, neural tracking at the phrase rate was stronger in grammatical sequences than in non-grammatical sequences without syntactic structure. Moreover, it was modulated by both attachment type and head position, revealing the structure-sensitivity of phrase-rate tracking. We additionally found that the brain tracks the repetition of parts of speech in non-grammatical sequences. These data provide an integrative perspective on the current debate about neural tracking effects, revealing that the brain utilizes regularities computed over multiple levels of linguistic representation in guiding rhythmic computation.",
+   "publicationTitle": "Scientific Reports",
+   "date": "2024-07-18",
+   "volume": "14",
+   "issue": "1",
+   "pages": "16603",
+   "journalAbbreviation": "Sci Rep",
+   "DOI": "10.1038/s41598-024-67153-z",
+   "url": "https://www.nature.com/articles/s41598-024-67153-z",
+   "ISSN": "2045-2322",
+   "language": "en",
+   "tags": [
+    "method: eeg",
+    "method: evoked-power",
+    "method: fft",
+    "method: itpc",
+    "project: GPmTRF",
+    "topic: structural-vs.-sequential-regularities"
+   ],
+   "collections": [
+    "B4U4EXS2"
    ]
   },
   {
@@ -6432,6 +6639,36 @@
    ]
   },
   {
+   "key": "HDFTADXH",
+   "itemType": "journalArticle",
+   "title": "Linguistic structure as a guiding principle for human neuroscience",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Anna",
+     "lastName": "Mai"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "publicationTitle": "Neuroscience & Biobehavioral Reviews",
+   "date": "10/2025",
+   "volume": "177",
+   "pages": "106322",
+   "journalAbbreviation": "Neuroscience & Biobehavioral Reviews",
+   "DOI": "10.1016/j.neubiorev.2025.106322",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0149763425003239",
+   "ISSN": "01497634",
+   "language": "en",
+   "collections": [
+    "Z3RPBTJU"
+   ],
+   "tags": []
+  },
+  {
    "key": "6ZWAFVUD",
    "itemType": "journalArticle",
    "title": "Resynthesizing behavior through phylogenetic refinement",
@@ -6643,6 +6880,43 @@
    ]
   },
   {
+   "key": "Q8TFCH4T",
+   "itemType": "journalArticle",
+   "title": "More than words: Effects of grammaticality and lexical surprisal in self-paced reading",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Sophie",
+     "lastName": "Slaats"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Antje S.",
+     "lastName": "Meyer"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "Language comprehension requires the integration of information from a wide variety of sources, including sensory input and memory. The present study contributes to a growing literature examining how probability and uncertainty shape language comprehension in close collaboration with grammatical knowledge, wherein the specifics of when and how these sources of information come together during sentence processing remain opaque. Here we asked how morphosyntax and lexical surprisal impact subject-verb agreement in Dutch: an online self-paced reading experiment tested whether lexical surprisal affects the use of grammatical information. Using a combination of model-comparison and permutation testing, we showed that reading times cannot be explained by a dichotomous interactive, nor by a purely additive account. While both factors must be modeled in order to best describe reading time data, the data provided evidence that lexical surprisal is leveraged more reliably when the constraints placed by the grammar are obeyed. We propose a novel “structure bottleneck”, where the use of probabilistic cues is conditionalized on grammatical status of a subject-verb agreement relation. Viewed in the context of previous findings, the results are consistent with an account of language comprehension wherein grammatical and contextual probabilistic cues are weighted based on their reliability.",
+   "publicationTitle": "Cognition",
+   "date": "07/2026",
+   "volume": "272",
+   "pages": "106476",
+   "journalAbbreviation": "Cognition",
+   "DOI": "10.1016/j.cognition.2026.106476",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010027726000429",
+   "ISSN": "00100277",
+   "shortTitle": "More than words",
+   "language": "en",
+   "collections": [
+    "D5UAEACJ"
+   ],
+   "tags": []
+  },
+  {
    "key": "7CAHD6VG",
    "itemType": "journalArticle",
    "title": "Continuous speech tracking in bilinguals reflects adaptation to both language and noise",
@@ -6691,6 +6965,38 @@
    "collections": [
     "B4U4EXS2"
    ]
+  },
+  {
+   "key": "PWBC2QS8",
+   "itemType": "journalArticle",
+   "title": "What’s Surprising About Surprisal",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Sophie",
+     "lastName": "Slaats"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E.",
+     "lastName": "Martin"
+    }
+   ],
+   "abstractNote": "In the computational and experimental psycholinguistic literature, the mechanisms behind syntactic structure building (e.g., combining words into phrases and sentences) are the subject of considerable debate. Much experimental work has shown that surprisal is a good predictor of human behavioral and neural data. These findings have led some authors to model language comprehension in a purely probabilistic way. In this paper, we use simulation to exemplify why surprisal works so well to model human data and to illustrate why exclusive reliance on it can be problematic for the development of mechanistic theories of language comprehension, particularly those with emphasis on meaning composition. Rather than arguing for the importance of structural or probabilistic information to the exclusion or exhaustion of the other, we argue more emphasis should be placed on understanding how the brain leverages both types of information (viz., statistical and structured). We propose that probabilistic information is an important cue to the structure in the message, but is not a substitute for the structure itself—neither computationally, formally, nor conceptually. Surprisal and other probabilistic metrics must play a key role as theoretical objects in any explanatory mechanistic theory of language processing, but that role remains in the service of the brain’s goal of constructing structured meaning from sensory input.",
+   "publicationTitle": "Computational Brain & Behavior",
+   "date": "06/2025",
+   "volume": "8",
+   "issue": "2",
+   "pages": "233-248",
+   "journalAbbreviation": "Comput Brain Behav",
+   "DOI": "10.1007/s42113-025-00237-9",
+   "url": "https://link.springer.com/10.1007/s42113-025-00237-9",
+   "ISSN": "2522-0861, 2522-087X",
+   "language": "en",
+   "collections": [
+    "D5UAEACJ"
+   ],
+   "tags": []
   },
   {
    "key": "THGBENV4",
@@ -6743,6 +7049,68 @@
    "collections": [
     "B4U4EXS2"
    ]
+  },
+  {
+   "key": "RI28VF4E",
+   "itemType": "journalArticle",
+   "title": "Speech-to-Speech Synchronization protocol to classify human participants as high or low auditory-motor synchronizers",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Fernando",
+     "lastName": "Lizcano-Cortés"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Ireri",
+     "lastName": "Gómez-Varela"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Cecilia",
+     "lastName": "Mares"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Pascal",
+     "lastName": "Wallisch"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Joan",
+     "lastName": "Orpella"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "David",
+     "lastName": "Poeppel"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Pablo",
+     "lastName": "Ripollés"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "M. Florencia",
+     "lastName": "Assaneo"
+    }
+   ],
+   "abstractNote": "The ability to synchronize a motor action to a rhythmic auditory stimulus is often considered an innate human skill. However, some individuals lack the ability to synchronize speech to a perceived syllabic rate. Here, we describe a simple and fast protocol to classify a single native English speaker as being or not being a speech synchronizer. This protocol consists of four parts: the pretest instructions and volume adjustment, the training procedure, the execution of the main task, and data analysis.",
+   "publicationTitle": "STAR Protocols",
+   "date": "06/2022",
+   "volume": "3",
+   "issue": "2",
+   "pages": "101248",
+   "journalAbbreviation": "STAR Protocols",
+   "DOI": "10.1016/j.xpro.2022.101248",
+   "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666166722001289",
+   "ISSN": "26661667",
+   "language": "en",
+   "collections": [
+    "Z3RPBTJU"
+   ],
+   "tags": []
   },
   {
    "key": "5CUWCC9X",
@@ -7090,6 +7458,40 @@
    "collections": [
     "BUDY4VK9",
     "W78TD57W"
+   ]
+  },
+  {
+   "key": "E7HAI3LA",
+   "itemType": "journalArticle",
+   "title": "Explanation in the neuroscience of language",
+   "creators": [
+    {
+     "creatorType": "author",
+     "firstName": "Giosuè",
+     "lastName": "Baggio"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Jonathan R",
+     "lastName": "Brennan"
+    },
+    {
+     "creatorType": "author",
+     "firstName": "Andrea E",
+     "lastName": "Martin"
+    }
+   ],
+   "language": "en",
+   "tags": [
+    "project: GPmTRF",
+    "topic: granularity-mismatch-problem",
+    "topic: interpretable-vs.-predictively-accurate",
+    "topic: non-trivial-model-comparison",
+    "topic: ontological-incommensurability",
+    "topic: philosophy-tructure"
+   ],
+   "collections": [
+    "VBNRVB7V"
    ]
   },
   {
